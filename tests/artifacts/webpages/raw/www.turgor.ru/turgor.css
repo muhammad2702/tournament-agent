@@ -1,0 +1,24 @@
+html, body{width:100%;height:100%}
+* html #container{height:100%}
+.title1{font-family:Impact, Verdana, Arial, Helvetica, sans-serif;font-size:22px;margin-right:85px;color:#FFFFFF}
+.title2{font-family:Impact, Verdana, Arial, Helvetica, sans-serif;font-size:32px;margin-right:57px;color:#FFFFFF}
+.menu{padding:0 5px 0 5px;text-align:left;vertical-align:center}
+.menu span{font-family:Arial, Helvetica, sans-serif;font-size:14px;vertical-align:top}
+.menu A{color:#000000;text-decoration:none}
+.menu A:hover{color:#498BC4}
+.news{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#003D63;text-align:left;padding:5px}
+.date{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;background-color:#3CA5E6;color:#FFFFFF;text-align:justify}
+.tourtable{color:#003D63;text-align:center;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold}
+.tdblue td{background-color:#0071B7;color:white}
+.text{color:#003D63;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;padding:0px 20px 0px 10px}
+.footertext{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:white;font-weight:normal;padding:20px 20px 30px 20px;text-align:center}
+.new_table{visibility:hidden}
+.footertext A{color:white;text-decoration:none}
+.footertext A:hover{color:#8FCCFF}
+.text2{color:#000000;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;padding:20px 40px 10px 20px}
+#hyph{width:71%;min-width:300px;max-width:750px;margin-left:200px;padding:0 3em;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#222222;padding:1px 1em;text-align:justify}
+#hyph1{width:71%;min-width:300px;max-width:750px;margin-left:50px;padding:0 3em;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#222222;padding:1px 1em;text-align:justify}
+#container{position:relative;width:100%;margin:0 auto;min-height:100%}
+.clearfloat{clear:both}
+.empty{height:67px}
+#footer{position:relative;width:100%;height:67px;margin:-67px auto 0}

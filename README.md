@@ -1,29 +1,22 @@
-# Tournament Agent
+# Tournament webpage scraper
 
-Scraper prototype for the Tournament of Towns assignment. Python 3.10+; no external dependencies. No model calls yet; OpenRouter spending remains $0 of the $5 cap. Never put keys in code or logs.
-
-## Layout
-
-- `scraper/`: HTTP downloading, storage and archive collection.
-- `tests/`: offline QA tests.
-- `tests/artifacts/data/`: original live-run samples, manifests and logs for review.
-- `BUILD_REPORT.md`: implementation history, defects and limitations.
-
-## Run
+Download whole problem webpages and their static assets. No question parsing or section interpretation. Python 3.10+; standard library only.
 
 ```bash
-python -m scraper --limit 2
+python -m scraper --data-dir tests/artifacts/webpages
 python -m unittest discover -s tests -v
 ```
 
-Runtime output defaults to `data/`. The index is used for discovery; selected problem HTML and related files are saved with readable host/path filenames. Progress and failures are recorded in the manifest and log.
+- `scraper/`: download, asset discovery, file storage and CLI.
+- `tests/`: offline tests.
+- `tests/artifacts/webpages/raw/`: original HTML, images, stylesheets and scripts.
+- `tests/artifacts/webpages/manifest.json`: source-to-file mapping, dependency relationships, hashes and statuses.
+- `tests/artifacts/webpages/scraper.log`: timestamped history; the last summary is the latest run.
+- `tests/artifacts/validation.json`: independent saved-file audit.
+- `tests/artifacts/html_structure.json`: inspected HTML structures for all 31 pages.
 
-## Review artifacts
+The supplied index is used only for discovery. Links to problem sections identify the containing webpages; URL fragments are removed for downloading. Each page is saved once, unchanged. Bare tournament landing pages and non-webpage documents are not collected. The first tournament has inline questions without section links and is included explicitly.
 
-Under `tests/artifacts/data/`:
-- Root: earliest index-only run.
-- `demo/`: earlier index and landing-page run (wrong scope).
-- `problem_demo/`: historical PDF run, including an unwanted solutions PDF.
-- `problem_html/`: limited 2009 HTML demonstration and one asset; most dependencies remain pending.
+Static dependencies include HTML image/script/stylesheet references, srcset, inline CSS, and recursive CSS imports/images/fonts. Embedded assets need no download. Tracking is excluded with a recorded reason. Remote JavaScript is not executed. Original remote references remain unchanged; the manifest maps them to local files.
 
-These incomplete historical snapshots expose earlier mistakes. They are not finished assignment outputs. Remaining limitations include missing-anchor validation, CSS-embedded dependencies, and incomplete archive coverage.
+Verified: 31 webpages, 22 static assets, zero failures or pending downloads. All 53 stored hashes checked and 19 images decoded. No document downloads, model calls or costs.

@@ -1,0 +1,405 @@
+[
+  {
+    "page": "01",
+    "maintext": true,
+    "pre_blocks": 0,
+    "images": 34,
+    "stylesheets": [
+      "/style.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "02",
+    "maintext": true,
+    "pre_blocks": 1,
+    "images": 34,
+    "stylesheets": [
+      "/style.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "03",
+    "maintext": true,
+    "pre_blocks": 0,
+    "images": 34,
+    "stylesheets": [
+      "/style.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "04",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 32,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "05",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "06",
+    "maintext": false,
+    "pre_blocks": 2,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "07",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "08",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "09",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "10",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "11",
+    "maintext": false,
+    "pre_blocks": 2,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "12",
+    "maintext": false,
+    "pre_blocks": 2,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "13",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "14",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "15",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "16",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "17",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "18",
+    "maintext": false,
+    "pre_blocks": 3,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "19",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "20",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "21",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "22",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "23",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "24",
+    "maintext": false,
+    "pre_blocks": 0,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "25",
+    "maintext": false,
+    "pre_blocks": 8,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "26",
+    "maintext": false,
+    "pre_blocks": 8,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "27",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "28",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "29",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "30",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  },
+  {
+    "page": "31",
+    "maintext": false,
+    "pre_blocks": 1,
+    "images": 31,
+    "stylesheets": [
+      "https://www.turgor.ru/turgor.css"
+    ],
+    "scripts": [
+      "https://site.yandex.net/load/form/1/form.js",
+      "//mc.yandex.ru/metrika/watch.js"
+    ]
+  }
+]

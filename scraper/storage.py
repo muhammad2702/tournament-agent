@@ -28,7 +28,9 @@ class Storage:
             raise ValueError("Unsafe download path")
         path = self.root / "raw" / parts.netloc / relative
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(content)
+        temporary = path.with_name(path.name + ".tmp")
+        temporary.write_bytes(content)
+        temporary.replace(path)
         record = dict(metadata, file=str(path.relative_to(self.root)),
                       sha256=hashlib.sha256(content).hexdigest(),
                       size_bytes=len(content), status="downloaded")

@@ -1,0 +1,3971 @@
+{
+  "resources": {
+    "https://www.turgor.ru/en/problems/31/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/31/index.html",
+      "sha256": "cf5afc168ab46030f85d747ae752733ddea84780778ab6382891892621dc1ef1",
+      "size_bytes": 34732,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/turgor.css": {
+      "final_url": "https://turgor.ru/turgor.css",
+      "content_type": "text/css",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/turgor.css",
+      "sha256": "64944f1998165d45e7d91c6bfc7f319b3abfc952b54f9f94c18a4b26f62b12bf",
+      "size_bytes": 2061,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/bg_second.gif": {
+      "final_url": "https://turgor.ru/i/bg_second.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/bg_second.gif",
+      "sha256": "bcb8a1baf9cdb130ad6325279e4b3a2edab739a5eeaec9f3b8f0c8d42574e25d",
+      "size_bytes": 527,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bg.gif": {
+      "final_url": "https://turgor.ru/i/menu_bg.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bg.gif",
+      "sha256": "b92837225ea4549e1ff65c9bdcae90ecd918d4b6ae8d6b7396efaf6d8975d40e",
+      "size_bytes": 32846,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_top_left.gif": {
+      "final_url": "https://turgor.ru/i/menu_top_left.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_top_left.gif",
+      "sha256": "1dfa66efd27da9b5db63b9ee54035dbada94ff42caf98bdbd1dbb58b90756d10",
+      "size_bytes": 174,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bg_top.gif": {
+      "final_url": "https://turgor.ru/i/menu_bg_top.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bg_top.gif",
+      "sha256": "9c4370e4fdf5b879255c4473f281bb80c05a9402159d8fe3214ccb4e4e557dd4",
+      "size_bytes": 52,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_top_right.gif": {
+      "final_url": "https://turgor.ru/i/menu_top_right.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_top_right.gif",
+      "sha256": "4252ad244dda7c0dd992ced5ff9a6b5e0a7adc2f74ed9ae91d19918c8f2f27bd",
+      "size_bytes": 174,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bg_left.gif": {
+      "final_url": "https://turgor.ru/i/menu_bg_left.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bg_left.gif",
+      "sha256": "d14175595564fe7e74af434eb840f16205fcc30bbdfa05beb8ac4d555f3a1afb",
+      "size_bytes": 811,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bg_right.gif": {
+      "final_url": "https://turgor.ru/i/menu_bg_right.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bg_right.gif",
+      "sha256": "3c9711ff73d07157c7d93e8148245399aeb691d912f26148f922c28f87490322",
+      "size_bytes": 44,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/arrow.gif": {
+      "final_url": "https://turgor.ru/i/arrow.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/arrow.gif",
+      "sha256": "7f4fd96aa58313ae41c93ae21cb69ec9e99ab8bbb26e223285455583dd5ddff6",
+      "size_bytes": 116,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/line.gif": {
+      "final_url": "https://turgor.ru/i/line.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/line.gif",
+      "sha256": "c4ea09b2ec7dc923af832258799739038e239e77d0db3f3c79f11c5d4864b002",
+      "size_bytes": 67,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bottom_left.gif": {
+      "final_url": "https://turgor.ru/i/menu_bottom_left.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bottom_left.gif",
+      "sha256": "e1ef156934240a7fb1d9e7b6fa6167c6c87611fb7619c5d6a073d08121cd89e9",
+      "size_bytes": 178,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bg_bottom.gif": {
+      "final_url": "https://turgor.ru/i/menu_bg_bottom.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bg_bottom.gif",
+      "sha256": "cae09a264a009a442de6f6e6c4245ade597b7fa195b41c49a1db83dacc0df414",
+      "size_bytes": 815,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/menu_bottom_right.gif": {
+      "final_url": "https://turgor.ru/i/menu_bottom_right.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/menu_bottom_right.gif",
+      "sha256": "d21e5e2f7c236858a03641d9d40d70c89daab78ffb59631385bc9ba6beeea524",
+      "size_bytes": 176,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/pix.gif": {
+      "final_url": "https://turgor.ru/i/pix.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/pix.gif",
+      "sha256": "131d8e096d1b2e9dd1eb5357086cc857d83ed2a83664de74f0ace1265ec58aca",
+      "size_bytes": 43,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/title.gif": {
+      "final_url": "https://turgor.ru/i/title.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/title.gif",
+      "sha256": "7018fed88385587ca79dee37dea62f599748e625d2cbe84e7d9a5679a029f778",
+      "size_bytes": 3180,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/logo_second.gif": {
+      "final_url": "https://turgor.ru/i/logo_second.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/logo_second.gif",
+      "sha256": "c281bcae71f73162483cbf8b40024788ea50057a243d5a06923f122cedeb031b",
+      "size_bytes": 21756,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/footer_second.gif": {
+      "final_url": "https://turgor.ru/i/footer_second.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/footer_second.gif",
+      "sha256": "eafd1e2422071d0ff89e16f7f1bffcfd366210e02e8aeca64ee5a6be65508982",
+      "size_bytes": 10820,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/i/footer_mbg2.gif": {
+      "final_url": "https://turgor.ru/i/footer_mbg2.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/i/footer_mbg2.gif",
+      "sha256": "9f0caf3ef6ac86906a81f9ddcd06ce35187c0f95992edc2de32e26f0da9ecf28",
+      "size_bytes": 240,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://site.yandex.net/load/form/1/form.js": {
+      "final_url": "https://site.yandex.net/load/form/1/form.js",
+      "content_type": "application/x-javascript",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/site.yandex.net/load/form/1/form.js",
+      "sha256": "a812c8639d822a1e0d437b4472aff38c96a6eeaa6de87153c764cd7a618a7696",
+      "size_bytes": 1293,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/01/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/01/index.html",
+      "sha256": "2db85a32b3fadaaffdfba580737dc75d8439e0e0c6d380e048c8c718a645c956",
+      "size_bytes": 12123,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/style.css": {
+      "final_url": "https://turgor.ru/style.css",
+      "content_type": "text/css",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/style.css",
+      "sha256": "52970edcced68009a1ea6c5ca1e550bcd33ec6414299d46831fe991c4922d45c",
+      "size_bytes": 4699,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/i/title.gif": {
+      "final_url": "https://www.turgor.ru/en/i/title.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/i/title.gif",
+      "sha256": "48d15c72176a2e757d904bcfbc24abac995825c79b1a732530af370db492e8cf",
+      "size_bytes": 1261,
+      "kind": "asset",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/02/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/02/index.html",
+      "sha256": "2fa32bd9d6edfb1c6846bdefab4987f9cfc9f45520e8e2581ad5798f546f9fa9",
+      "size_bytes": 15013,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/03/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/03/index.html",
+      "sha256": "f13c08d1e598325cafff3514a2049e3e464b796d47dd5eda655f89631e127caa",
+      "size_bytes": 13441,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/04/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/04/index.html",
+      "sha256": "da46d702424172c2c6fe0ea555bc537968a91d79c481aea9b028536b918e1fc1",
+      "size_bytes": 26156,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/05/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/05/index.html",
+      "sha256": "fa90d8dfe16b440a971c75857250c5226cb3bfaa948b31772b382813d40afe9e",
+      "size_bytes": 31198,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/06/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/06/index.html",
+      "sha256": "1ecf3f0392e51cdc7cdacb2b4c4dd6f1fab110bf566355d0a18c0d62ca25a9b1",
+      "size_bytes": 31335,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/07/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/07/index.html",
+      "sha256": "46e257392fe4a3f75b534e5ec1cb08628f3506e407604c1784057446c9d28cc5",
+      "size_bytes": 29591,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/08/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/08/index.html",
+      "sha256": "153e7c92ffcd1cdc61a2b74a4a0115009455a8c0d2d2825c2d91795b9f868f03",
+      "size_bytes": 27839,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/09/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/09/index.html",
+      "sha256": "0472cc0d5408207f3feb57f40dc44b0a8d5c9df364d18d257e496c41338fdb9e",
+      "size_bytes": 31365,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/10/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/10/index.html",
+      "sha256": "d300a70fda90866a676f8b30a753445e2edaa7a2ffe459cd611f399c31241cb9",
+      "size_bytes": 34685,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/11/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/11/index.html",
+      "sha256": "07141a28b0a3412058b9b345185209bb52671e218685a616cc38ec749fc402d8",
+      "size_bytes": 35546,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/12/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/12/index.html",
+      "sha256": "fbf842d5dcc2682312be436e23a8d111abaa48d49cc93eed2f7c04f26e016f34",
+      "size_bytes": 35389,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/13/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/13/index.html",
+      "sha256": "a1ce7cf9189afe70b7e48f78e33ec8e547d2089143ed2c580027b0415f67c194",
+      "size_bytes": 36623,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/14/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/14/index.html",
+      "sha256": "2ea3d4b329df27a0a5e913852801aa503eb1cd8a57a0f7a34fc85915fc75413c",
+      "size_bytes": 37735,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/15/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/15/index.html",
+      "sha256": "19a944f3865a4e7bb8321f3294f3d8eeb8b14c54cdce62288631b6169f9ef222",
+      "size_bytes": 37400,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/16/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/16/index.html",
+      "sha256": "1104c8af70862721b0a00b5977aa04c15662a4e6e822b0f13cde13bf27d38ca0",
+      "size_bytes": 33352,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/17/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/17/index.html",
+      "sha256": "a205e631c713c4bd242bb3aa6df0e896bc9e71c27c1371257d9dd84f9a3b1994",
+      "size_bytes": 38120,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/18/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/18/index.html",
+      "sha256": "4357144f90132edd0e95bd8400f1e8dd4247ec228800e501c22aabb39e12a9cf",
+      "size_bytes": 34673,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/19/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/19/index.html",
+      "sha256": "ab3df103d4af40222bf1666c330e16e5933a6d9a6b10bcb1231593c59c36e121",
+      "size_bytes": 39738,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/20/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/20/index.html",
+      "sha256": "8c31ec853434b87a03e863b32086b7829c226ddaf97a593292eb79a8851f5160",
+      "size_bytes": 40842,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/21/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/21/index.html",
+      "sha256": "8d4c91cddf34fed5d31199e43203083892e9afea82db1eb58353a387c8a4af16",
+      "size_bytes": 36583,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/22/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/22/index.html",
+      "sha256": "5e36519a7b5f6ad2ea26bff1ccee91fa836822966f2059b0a409532acf7b11f1",
+      "size_bytes": 42517,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/23/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/23/index.html",
+      "sha256": "48839e4d670eafa32b0a9f4540adc2e56ad645d796c63a2ba1f33ff508bf72e6",
+      "size_bytes": 43510,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/24/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/24/index.html",
+      "sha256": "5e59ce7396df5ab30c3fbbdfbf06cbe3791e37559ed565487258b808bf1983c4",
+      "size_bytes": 43182,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/25/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/25/index.html",
+      "sha256": "ec876536da6d2a05b2d4dbc35def61a43b5f4b69f5e3bf5105e0b26dab331c55",
+      "size_bytes": 42682,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/26/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/26/index.html",
+      "sha256": "cae35231c85f2955c5778610403735087ca9bd99933b3d84938497aec001a8dc",
+      "size_bytes": 41557,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/27/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/27/index.html",
+      "sha256": "2da0f9fec42a3839037bfe9bdf4863ef1a4855a1d8cc55c2d69e1be3e68f4fb8",
+      "size_bytes": 38864,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/28/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/28/index.html",
+      "sha256": "74fb04623a2bc86539eb6e8af534f3bffcb5efef096151467ca682aa9c6d7942",
+      "size_bytes": 43769,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/29/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/29/index.html",
+      "sha256": "651b62472ce8ed7f70de49a5c1c150c3257fd336bce177d226e15ee65406e2c7",
+      "size_bytes": 50292,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/30/index.php": {
+      "final_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/30/index.html",
+      "sha256": "64827c79b09b8cbe83ee5e3e739653c463b21f3d6ac74261f503d9edada4c108",
+      "size_bytes": 37999,
+      "kind": "page",
+      "status": "downloaded"
+    },
+    "https://www.turgor.ru/en/problems/04/t4z2s.gif": {
+      "final_url": "https://www.turgor.ru/en/problems/04/t4z2s.gif",
+      "content_type": "image/gif",
+      "encoding": null,
+      "http_status": 200,
+      "transfer_encoding": "",
+      "file": "raw/www.turgor.ru/en/problems/04/t4z2s.gif",
+      "sha256": "22e74291b08140e6ecfb62e30870ac37f850a056bf9886729f8b04f4d6c4d311",
+      "size_bytes": 1393,
+      "kind": "asset",
+      "status": "downloaded"
+    }
+  },
+  "references": [
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/style.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/en/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/style.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/en/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/style.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/en/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/en/problems/04/t4z2s.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/turgor.css",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_top.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_top_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/arrow.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/line.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_left.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bg_bottom.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/menu_bottom_right.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/pix.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/title.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/logo_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://www.turgor.ru/i/footer_mbg2.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://site.yandex.net/load/form/1/form.js",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://mc.yandex.ru/metrika/watch.js",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "target_url": "https://mc.yandex.ru/watch/3838129",
+      "status": "excluded",
+      "reason": "tracking, unrelated to problem content"
+    },
+    {
+      "source_url": "https://www.turgor.ru/style.css",
+      "target_url": "https://www.turgor.ru/i/bg_second.gif",
+      "status": "downloaded"
+    },
+    {
+      "source_url": "https://www.turgor.ru/style.css",
+      "target_url": "https://www.turgor.ru/i/menu_bg.gif",
+      "status": "downloaded"
+    }
+  ],
+  "selection": {
+    "index_url": "https://www.turgor.ru/en/problems/allproblems.php",
+    "page_urls": [
+      "https://www.turgor.ru/en/problems/01/index.php",
+      "https://www.turgor.ru/en/problems/02/index.php",
+      "https://www.turgor.ru/en/problems/03/index.php",
+      "https://www.turgor.ru/en/problems/04/index.php",
+      "https://www.turgor.ru/en/problems/05/index.php",
+      "https://www.turgor.ru/en/problems/06/index.php",
+      "https://www.turgor.ru/en/problems/07/index.php",
+      "https://www.turgor.ru/en/problems/08/index.php",
+      "https://www.turgor.ru/en/problems/09/index.php",
+      "https://www.turgor.ru/en/problems/10/index.php",
+      "https://www.turgor.ru/en/problems/11/index.php",
+      "https://www.turgor.ru/en/problems/12/index.php",
+      "https://www.turgor.ru/en/problems/13/index.php",
+      "https://www.turgor.ru/en/problems/14/index.php",
+      "https://www.turgor.ru/en/problems/15/index.php",
+      "https://www.turgor.ru/en/problems/16/index.php",
+      "https://www.turgor.ru/en/problems/17/index.php",
+      "https://www.turgor.ru/en/problems/18/index.php",
+      "https://www.turgor.ru/en/problems/19/index.php",
+      "https://www.turgor.ru/en/problems/20/index.php",
+      "https://www.turgor.ru/en/problems/21/index.php",
+      "https://www.turgor.ru/en/problems/22/index.php",
+      "https://www.turgor.ru/en/problems/23/index.php",
+      "https://www.turgor.ru/en/problems/24/index.php",
+      "https://www.turgor.ru/en/problems/25/index.php",
+      "https://www.turgor.ru/en/problems/26/index.php",
+      "https://www.turgor.ru/en/problems/27/index.php",
+      "https://www.turgor.ru/en/problems/28/index.php",
+      "https://www.turgor.ru/en/problems/29/index.php",
+      "https://www.turgor.ru/en/problems/30/index.php",
+      "https://www.turgor.ru/en/problems/31/index.php"
+    ]
+  },
+  "summary": {
+    "pages": 31,
+    "assets": 22,
+    "failures": 0,
+    "complete": true
+  }
+}

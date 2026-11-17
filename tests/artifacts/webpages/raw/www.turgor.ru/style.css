@@ -1,0 +1,62 @@
+*{margin:0;padding:0;}
+html{width:100%;height:100.1%}
+body{width:100%;height:100.1%;background-color:#FFFFFF}
+* html #container{height:100.1%}
+#topline{position:absolute;top:0px;width:100%;height:175px;background-image:url(https://www.turgor.ru/i/bg_second.gif);background-repeat:repeat-x;background-position:top}
+#bottomline{position:relative;background-color:#007BC8;top:0px;width:100%;height:67px;margin:-67px 0px 0px 0px}
+#container{position:relative;width:100%;min-height:100.1%;max-width:1450px;width:expression(document.body.clientWidth > 1450? "1450px":"auto");margin:0px auto 0px auto}
+#header{min-width:600px;width:expression(document.body.clientWidth < 600? "600px":"auto");height:175px;margin:0px}
+#menu{position:relative;margin:-83px auto 20px 10px;width:255px;z-index:1;float:left}
+#menu span{font-family:Arial, Helvetica, sans-serif;font-size:14px;vertical-align:top}
+#menu A{color:#000000;text-decoration:none}
+#menu A:hover{color:#498BC4}
+#menu .menutr td{padding:0px 0px 0px 0px}
+#menu .menutr .arrow{width:10px;height:15px;padding:0px 7px 0px 6px;border-style:none;border:0px;}
+#menu .menutr .linesep{width:206px;height:2px;padding:0px 0px 0px 2px}
+#menu table{width:235px;padding:0px 5px 0px 5px;background-image:url(https://www.turgor.ru/i/menu_bg.gif);background-repeat:repeat-y;background-position:top}
+.nowrap{white-space:nowrap}
+#maintext *{margin:2px;padding:2px;}
+#maintext{width:60%;min-width:300px;max-width:803px;margin:0px auto 20px 300px;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#222222;text-align:justify;text-indent:0em;line-height:130%}
+#maintext p{padding:5px 0 8px 0px}
+#maintext a{text-decoration:underline;color:#0055CC}
+#maintext a:hover{color:#CC0000}
+#maintext a:visited{color:#990099}
+#maintext a:visited:hover{color:#CC0000}
+#maintext h1, #maintext h2, #maintext h3, #maintext h4, #maintext h5{margin:17px auto 7px auto;font-family:Arial, Helvetica, sans-serif;font-weight:500;color:#000000;text-indent:0;text-align:center;line-height:normal}
+#maintext h1{font-size:180%}
+#maintext h2{font-size:165%}
+#maintext h3{font-size:150%}
+#maintext h4{font-size:135%}
+#maintext h5{font-size:120%}
+#maintext li{margin-left:20px}
+#maintext br{margin-top:1em}
+#maintext td{text-align:left}
+#maintext .date{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;background-color:#3CA5E6;color:#FFFFFF;text-align:justify}
+#maintext hr{width:100%;background:#CCCCCC;border-top:1px solid #CCCCCC;color:#CCCCCC;height:1px}
+#leftbottom{width:188px;height:143px;position:relative;margin:-143px auto 0;z-index:-1}
+#clearfloat{clear:both}
+#empty{height:67px}
+#footer{min-width:600px;position:relative;width:100%;max-width:1450px;width:expression(document.body.clientWidth > 1450? "1450px":"auto");height:67px;margin:-67px auto 0 auto}
+.results table{text-align:center;width:90%;padding:7px;border-spacing:3px;border:0px;}
+.results th{background:#1e90ff}
+.results tr:nth-child(odd){background:#B2DCFF}
+.results tr:nth-child(even){}
+.turgor{width:80%;min-width:300px;max-width:550px;margin:0px auto 0px auto;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#222222;text-align:justify;text-indent:0em}
+.turgor div.p{margin-top:7pt}
+.turgor td{text-align:justify!important;padding-right:10px;padding-top:1px}
+.turgor td div.comp{margin-top:-0.6ex;margin-bottom:-1ex}
+.turgor td div.comb{margin-top:-0.6ex;margin-bottom:-.6ex}
+.turgor td div.hrcomp{line-height:0.9;margin-top:-0.8ex;margin-bottom:-1ex}
+.turgor td div.norm{line-height:normal}
+.turgor span.roman{font-family:serif;font-style:normal;font-weight:normal}
+.turgor span.overacc2{position:relative;left:.8em;top:-1.2ex}
+.turgor span.overacc1{position:relative;left:.6em;top:-1.2ex}
+.title1{font-family:Impact, Verdana, Arial, Helvetica, sans-serif;font-size:22px;margin-right:85px;color:#FFFFFF}
+.title2{font-family:Impact, Verdana, Arial, Helvetica, sans-serif;font-size:32px;margin-right:57px;color:#FFFFFF}
+.news{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#003D63;text-align:justify;padding:5px}
+.date{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;background-color:#3CA5E6;color:#FFFFFF;text-align:justify}
+.tourtable{color:#003D63;text-align:center;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold}
+.tdblue td{background-color:#0071B7;color:white}
+.text{color:#003D63;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;padding:0px 20px 0px 10px}
+.new_table{visibility:hidden}
+.text2{color:#000000;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;padding:20px 40px 10px 20px}

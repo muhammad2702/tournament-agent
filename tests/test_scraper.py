@@ -1,96 +1,153 @@
-"""Offline QA: exercise failures without contacting the archive."""
+"""Offline collection QA: exact pages, asset closure and visible failures."""
 import contextlib
 import io
 import json
 import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import patch
-from urllib.error import HTTPError, URLError
+from urllib.error import URLError, HTTPError
 
-from scraper import downloader
-from scraper import scraper
+from scraper import scraper, downloader
+from scraper.assets import Page, css_urls, srcset_urls
 from scraper.storage import Storage
+
+PAGE = 'https://www.turgor.ru/en/problems/31/index.php'
+ROOT = 'https://www.turgor.ru/'
 
 
 class ScraperQA(unittest.TestCase):
-    def run_html(self, html, limit=None):
+    def run_site(self, routes, pages=None):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        output = io.StringIO()
-        metadata = {"final_url": scraper.INDEX, "content_type": "text/html", "encoding": None}
-        with patch("scraper.scraper.download", return_value=(html, metadata)), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(output):
-            result = scraper.scrape(temporary.name, limit)
-        manifest = json.loads((Storage(temporary.name).path).read_text())
-        return result, manifest, output.getvalue()
+        calls = []
+        def fetch(url):
+            calls.append(url)
+            value = routes[url]
+            if isinstance(value, Exception):
+                raise value
+            body, mime = value
+            return body, dict(final_url=url, content_type=mime, encoding=None, http_status=200)
+        with patch('scraper.scraper.download', side_effect=fetch), contextlib.redirect_stdout(io.StringIO()):
+            result = scraper.scrape(temporary.name, pages)
+        root = Path(temporary.name)
+        return result, json.loads((root / 'manifest.json').read_text()), root, calls
 
-    def test_network_failure_recorded(self):
-        with tempfile.TemporaryDirectory() as directory, patch("scraper.scraper.download", side_effect=URLError("offline")), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
-            self.assertEqual(scraper.scrape(directory), 1)
-            record = Storage(directory).manifest["resources"][scraper.INDEX]
-            self.assertEqual(record["status"], "failed")
-            self.assertIn("offline", record["error"])
-            log = (Storage(directory).root / "scraper.log").read_text()
-            self.assertIn("ERROR", log)
-            self.assertIn("offline", log)
-            self.assertIn("Traceback", log)
+    def site(self, body=b'<html><a name="a"></a></html>'):
+        return {scraper.INDEX: (b'<html><a href="31/index.php#a">set</a></html>', 'text/html'), PAGE: (body, 'text/html')}
 
-    def test_transient_failure_gets_three_attempts(self):
-        with patch("scraper.downloader.urlopen", side_effect=URLError("offline")) as request, patch("scraper.downloader.time.sleep"):
+    def test_exact_page_and_recursive_assets_saved(self):
+        routes = self.site(b'<html><a name="a"></a><img src="/image.png"><link rel="stylesheet" href="/style.css"></html>')
+        routes.update({ROOT+'image.png': (b'\x89PNG\r\n\x1a\nimage', 'image/png'), ROOT+'style.css': (b'@import "more.css";body{background:url(background.gif)}', 'text/css'), ROOT+'more.css': (b'body{color:black}', 'text/css'), ROOT+'background.gif': (b'GIF89aimage', 'image/gif')})
+        failed, manifest, root, calls = self.run_site(routes)
+        self.assertEqual(failed, 0)
+        self.assertEqual(manifest['summary']['assets'], 4)
+        self.assertEqual(manifest['summary']['pages'], 1)
+        self.assertNotIn(scraper.INDEX, manifest['resources'])
+        for url, record in manifest['resources'].items():
+            self.assertEqual((root / record['file']).read_bytes(), routes[url][0])
+        self.assertEqual(len(calls), len(set(calls)))
+
+    def test_whole_page_saved_without_interpreting_sections(self):
+        body = '<html><table><tr><td>Задача x²</td></tr></table><pre>a^3</pre></html>'.encode('utf-8')
+        failed, manifest, root, _ = self.run_site(self.site(body))
+        self.assertEqual(failed, 0)
+        self.assertTrue(manifest['summary']['complete'])
+        self.assertEqual((root / manifest['resources'][PAGE]['file']).read_bytes(), body)
+
+    def test_duplicate_section_names_do_not_affect_downloads(self):
+        failed, manifest, _, _ = self.run_site(self.site(b'<html><a name="a"></a><a name="a"></a></html>'))
+        self.assertEqual(failed, 0)
+        self.assertTrue(manifest['summary']['complete'])
+
+    def test_missing_asset_fails_and_logs(self):
+        routes = self.site(b'<html><a name="a"></a><img src="/missing.png"></html>')
+        routes[ROOT+'missing.png'] = URLError('missing image')
+        failed, manifest, root, _ = self.run_site(routes)
+        self.assertEqual(failed, 1)
+        self.assertEqual(manifest['resources'][ROOT+'missing.png']['status'], 'failed')
+        self.assertIn('Traceback', (root/'scraper.log').read_text())
+        self.assertIn('missing image', (root/'scraper.log').read_text())
+
+    def test_asset_html_error_rejected(self):
+        routes = self.site(b'<html><a name="a"></a><img src="/image.png"></html>')
+        routes[ROOT+'image.png'] = (b'<html>Error</html>', 'text/html')
+        failed, manifest, _, _ = self.run_site(routes)
+        self.assertEqual(failed, 1)
+        self.assertNotIn('file', manifest['resources'][ROOT+'image.png'])
+
+    def test_non_html_response_rejected(self):
+        routes = self.site()
+        routes[PAGE] = (b'other document', 'application/octet-stream')
+        self.assertEqual(self.run_site(routes)[0], 1)
+
+    def test_index_error_page_rejected(self):
+        self.assertEqual(self.run_site({scraper.INDEX: (b'<html>Service unavailable</html>', 'text/html')})[0], 1)
+
+    def test_empty_page_rejected(self):
+        self.assertEqual(self.run_site(self.site(b''))[0], 1)
+
+    def test_unlisted_page_rejected(self):
+        failed, _, _, calls = self.run_site(self.site(), ['https://www.turgor.ru/en/problems/48/index.php'])
+        self.assertEqual(failed, 1)
+        self.assertEqual(calls, [scraper.INDEX])
+
+    def test_document_and_landing_links_never_requested(self):
+        routes = self.site()
+        routes[scraper.INDEX] = (b'<html><a href="31/index.php#a">set</a><a href="48/index.php">landing</a><a href="31/document.pdf#x">document</a></html>', 'text/html')
+        _, _, _, calls = self.run_site(routes)
+        self.assertEqual(calls, [scraper.INDEX, PAGE])
+
+    def test_encoding(self):
+        text = '<html><a name="a"></a>Задачи</html>'
+        self.assertEqual(scraper.decode_html(('<meta charset="windows-1251">'+text).encode('cp1251'), None), '<meta charset="windows-1251">'+text)
+
+    def test_corrupt_cache_rejected(self):
+        with tempfile.TemporaryDirectory() as root:
+            store = Storage(root)
+            record = store.save_download(PAGE, b'original', {})
+            store.checkpoint()
+            self.assertEqual(Storage(root).cached(PAGE)[0], b'original')
+            (store.root / record['file']).write_bytes(b'changed')
+            self.assertIsNone(store.cached(PAGE))
+
+    def test_asset_syntax(self):
+        p = Page()
+        p.feed('<html><base href="/assets/"><img srcset="one.png 1x, two.png 2x"><div style="background:url(three.png)"></div><style>@import "four.css";</style></html>')
+        self.assertEqual(set(p.assets), {'one.png', 'two.png', 'three.png', 'four.css'})
+        self.assertEqual(p.base, '/assets/')
+        self.assertEqual(css_urls('@import url("a.css");x{background:url(b.png)}'), ['a.css', 'b.png'])
+
+    def test_embedded_srcset_is_not_split_into_fake_downloads(self):
+        self.assertEqual(srcset_urls('data:image/png;base64,AAAA 1x, two.png 2x'), ['data:image/png;base64,AAAA', 'two.png'])
+
+    def test_gzip_transfer_decoded(self):
+        import gzip
+        from email.message import Message
+        headers = Message()
+        headers['Content-Type'] = 'text/css; charset=utf-8'
+        headers['Content-Encoding'] = 'gzip'
+        response = unittest.mock.MagicMock()
+        response.__enter__.return_value = response
+        response.headers = headers
+        response.status = 200
+        response.geturl.return_value = ROOT + 'style.css'
+        response.read.return_value = gzip.compress(b'body{color:black}')
+        with patch('scraper.downloader.urlopen', return_value=response):
+            body, metadata = downloader.download(ROOT + 'style.css')
+        self.assertEqual(body, b'body{color:black}')
+        self.assertEqual(metadata['content_type'], 'text/css')
+
+    def test_retry_and_404(self):
+        with patch('scraper.downloader.urlopen', side_effect=URLError('offline')) as request, patch('scraper.downloader.time.sleep'):
             with self.assertRaises(URLError):
-                downloader.download(scraper.INDEX)
+                downloader.download(PAGE)
             self.assertEqual(request.call_count, 3)
-
-    def test_404_not_retried(self):
-        error = HTTPError(scraper.INDEX, 404, "missing", {}, None)
-        with patch("scraper.downloader.urlopen", side_effect=error) as request:
+        with patch('scraper.downloader.urlopen', side_effect=HTTPError(PAGE, 404, 'missing', {}, None)) as request:
             with self.assertRaises(HTTPError):
-                downloader.download(scraper.INDEX)
+                downloader.download(PAGE)
             self.assertEqual(request.call_count, 1)
 
-    def test_anchors_preserved_and_resource_deduplicated(self):
-        _, manifest, _ = self.run_html(b'<a href="31/index.php#a">A</a><a href="31/index.php#b">B</a>', limit=1)
-        self.assertEqual(len(manifest["resources"]), 1)
-        self.assertNotIn(scraper.INDEX, manifest["resources"])
-        self.assertEqual([r["anchor"] for r in manifest["references"]], ["a", "b"])
 
-    def test_cache_corruption_detected(self):
-        with tempfile.TemporaryDirectory() as directory:
-            store = Storage(directory)
-            record = store.save_download("url", b"original", {})
-            store.checkpoint()
-            self.assertEqual(Storage(directory).cached("url")[0], b"original")
-            (store.root / record["file"]).write_bytes(b"damaged")
-            self.assertIsNone(store.cached("url"))
-
-    # Expected failures document actual missing protections, not desired behaviour.
-    def test_empty_index_is_rejected(self):
-        failed, _, _ = self.run_html(b"")
-        self.assertGreater(failed, 0)
-
-    def test_error_page_returning_200_is_rejected(self):
-        failed, _, _ = self.run_html(b"<html>Service unavailable</html>")
-        self.assertGreater(failed, 0)
-
-    def test_diagram_dependency_discovered(self):
-        page = "https://www.turgor.ru/en/problems/31/index.php"
-        def fetch(url):
-            body = b'<a href="31/index.php#a">set</a>' if url == scraper.INDEX else b'<img src="diagram.png"><link rel="stylesheet" href="style.css">'
-            return body, {"final_url": url, "content_type": "text/html", "encoding": "utf-8"}
-        with tempfile.TemporaryDirectory() as directory, patch("scraper.scraper.download", side_effect=fetch), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
-            self.assertEqual(scraper.scrape(directory, limit=2), 0)
-            manifest = Storage(directory).manifest
-            self.assertIn(page.replace("index.php", "diagram.png"), manifest["resources"])
-            self.assertIn(page.replace("index.php", "style.css"), manifest["resources"])
-
-    def test_old_windows_1251_html_without_header(self):
-        _, manifest, _ = self.run_html('<meta charset="windows-1251"><a href="31/index.php">Задачи</a>'.encode("cp1251"))
-        self.assertEqual(manifest["references"][0]["label"], "Задачи")
-
-    @unittest.expectedFailure
-    def test_missing_section_anchor_detected(self):
-        failed, _, _ = self.run_html(b'<a href="31/index.php#missing">set</a>')
-        self.assertGreater(failed, 0)
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

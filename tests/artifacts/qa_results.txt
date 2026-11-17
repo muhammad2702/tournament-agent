@@ -1,0 +1,23 @@
+test_asset_html_error_rejected (test_scraper.ScraperQA.test_asset_html_error_rejected) ... ok
+test_asset_syntax (test_scraper.ScraperQA.test_asset_syntax) ... ok
+test_corrupt_cache_rejected (test_scraper.ScraperQA.test_corrupt_cache_rejected) ... ok
+test_document_and_landing_links_never_requested (test_scraper.ScraperQA.test_document_and_landing_links_never_requested) ... ok
+test_duplicate_section_names_do_not_affect_downloads (test_scraper.ScraperQA.test_duplicate_section_names_do_not_affect_downloads) ... ok
+test_embedded_srcset_is_not_split_into_fake_downloads (test_scraper.ScraperQA.test_embedded_srcset_is_not_split_into_fake_downloads) ... ok
+test_empty_page_rejected (test_scraper.ScraperQA.test_empty_page_rejected) ... ok
+test_encoding (test_scraper.ScraperQA.test_encoding) ... ok
+test_exact_page_and_recursive_assets_saved (test_scraper.ScraperQA.test_exact_page_and_recursive_assets_saved) ... ok
+test_gzip_transfer_decoded (test_scraper.ScraperQA.test_gzip_transfer_decoded) ... ok
+test_index_error_page_rejected (test_scraper.ScraperQA.test_index_error_page_rejected) ... ok
+test_missing_asset_fails_and_logs (test_scraper.ScraperQA.test_missing_asset_fails_and_logs) ... ok
+test_non_html_response_rejected (test_scraper.ScraperQA.test_non_html_response_rejected) ... ok
+test_retry_and_404 (test_scraper.ScraperQA.test_retry_and_404) ... Retrying url=https://www.turgor.ru/en/problems/31/index.php after attempt=1
+Retrying url=https://www.turgor.ru/en/problems/31/index.php after attempt=2
+ok
+test_unlisted_page_rejected (test_scraper.ScraperQA.test_unlisted_page_rejected) ... ok
+test_whole_page_saved_without_interpreting_sections (test_scraper.ScraperQA.test_whole_page_saved_without_interpreting_sections) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.021s
+
+OK

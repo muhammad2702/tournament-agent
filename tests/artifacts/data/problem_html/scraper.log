@@ -1,7 +1,0 @@
-2026-11-17 17:10:05,441 INFO downloader Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
-2026-11-17 17:10:12,728 INFO __main__ Processed url=https://www.turgor.ru/en/problems/allproblems.php bytes=49074
-2026-11-17 17:10:13,732 INFO downloader Request attempt=1 url=https://www.turgor.ru/en/problems/31/index.php
-2026-11-17 17:10:21,752 INFO __main__ Processed url=https://www.turgor.ru/en/problems/31/index.php bytes=34732
-2026-11-17 17:10:22,757 INFO downloader Request attempt=1 url=https://www.turgor.ru/i/footer_mbg2.gif
-2026-11-17 17:10:37,479 INFO __main__ Processed url=https://www.turgor.ru/i/footer_mbg2.gif bytes=240
-2026-11-17 17:10:37,482 INFO __main__ Run finished processed=3 cached=0 failed=0 pending=111

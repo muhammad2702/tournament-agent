@@ -2,6 +2,8 @@
 
 import time
 import logging
+import gzip
+import zlib
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -14,11 +16,18 @@ def download(url):
         try:
             request = Request(url, headers={"User-Agent": "TournamentAgent/0.1"})
             with urlopen(request, timeout=30) as response:
-                return response.read(), {
+                content = response.read()
+                transfer_encoding = response.headers.get("Content-Encoding", "").lower()
+                if transfer_encoding == "gzip" or content.startswith(b"\x1f\x8b"):
+                    content = gzip.decompress(content)
+                elif transfer_encoding == "deflate":
+                    content = zlib.decompress(content)
+                return content, {
                     "final_url": response.geturl(),
                     "content_type": response.headers.get_content_type(),
                     "encoding": response.headers.get_content_charset(),
                     "http_status": response.status,
+                    "transfer_encoding": transfer_encoding,
                 }
         except HTTPError as error:
             if error.code != 429 and error.code < 500:

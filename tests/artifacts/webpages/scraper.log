@@ -1,0 +1,428 @@
+2026-11-17 17:30:57,332 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:31:10,594 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:31:16,861 INFO Validated page bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:31:17,362 INFO Request attempt=1 url=https://www.turgor.ru/turgor.css
+2026-11-17 17:31:30,393 INFO Validated asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 17:31:30,894 INFO Request attempt=1 url=https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:31:43,379 INFO Validated asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:31:43,880 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:31:56,456 INFO Validated asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:31:56,957 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:32:09,029 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:32:09,530 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:32:21,993 INFO Validated asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:32:22,494 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:32:35,029 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:32:35,530 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:32:47,806 INFO Validated asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:32:48,307 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:33:24,581 WARNING Retrying url=https://www.turgor.ru/i/menu_bg_right.gif after attempt=1
+2026-11-17 17:33:25,582 INFO Request attempt=2 url=https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:33:53,589 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:33:55,605 WARNING Retrying url=https://www.turgor.ru/i/menu_bg_right.gif after attempt=2
+2026-11-17 17:33:57,605 INFO Request attempt=3 url=https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:34:02,767 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:34:02,767 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:34:02,767 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:34:02,767 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:34:09,299 INFO Validated page bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:34:09,329 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:34:09,371 INFO Validated page bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:34:09,378 INFO Validated page bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:34:09,384 ERROR Failed https://www.turgor.ru/en/problems/04/index.php
+Traceback (most recent call last):
+  File "/workspace/scratch/814455dd4dfd/tournament-agent/scraper/scraper.py", line 135, in collect
+    raise ValueError('Missing exact section anchors: ' + ', '.join(sorted(missing)))
+ValueError: Missing exact section anchors: tur2lm
+2026-11-17 17:34:09,464 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:34:09,795 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:34:09,867 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:34:11,396 INFO Validated asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:34:11,897 INFO Request attempt=1 url=https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:34:16,302 INFO Validated page bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:34:16,308 INFO Validated page bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:34:16,314 INFO Validated page bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:34:16,320 ERROR Failed https://www.turgor.ru/en/problems/08/index.php
+Traceback (most recent call last):
+  File "/workspace/scratch/814455dd4dfd/tournament-agent/scraper/scraper.py", line 135, in collect
+    raise ValueError('Missing exact section anchors: ' + ', '.join(sorted(missing)))
+ValueError: Missing exact section anchors: turnir8
+2026-11-17 17:34:16,620 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:34:16,753 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:34:16,797 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:34:16,801 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:34:21,789 ERROR Failed https://www.turgor.ru/en/problems/09/index.php
+Traceback (most recent call last):
+  File "/workspace/scratch/814455dd4dfd/tournament-agent/scraper/scraper.py", line 135, in collect
+    raise ValueError('Missing exact section anchors: ' + ', '.join(sorted(missing)))
+ValueError: Missing exact section anchors: turnir9, turnir9vm, turnir9vs
+2026-11-17 17:34:21,925 INFO Validated page bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:34:21,932 INFO Validated page bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:34:21,938 INFO Validated page bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:34:22,286 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:34:22,420 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:34:22,424 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:34:22,424 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:34:23,355 INFO Validated asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:34:23,856 INFO Request attempt=1 url=https://www.turgor.ru/i/line.gif
+2026-11-17 17:34:31,015 INFO Validated page bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:34:31,039 ERROR Failed https://www.turgor.ru/en/problems/14/index.php
+Traceback (most recent call last):
+  File "/workspace/scratch/814455dd4dfd/tournament-agent/scraper/scraper.py", line 135, in collect
+    raise ValueError('Missing exact section anchors: ' + ', '.join(sorted(missing)))
+ValueError: Missing exact section anchors: turnir14vom, turnir14vos
+2026-11-17 17:34:31,047 INFO Validated page bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:34:31,054 INFO Validated page bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:34:31,362 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:34:31,377 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:34:31,510 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:34:31,535 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:34:37,913 INFO Validated page bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:34:38,088 INFO Validated page bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:34:38,113 INFO Validated page bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:34:38,119 INFO Validated page bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:34:38,409 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:34:38,566 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:34:38,583 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:34:38,608 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:34:45,822 INFO Validated page bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:34:45,978 INFO Validated page bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:34:46,030 INFO Validated page bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:34:46,040 INFO Validated page bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:34:46,317 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:34:46,471 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:34:46,483 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:34:46,522 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:34:54,821 INFO Validated page bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:34:54,829 INFO Validated page bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:34:54,835 INFO Validated page bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:34:54,841 INFO Validated page bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:34:55,273 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:34:55,315 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:34:55,325 INFO Request attempt=1 url=https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:34:55,325 INFO Request attempt=1 url=https://www.turgor.ru/style.css
+2026-11-17 17:35:03,781 INFO Validated page bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:35:03,789 INFO Validated page bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:35:03,792 INFO Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:35:03,794 INFO Validated page bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:35:03,818 INFO Request attempt=1 url=https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:35:04,114 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:35:04,278 INFO Request attempt=1 url=https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:35:12,530 INFO Validated asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 17:35:12,534 INFO Validated asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:35:12,537 INFO Validated asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:35:12,541 INFO Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:35:12,541 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:35:12,545 INFO Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:35:12,545 INFO Validated asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:35:12,548 INFO Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:35:12,548 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:35:12,551 INFO Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:35:12,551 INFO Validated asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:35:12,554 INFO Validated asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:35:12,557 INFO Validated asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:35:12,687 INFO Request attempt=1 url=https://www.turgor.ru/i/line.gif
+2026-11-17 17:35:12,828 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:35:13,027 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:35:13,045 INFO Request attempt=1 url=https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:35:25,266 INFO Validated asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 17:35:25,272 INFO Validated asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:35:25,276 INFO Validated asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:35:25,279 INFO Validated asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:35:25,591 INFO Request attempt=1 url=https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:35:25,607 INFO Request attempt=1 url=https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:35:25,610 INFO Request attempt=1 url=https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:35:25,765 INFO Request attempt=1 url=https://www.turgor.ru/i/pix.gif
+2026-11-17 17:35:36,844 INFO Request attempt=1 url=https://www.turgor.ru/i/title.gif
+2026-11-17 17:35:40,044 INFO Validated asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:35:40,049 INFO Validated asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:35:40,054 INFO Validated asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:35:40,059 INFO Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 17:35:40,059 INFO Validated asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 17:35:40,064 INFO Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:35:40,064 INFO Validated asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:35:40,070 INFO Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:35:40,070 INFO Validated asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:35:40,075 INFO Validated asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 17:35:50,652 INFO Validated asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 17:35:50,661 INFO Summary {'pages': 27, 'assets': 21, 'failures': 4, 'complete': False}
+2026-11-17 17:36:02,583 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:36:42,245 WARNING Retrying url=https://www.turgor.ru/en/problems/allproblems.php after attempt=1
+2026-11-17 17:36:43,246 INFO Request attempt=2 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:37:07,983 INFO Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:37:07,987 INFO Validated page bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:37:07,988 INFO Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:37:07,992 INFO Validated page bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:37:07,994 INFO Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:37:07,997 INFO Validated page bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:37:08,481 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:37:08,482 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:37:08,482 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:37:08,482 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:37:14,787 ERROR Missing exact section anchors https://www.turgor.ru/en/problems/04/index.php: ['tur2lm']
+2026-11-17 17:37:14,790 INFO Validated page bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:37:14,792 INFO Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:37:14,800 INFO Validated page bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:37:14,803 INFO Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:37:14,808 INFO Validated page bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:37:14,810 INFO Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:37:14,814 INFO Validated page bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:37:14,818 ERROR Missing exact section anchors https://www.turgor.ru/en/problems/08/index.php: ['turnir8']
+2026-11-17 17:37:14,820 INFO Validated page bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:37:14,824 ERROR Missing exact section anchors https://www.turgor.ru/en/problems/09/index.php: ['turnir9', 'turnir9vm', 'turnir9vs']
+2026-11-17 17:37:14,826 INFO Validated page bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:37:14,828 INFO Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:37:14,833 INFO Validated page bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:37:14,835 INFO Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:37:14,839 INFO Validated page bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:37:14,841 INFO Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:37:14,846 INFO Validated page bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:37:14,848 INFO Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:37:14,853 INFO Validated page bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:37:14,858 ERROR Missing exact section anchors https://www.turgor.ru/en/problems/14/index.php: ['turnir14vom', 'turnir14vos']
+2026-11-17 17:37:14,860 INFO Validated page bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:37:14,862 INFO Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:37:14,868 INFO Validated page bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:37:14,870 INFO Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:37:14,875 INFO Validated page bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:37:14,878 INFO Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:37:14,883 INFO Validated page bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:37:14,886 INFO Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:37:14,894 INFO Validated page bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:37:14,897 INFO Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:37:14,903 INFO Validated page bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:37:14,907 INFO Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:37:14,913 INFO Validated page bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:37:14,916 INFO Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:37:14,921 INFO Validated page bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:37:14,924 INFO Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:37:14,929 INFO Validated page bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:37:14,932 INFO Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:37:14,937 INFO Validated page bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:37:14,939 INFO Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:37:14,945 INFO Validated page bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:37:14,947 INFO Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:37:14,951 INFO Validated page bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:37:14,954 INFO Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:37:14,959 INFO Validated page bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:37:14,963 INFO Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:37:14,966 INFO Validated page bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:37:14,970 INFO Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:37:14,974 INFO Validated page bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:37:14,977 INFO Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:37:14,981 INFO Validated page bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:37:14,984 INFO Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:37:14,987 INFO Validated page bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:37:14,991 INFO Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:37:14,994 INFO Validated page bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:37:14,997 INFO Cache hit https://www.turgor.ru/style.css
+2026-11-17 17:37:14,998 INFO Validated asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 17:37:15,001 INFO Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:37:15,001 INFO Validated asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:37:15,004 INFO Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:37:15,004 INFO Validated asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:37:15,007 INFO Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:37:15,007 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:37:15,010 INFO Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:37:15,010 INFO Validated asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:37:15,013 INFO Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:37:15,013 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:37:15,016 INFO Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:37:15,016 INFO Validated asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:37:15,019 INFO Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:37:15,019 INFO Validated asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:37:15,022 INFO Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:37:15,022 INFO Validated asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:37:15,025 INFO Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 17:37:15,025 INFO Validated asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 17:37:15,027 INFO Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:37:15,027 INFO Validated asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:37:15,030 INFO Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:37:15,030 INFO Validated asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:37:15,033 INFO Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:37:15,033 INFO Validated asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:37:15,036 INFO Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:37:15,036 INFO Validated asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:37:15,039 INFO Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:37:15,039 INFO Validated asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:37:15,042 INFO Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:37:15,042 INFO Validated asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:37:15,045 INFO Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 17:37:15,045 INFO Validated asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 17:37:15,048 INFO Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:37:15,048 INFO Validated asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:37:15,052 INFO Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:37:15,052 INFO Validated asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:37:15,054 INFO Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 17:37:15,054 INFO Validated asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 17:37:15,057 INFO Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 17:37:15,057 INFO Validated asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 17:37:15,295 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 17:37:21,471 INFO Validated asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 17:37:21,489 INFO Summary {'pages': 31, 'assets': 22, 'failures': 4, 'complete': False}
+2026-11-17 17:43:47,361 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:43:54,679 INFO Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:43:54,683 INFO Validated page bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:43:54,685 INFO Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:43:54,688 INFO Validated page bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:43:54,690 INFO Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:43:54,693 INFO Validated page bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:43:54,694 INFO Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:43:54,697 ERROR Section anchor issues https://www.turgor.ru/en/problems/04/index.php missing=['tur2lm'] duplicate=[]
+2026-11-17 17:43:54,698 INFO Validated page bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:43:54,700 INFO Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:43:54,704 INFO Validated page bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:43:54,706 INFO Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:43:54,709 INFO Validated page bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:43:54,711 INFO Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:43:54,715 INFO Validated page bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:43:54,717 INFO Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:43:54,721 INFO Validated page bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:43:54,723 INFO Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:43:54,726 ERROR Section anchor issues https://www.turgor.ru/en/problems/09/index.php missing=['turnir9vm', 'turnir9vs'] duplicate=['turnir9om', 'turnir9os']
+2026-11-17 17:43:54,727 INFO Validated page bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:43:54,729 INFO Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:43:54,734 INFO Validated page bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:43:54,736 INFO Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:43:54,740 INFO Validated page bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:43:54,743 INFO Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:43:54,747 INFO Validated page bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:43:54,749 INFO Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:43:54,754 INFO Validated page bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:43:54,756 INFO Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:43:54,759 ERROR Section anchor issues https://www.turgor.ru/en/problems/14/index.php missing=['turnir14vom', 'turnir14vos'] duplicate=['turnir14vts']
+2026-11-17 17:43:54,760 INFO Validated page bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:43:54,763 INFO Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:43:54,768 INFO Validated page bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:43:54,770 INFO Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:43:54,775 INFO Validated page bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:43:54,778 INFO Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:43:54,783 INFO Validated page bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:43:54,786 INFO Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:43:54,790 INFO Validated page bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:43:54,793 INFO Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:43:54,797 INFO Validated page bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:43:54,800 INFO Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:43:54,805 INFO Validated page bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:43:54,807 INFO Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:43:54,811 INFO Validated page bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:43:54,814 INFO Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:43:54,818 INFO Validated page bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:43:54,821 INFO Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:43:54,826 INFO Validated page bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:43:54,829 INFO Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:43:54,833 INFO Validated page bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:43:54,836 INFO Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:43:54,840 INFO Validated page bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:43:54,843 INFO Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:43:54,846 INFO Validated page bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:43:54,849 INFO Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:43:54,853 INFO Validated page bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:43:54,857 INFO Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:43:54,861 INFO Validated page bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:43:54,864 INFO Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:43:54,867 INFO Validated page bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:43:54,870 INFO Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:43:54,875 INFO Validated page bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:43:54,878 INFO Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:43:54,883 INFO Validated page bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:43:54,888 INFO Cache hit https://www.turgor.ru/style.css
+2026-11-17 17:43:54,889 INFO Validated asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 17:43:54,891 INFO Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:43:54,892 INFO Validated asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:43:54,894 INFO Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:43:54,895 INFO Validated asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:43:54,897 INFO Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:43:54,897 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:43:54,900 INFO Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:43:54,900 INFO Validated asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:43:54,903 INFO Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:43:54,903 INFO Validated asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:43:54,906 INFO Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:43:54,907 INFO Validated asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:43:54,909 INFO Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:43:54,909 INFO Validated asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:43:54,912 INFO Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:43:54,912 INFO Validated asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:43:54,918 INFO Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 17:43:54,918 INFO Validated asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 17:43:54,923 INFO Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:43:54,923 INFO Validated asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:43:54,926 INFO Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:43:54,926 INFO Validated asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:43:54,929 INFO Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:43:54,929 INFO Validated asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:43:54,932 INFO Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:43:54,932 INFO Validated asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:43:54,934 INFO Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:43:54,934 INFO Validated asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:43:54,937 INFO Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:43:54,937 INFO Validated asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:43:54,940 INFO Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 17:43:54,940 INFO Validated asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 17:43:54,943 INFO Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:43:54,943 INFO Validated asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:43:54,946 INFO Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:43:54,946 INFO Validated asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:43:54,949 INFO Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 17:43:54,949 INFO Validated asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 17:43:54,951 INFO Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 17:43:54,952 INFO Validated asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 17:43:54,955 INFO Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 17:43:54,955 INFO Validated asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 17:43:54,964 INFO Summary {'pages': 31, 'assets': 22, 'failures': 3, 'complete': False, 'assets_complete': True}
+2026-11-17 17:47:36,773 INFO Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:48:00,102 INFO Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 17:48:00,107 INFO Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 17:48:00,112 INFO Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 17:48:00,119 INFO Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 17:48:00,124 INFO Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 17:48:00,128 INFO Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 17:48:00,133 INFO Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 17:48:00,138 INFO Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 17:48:00,144 INFO Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 17:48:00,148 INFO Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 17:48:00,154 INFO Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 17:48:00,159 INFO Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 17:48:00,164 INFO Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 17:48:00,171 INFO Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 17:48:00,178 INFO Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 17:48:00,184 INFO Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 17:48:00,190 INFO Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 17:48:00,197 INFO Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 17:48:00,204 INFO Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 17:48:00,211 INFO Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 17:48:00,217 INFO Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 17:48:00,223 INFO Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 17:48:00,230 INFO Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 17:48:00,237 INFO Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 17:48:00,243 INFO Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 17:48:00,249 INFO Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 17:48:00,254 INFO Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 17:48:00,259 INFO Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 17:48:00,264 INFO Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 17:48:00,272 INFO Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 17:48:00,279 INFO Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 17:48:00,285 INFO Cache hit https://www.turgor.ru/style.css
+2026-11-17 17:48:00,288 INFO Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 17:48:00,290 INFO Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 17:48:00,292 INFO Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 17:48:00,295 INFO Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 17:48:00,297 INFO Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 17:48:00,299 INFO Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 17:48:00,301 INFO Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 17:48:00,303 INFO Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 17:48:00,306 INFO Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 17:48:00,308 INFO Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 17:48:00,310 INFO Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 17:48:00,312 INFO Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 17:48:00,314 INFO Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 17:48:00,317 INFO Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 17:48:00,319 INFO Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 17:48:00,321 INFO Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 17:48:00,323 INFO Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 17:48:00,325 INFO Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 17:48:00,327 INFO Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 17:48:00,329 INFO Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 17:48:00,331 INFO Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 17:48:00,339 INFO Summary {'pages': 31, 'assets': 22, 'failures': 0, 'complete': True}
