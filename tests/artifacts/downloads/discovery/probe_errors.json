@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://www.turgor.ru/en/problems/allproblems.php",
+    "error": "HTTP 503 Service Unavailable",
+    "stage": "Initial inventory probe before retry-enabled collection"
+  }
+]

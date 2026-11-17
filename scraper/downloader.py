@@ -4,6 +4,7 @@ import time
 import logging
 import gzip
 import zlib
+from http.client import IncompleteRead
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -34,8 +35,50 @@ def download(url):
                 raise
             if attempt == 2:
                 raise
-        except (URLError, TimeoutError):
+            last_error = error
+        except (URLError, TimeoutError, ConnectionError, IncompleteRead) as error:
             if attempt == 2:
                 raise
-        logger.warning("Retrying url=%s after attempt=%s", url, attempt + 1)
-        time.sleep(2 ** attempt)
+            last_error = error
+        logger.warning("Retrying url=%s after attempt=%s cause=%s", url, attempt + 1, last_error)
+        retry_after = last_error.headers.get('Retry-After','') if isinstance(last_error,HTTPError) and last_error.headers else ''
+        time.sleep(min(30,int(retry_after)) if retry_after.isdigit() else 2 ** attempt)
+
+
+from contextlib import contextmanager
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+
+
+@contextmanager
+def log_to(path):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handler = logging.FileHandler(path, encoding='utf-8')
+    handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s %(name)s %(message)s'))
+    root = logging.getLogger()
+    previous = root.level
+    root.setLevel(logging.INFO)
+    root.addHandler(handler)
+    try:
+        yield
+    finally:
+        root.removeHandler(handler)
+        handler.close()
+        root.setLevel(previous)
+
+
+def fetch_many(urls, store):
+    def fetch(url):
+        cached = store.cached(url)
+        if cached:
+            logger.info('Cache hit %s', url)
+            return cached
+        return download(url)
+    with ThreadPoolExecutor(max_workers=4) as workers:
+        jobs = {url: workers.submit(fetch, url) for url in sorted(set(urls))}
+        for url, job in jobs.items():
+            try:
+                yield url, job.result()
+            except Exception as error:
+                yield url, error

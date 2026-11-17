@@ -1,5 +1,7 @@
 name: Restore and verify source snapshots
 on:
+  push:
+    branches: [master]
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,6 +21,7 @@ jobs:
       - name: Audit every saved file
         run: python -m scraper.audit --output tests/artifacts/downloads
       - name: Commit restored artifacts
+        if: always()
         run: |
           git add tests/artifacts/downloads
           if ! git diff --cached --quiet; then

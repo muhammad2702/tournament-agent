@@ -1,0 +1,28 @@
+{
+  "failures": [],
+  "warnings_and_retries": [],
+  "language_uncertain_retained": [
+    "https://www.turgor.ru/en/problems/48/index.php",
+    "https://www.turgor.ru/en/problems/47/index.php",
+    "https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf",
+    "https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf",
+    "https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf",
+    "https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf"
+  ],
+  "initial_probe_errors": [
+    {
+      "url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "error": "HTTP 503 Service Unavailable",
+      "stage": "Initial inventory probe before retry-enabled collection"
+    }
+  ],
+  "historical_warning_error_lines": [
+    "2026-11-17 18:08:54,310 WARNING scraper.downloader Retrying url=https://www.turgor.ru/problems/22/index.php after attempt=1"
+  ],
+  "resolved_collector_issue": {
+    "issue": "228 pending references were initially counted as failed dependencies after an interrupted run",
+    "fix": "Pending work is resumed and pending/failed counts are separate",
+    "regression_test": "test_resume_finishes_old_pending_dependencies",
+    "current_pending_dependencies": 0
+  }
+}

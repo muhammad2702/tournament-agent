@@ -1,33 +1,37 @@
 # Build report
 
-## Scope correction and rewrite
+## Implemented and tested
 
-The earlier implementation incorrectly treated section-anchor problems as download failures. That was unnecessary for whole-page collection. The collector has been rewritten to save full HTML and static assets without interpreting problem sections. Anchor validation and duplicate-anchor diagnostics were removed from application code.
+- Independent HTML and PDF downloader modules; shared transport and storage only.
+- BeautifulSoup performs URL/asset discovery, not content parsing. HTML is saved unchanged regardless of layout or section anchors.
+- Discovery starts at the supplied English index and follows its linked Russian index and written-archive pages. Full source URLs/fragments remain in the inventory; download URLs are deduplicated without fragments. Queries remain intact.
+- Explicitly record exclusions for navigation, external archives, oral rounds, result lists, solutions and marked-English PDFs. Language evidence comes from filenames and link labels. Uncertain files are retained.
+- HTML static assets include image/srcset, stylesheet/script and inline CSS references plus recursive CSS dependencies. Tracking references are excluded with reasons.
+- PDFs retain original bytes; valid signature, readable page tree, encryption and nonzero page count are checked. No PDF text is extracted or translated.
+- Download attempts, retries, HTTP failures and validation errors are logged. Cache hashes are verified. File and manifest writes are atomic.
 
-## Source inspection
+## Completed live collection
 
-Inspected all 31 source HTML files before rewriting. Pages 01–03 use the newer maintext/div layout; 04–31 use the older table layout. Text occurs in paragraphs, tables and preformatted blocks. Entire files are saved unchanged, so these layout differences do not require content extraction. Two stylesheets and shared graphics cover the layouts. Page 04 includes a separate problem-diagram image, which is saved and verified. Structure inspection: tests/artifacts/html_structure.json.
+- HTML: 88 files. Assets: 53. PDFs: 97. Index snapshots: 2.
+- 44 PDFs with explicit English filename markers excluded.
+- Six language/scope uncertainties retained: /en/problems/47/index.php, /en/problems/48/index.php and the four /problems/45/marking_scheme PDFs. These are not download errors; full URLs are listed in errors.json.
+- Independent audit verified all 240 stored hashes, opened every PDF and decoded all 47 images.
+- No unreferenced files, failed downloads or pending dependencies remain.
+- 17 offline tests passed, including module separation, indirect document discovery, preserved fragments/queries, exact bytes, error pages, truncation, retry behaviour, corrupt cache and interrupted-run resume.
 
-## Implementation
+## Errors and corrections disclosed
 
-- Read the supplied index for discovery, without storing it as a problem page.
-- Strip URL fragments, deduplicate webpage URLs, save each whole page once.
-- Save directly referenced static assets and recursively follow CSS dependencies.
-- Keep original bytes, readable host/path filenames, hashes, dependency references, logs and resume cache.
-- Reject empty responses, wrong response types, redirects to a different webpage path, asset error pages and corrupted cache files.
-- Retry transient network errors. Up to four download workers; file/manifest writes remain sequential.
-- Never follow non-webpage document links. Earlier incorrect artifacts were removed from the current tree; earlier commits preserve history.
+1. Initial direct inventory probe returned HTTP 503. The retry-enabled run succeeded. Original observation is saved in discovery/probe_errors.json.
+2. One request for /problems/22/index.php retried and recovered. The earlier retry message did not retain the cause; logging now includes causes and handles Retry-After. No cause is guessed.
+3. During resume, 228 old pending dependency references were initially counted as failed dependencies. These were not 228 failed files. Resume now completes pending dependencies and reports pending separately; covered by a regression test.
+4. Discovery initially followed auxiliary result/solution pages. Twelve saved auxiliary HTML pages were removed from the problem collection; their URLs and exclusion reasons are retained in discovery/auxiliary_exclusions.json.
 
-## Verified result
+Final errors.json, phase logs, inventory.json, audit.json and all source files are committed for review. Historical experimental logs are clearly named.
 
-- 16 tests passed, no expected failures. Tests include missing assets, wrong response types, retries, cache corruption, CSS dependencies, gzip and exact preservation of HTML containing tables and preformatted maths.
-- 31 webpages and 22 static assets saved; zero failures and zero pending downloads.
-- Independently verified byte lengths and SHA-256 hashes of all 53 saved files.
-- All 19 images decoded and verified with Pillow in the QA environment. Pillow is not an application dependency.
-- Final live check fetched the index again and revalidated all previously downloaded pages/assets from cache.
-- The final command exits zero and reports complete=true.
-- Audit: tests/artifacts/validation.json; tests: tests/artifacts/qa_results.txt.
+## Limits
 
-## Explicit limits
+Source-language hints are not a full content-language classifier. Static assets are audited; resources generated by executing remote JavaScript are outside scope. Original HTML references remain unchanged. No translation, problem extraction or model calls exist yet; OpenRouter spend remains $0 / $5.
 
-This is static collection, not execution of a remote website. Tracking is excluded and recorded; JavaScript-created resources are not audited. CSS discovery covers standard url() and quoted imports. Original HTML references remain unchanged for later processing through the manifest. The scraper log retains prior diagnostic mistakes; its last summary describes the rewritten collector. No model calls; spend $0.
+## Reproducible artifact publication
+
+Added tests/restore_downloads.py and a GitHub Actions workflow. Missing raw artifacts are fetched directly from their original URLs and must match the already-audited local SHA-256 and byte length. A second audit runs on GitHub. The job commits the restored artifacts and a restore report, including failures if any. The local restore check passed for all 240 files.

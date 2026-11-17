@@ -1,0 +1,5 @@
+HTML inventory progress: {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+HTML inventory progress: {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+HTML inventory progress: {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+PDF candidates selected: 97
+{"html": {"html": 88, "assets": 53, "failed_resources": 0, "failed_dependencies": 0, "pending_dependencies": 0, "complete": true}, "pdf": {"pdfs": 97, "failures": 0, "complete": true}, "english_pdfs_excluded": 44, "language_uncertain_retained": 6, "failures": 0, "complete": true}

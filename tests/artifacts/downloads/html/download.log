@@ -1,0 +1,1268 @@
+2026-11-17 18:07:12,646 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:07:12,651 INFO scraper.html_downloader Saved html bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:07:12,654 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:07:12,654 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:07:12,654 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:07:12,654 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:07:12,659 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:07:12,660 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:07:12,660 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:07:12,660 INFO scraper.html_downloader Saved html bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:07:12,662 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:07:12,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:07:12,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:07:12,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:07:12,667 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:07:12,668 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:07:12,668 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:07:12,668 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:07:12,668 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:07:12,669 INFO scraper.html_downloader Saved html bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:07:12,671 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:07:12,677 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:07:12,677 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:07:12,677 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:07:12,678 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:07:12,678 INFO scraper.html_downloader Saved html bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:07:12,681 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:07:12,681 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:07:12,681 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:07:12,686 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:07:12,688 INFO scraper.html_downloader Saved html bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:07:12,689 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:07:12,691 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:07:12,700 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:07:12,700 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:07:12,700 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:07:12,701 INFO scraper.html_downloader Saved html bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:07:12,701 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:07:12,701 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:07:12,704 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:07:12,711 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:07:12,712 INFO scraper.html_downloader Saved html bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:07:12,721 INFO scraper.html_downloader Saved html bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:07:12,745 INFO scraper.html_downloader Saved html bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:07:12,756 INFO scraper.html_downloader Saved html bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:07:12,767 INFO scraper.html_downloader Saved html bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:07:12,781 INFO scraper.html_downloader Saved html bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:07:12,793 INFO scraper.html_downloader Saved html bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:07:12,804 INFO scraper.html_downloader Saved html bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:07:12,816 INFO scraper.html_downloader Saved html bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:07:12,826 INFO scraper.html_downloader Saved html bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:07:12,839 INFO scraper.html_downloader Saved html bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:07:12,850 INFO scraper.html_downloader Saved html bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:07:12,862 INFO scraper.html_downloader Saved html bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:07:12,872 INFO scraper.html_downloader Saved html bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:07:12,883 INFO scraper.html_downloader Saved html bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:07:12,895 INFO scraper.html_downloader Saved html bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:07:12,910 INFO scraper.html_downloader Saved html bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:07:12,922 INFO scraper.html_downloader Saved html bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:07:12,931 INFO scraper.html_downloader Saved html bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:07:12,939 INFO scraper.html_downloader Saved html bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:07:12,946 INFO scraper.html_downloader Saved html bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:07:12,954 INFO scraper.html_downloader Saved html bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:07:12,966 INFO scraper.html_downloader Saved html bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:07:12,974 INFO scraper.html_downloader Saved html bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:07:12,982 INFO scraper.html_downloader Saved html bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:07:19,669 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:07:19,702 INFO scraper.html_downloader Saved html bytes=67327 https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:07:19,801 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:07:19,826 INFO scraper.html_downloader Saved html bytes=63186 https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:07:20,165 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:07:20,187 INFO scraper.html_downloader Saved html bytes=63119 https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:07:20,216 INFO scraper.html_downloader Saved html bytes=66294 https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:07:25,755 INFO scraper.html_downloader Saved html bytes=107139 https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:07:25,772 INFO scraper.html_downloader Saved html bytes=29477 https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:07:25,780 INFO scraper.html_downloader Saved html bytes=9631 https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:07:25,784 INFO scraper.downloader Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:07:25,784 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:07:25,784 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:07:25,785 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:07:25,785 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:07:25,788 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:07:25,788 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:07:25,788 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:07:25,789 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:07:25,789 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:07:25,789 INFO scraper.html_downloader Saved asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:07:25,792 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:07:25,792 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:07:25,792 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:07:25,792 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:07:25,792 INFO scraper.html_downloader Saved asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:07:25,794 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:07:25,795 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:07:25,795 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:07:25,795 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:07:25,795 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:07:25,795 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:07:25,796 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:07:25,796 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:07:25,796 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:07:25,796 INFO scraper.downloader Cache hit https://www.turgor.ru/style.css
+2026-11-17 18:07:30,719 INFO scraper.html_downloader Saved asset bytes=2879 https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:07:30,723 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:07:30,725 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:07:30,728 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:07:30,730 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:07:30,733 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:07:30,736 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:07:30,739 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:07:30,741 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:07:30,744 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:07:30,746 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:07:30,748 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:07:30,751 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:07:30,753 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:07:30,755 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:07:30,757 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:07:30,760 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:07:30,762 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:07:30,765 INFO scraper.html_downloader Saved asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 18:07:30,768 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:07:30,773 INFO scraper.html_downloader Summary {'html': 38, 'assets': 23, 'failed_resources': 0, 'failed_dependencies': 0, 'complete': True}
+2026-11-17 18:07:42,844 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:07:42,845 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/23/sol23_1.php
+2026-11-17 18:07:42,845 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/23/sol23_2.php
+2026-11-17 18:07:42,846 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/23/sol23_3.php
+2026-11-17 18:07:48,494 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/23/sol23_4.php
+2026-11-17 18:07:48,619 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/24/sol24_2.php
+2026-11-17 18:07:48,643 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/26/turgor_sol_26o_osn.php
+2026-11-17 18:07:48,645 INFO scraper.html_downloader Saved html bytes=89215 https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:07:48,655 INFO scraper.html_downloader Saved html bytes=20634 https://www.turgor.ru/en/problems/23/sol23_1.php
+2026-11-17 18:07:48,752 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/27/turgor_sol_27o_osn.php
+2026-11-17 18:07:48,764 INFO scraper.html_downloader Saved html bytes=40086 https://www.turgor.ru/en/problems/23/sol23_2.php
+2026-11-17 18:07:48,786 INFO scraper.html_downloader Saved html bytes=27346 https://www.turgor.ru/en/problems/23/sol23_3.php
+2026-11-17 18:07:53,325 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/27/turgor_sol_27o_tren.php
+2026-11-17 18:07:53,349 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/res_mos.php
+2026-11-17 18:07:53,371 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/res_mos.php
+2026-11-17 18:07:53,381 INFO scraper.html_downloader Saved html bytes=45704 https://www.turgor.ru/en/problems/23/sol23_4.php
+2026-11-17 18:07:53,393 INFO scraper.html_downloader Saved html bytes=45598 https://www.turgor.ru/en/problems/24/sol24_2.php
+2026-11-17 18:07:53,397 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/res_mos.php
+2026-11-17 18:07:53,405 INFO scraper.html_downloader Saved html bytes=32386 https://www.turgor.ru/en/problems/26/turgor_sol_26o_osn.php
+2026-11-17 18:07:53,412 INFO scraper.html_downloader Saved html bytes=42399 https://www.turgor.ru/en/problems/27/turgor_sol_27o_osn.php
+2026-11-17 18:07:58,892 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/res_mos.php
+2026-11-17 18:07:58,929 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:07:58,939 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:07:58,971 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:07:58,977 INFO scraper.html_downloader Saved html bytes=21835 https://www.turgor.ru/en/problems/27/turgor_sol_27o_tren.php
+2026-11-17 18:07:58,987 INFO scraper.html_downloader Saved html bytes=13104 https://www.turgor.ru/en/problems/33/res_mos.php
+2026-11-17 18:07:58,995 INFO scraper.html_downloader Saved html bytes=13075 https://www.turgor.ru/en/problems/34/res_mos.php
+2026-11-17 18:07:59,004 INFO scraper.html_downloader Saved html bytes=12270 https://www.turgor.ru/en/problems/35/res_mos.php
+2026-11-17 18:08:05,656 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:08:05,664 INFO scraper.html_downloader Saved html bytes=12268 https://www.turgor.ru/en/problems/36/res_mos.php
+2026-11-17 18:08:11,032 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:08:11,127 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:08:11,557 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:08:11,565 INFO scraper.html_downloader Saved html bytes=13378 https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:08:11,582 INFO scraper.html_downloader Saved html bytes=16268 https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:08:11,594 INFO scraper.html_downloader Saved html bytes=14696 https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:08:17,721 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:08:17,723 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:08:17,728 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:08:17,731 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:08:17,733 INFO scraper.html_downloader Saved html bytes=27245 https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:08:17,748 INFO scraper.html_downloader Saved html bytes=32287 https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:08:17,760 INFO scraper.html_downloader Saved html bytes=32424 https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:08:17,772 INFO scraper.html_downloader Saved html bytes=30680 https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:08:28,066 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:08:28,115 INFO scraper.html_downloader Saved html bytes=28928 https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:08:28,163 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:08:28,200 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:08:28,212 INFO scraper.html_downloader Saved html bytes=32454 https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:08:28,259 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:08:28,271 INFO scraper.html_downloader Saved html bytes=35774 https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:08:28,288 INFO scraper.html_downloader Saved html bytes=36639 https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:08:38,223 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:08:38,236 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:08:38,239 INFO scraper.html_downloader Saved html bytes=36478 https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:08:38,395 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:08:38,418 INFO scraper.html_downloader Saved html bytes=37723 https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:08:38,463 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:08:38,481 INFO scraper.html_downloader Saved html bytes=38824 https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:08:38,504 INFO scraper.html_downloader Saved html bytes=38489 https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:08:49,986 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:08:50,121 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:08:50,155 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:08:50,168 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:08:50,171 INFO scraper.html_downloader Saved html bytes=34441 https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:08:50,189 INFO scraper.html_downloader Saved html bytes=39209 https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:08:50,207 INFO scraper.html_downloader Saved html bytes=35762 https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:08:50,224 INFO scraper.html_downloader Saved html bytes=40827 https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:08:56,676 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:08:56,677 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:08:56,682 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:08:56,682 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:08:56,683 INFO scraper.html_downloader Saved html bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:08:56,687 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:08:56,687 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:08:56,687 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:08:56,687 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:08:56,693 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:08:56,693 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:08:56,694 INFO scraper.html_downloader Saved html bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:08:56,697 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:08:56,697 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:08:56,701 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:08:56,702 INFO scraper.html_downloader Saved html bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:08:56,702 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:08:56,705 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:08:56,706 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:08:56,706 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:08:56,714 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:08:56,714 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:08:56,714 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:08:56,714 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:08:56,715 INFO scraper.html_downloader Saved html bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:08:56,715 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:08:56,715 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:08:56,715 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:08:56,719 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:08:56,726 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:08:56,726 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:08:56,727 INFO scraper.html_downloader Saved html bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:08:56,727 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:08:56,727 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:08:56,731 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:08:56,741 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:08:56,742 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:08:56,742 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:08:56,742 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:08:56,743 INFO scraper.html_downloader Saved html bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:08:56,743 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:08:56,744 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:08:56,747 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:08:56,748 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:08:56,756 INFO scraper.html_downloader Saved html bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:08:56,766 INFO scraper.html_downloader Saved html bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:08:56,790 INFO scraper.html_downloader Saved html bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:08:56,801 INFO scraper.html_downloader Saved html bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:08:56,813 INFO scraper.html_downloader Saved html bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:08:56,825 INFO scraper.html_downloader Saved html bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:08:56,838 INFO scraper.html_downloader Saved html bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:08:56,851 INFO scraper.html_downloader Saved html bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:08:56,864 INFO scraper.html_downloader Saved html bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:08:56,876 INFO scraper.html_downloader Saved html bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:08:56,889 INFO scraper.html_downloader Saved html bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:08:56,902 INFO scraper.html_downloader Saved html bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:08:56,926 INFO scraper.html_downloader Saved html bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:08:56,941 INFO scraper.html_downloader Saved html bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:08:56,954 INFO scraper.html_downloader Saved html bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:08:56,975 INFO scraper.html_downloader Saved html bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:08:56,997 INFO scraper.html_downloader Saved html bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:08:57,009 INFO scraper.html_downloader Saved html bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:08:57,019 INFO scraper.html_downloader Saved html bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:08:57,028 INFO scraper.html_downloader Saved html bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:08:57,036 INFO scraper.html_downloader Saved html bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:08:57,045 INFO scraper.html_downloader Saved html bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:08:57,054 INFO scraper.html_downloader Saved html bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:08:57,065 INFO scraper.html_downloader Saved html bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:08:57,073 INFO scraper.html_downloader Saved html bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:08:57,106 INFO scraper.html_downloader Saved html bytes=67327 https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:08:57,139 INFO scraper.html_downloader Saved html bytes=63186 https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:08:57,166 INFO scraper.html_downloader Saved html bytes=63119 https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:08:57,201 INFO scraper.html_downloader Saved html bytes=66294 https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:08:57,277 INFO scraper.html_downloader Saved html bytes=107139 https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:08:57,291 INFO scraper.html_downloader Saved html bytes=29477 https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:08:57,302 INFO scraper.html_downloader Saved html bytes=9631 https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:08:57,308 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:08:57,309 INFO scraper.downloader Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:08:57,309 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:08:57,309 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:08:57,309 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:08:57,309 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:08:57,313 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:08:57,313 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:08:57,313 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:08:57,313 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:08:57,314 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:08:57,314 INFO scraper.html_downloader Saved asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:08:57,317 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:08:57,318 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:08:57,318 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:08:57,318 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:08:57,319 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:08:57,319 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:08:57,319 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:08:57,319 INFO scraper.html_downloader Saved asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:08:57,323 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:08:57,323 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:08:57,323 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:08:57,323 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:08:57,323 INFO scraper.html_downloader Saved asset bytes=2879 https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:08:57,327 INFO scraper.downloader Cache hit https://www.turgor.ru/style.css
+2026-11-17 18:08:57,327 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:08:57,327 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:08:57,330 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:08:57,334 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:08:57,337 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:08:57,341 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:08:57,345 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:08:57,348 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:08:57,352 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:08:57,356 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:08:57,359 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:08:57,362 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:08:57,365 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:08:57,368 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:08:57,371 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:08:57,375 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:08:57,378 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:08:57,381 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:08:57,385 INFO scraper.html_downloader Saved asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 18:08:57,389 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:08:57,399 INFO scraper.html_downloader Summary {'html': 58, 'assets': 23, 'failed_resources': 0, 'failed_dependencies': 228, 'complete': False}
+2026-11-17 18:08:57,865 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:08:57,865 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:08:57,883 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:08:57,894 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:08:57,895 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:08:57,896 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:08:57,896 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:08:57,898 INFO scraper.html_downloader Saved html bytes=89215 https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:08:57,899 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:08:57,899 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:08:57,905 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:08:57,906 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:08:57,906 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:08:57,911 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:08:57,911 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:08:57,912 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:08:57,912 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:08:57,914 INFO scraper.html_downloader Saved html bytes=13378 https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:08:57,918 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:08:57,918 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:08:57,918 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:08:57,918 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:08:57,918 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:08:57,924 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:08:57,925 INFO scraper.html_downloader Saved html bytes=16268 https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:08:57,926 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:08:57,926 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:08:57,941 INFO scraper.html_downloader Saved html bytes=14696 https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:08:57,956 INFO scraper.html_downloader Saved html bytes=27245 https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:08:57,969 INFO scraper.html_downloader Saved html bytes=32287 https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:08:57,983 INFO scraper.html_downloader Saved html bytes=32424 https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:08:57,994 INFO scraper.html_downloader Saved html bytes=30680 https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:08:58,005 INFO scraper.html_downloader Saved html bytes=28928 https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:08:58,018 INFO scraper.html_downloader Saved html bytes=32454 https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:08:58,031 INFO scraper.html_downloader Saved html bytes=35774 https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:08:58,043 INFO scraper.html_downloader Saved html bytes=36639 https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:08:58,058 INFO scraper.html_downloader Saved html bytes=36478 https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:08:58,071 INFO scraper.html_downloader Saved html bytes=37723 https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:08:58,086 INFO scraper.html_downloader Saved html bytes=38824 https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:08:58,133 INFO scraper.html_downloader Saved html bytes=38489 https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:08:58,146 INFO scraper.html_downloader Saved html bytes=34441 https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:08:58,161 INFO scraper.html_downloader Saved html bytes=39209 https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:08:58,175 INFO scraper.html_downloader Saved html bytes=35762 https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:08:58,190 INFO scraper.html_downloader Saved html bytes=40827 https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:09:13,216 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:09:13,263 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:09:13,279 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:09:13,281 INFO scraper.html_downloader Saved html bytes=41931 https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:09:13,286 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:09:13,298 INFO scraper.html_downloader Saved html bytes=37672 https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:09:13,318 INFO scraper.html_downloader Saved html bytes=43606 https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:09:13,337 INFO scraper.html_downloader Saved html bytes=44601 https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:09:25,173 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:09:25,194 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:09:25,220 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:09:25,235 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:09:25,246 INFO scraper.html_downloader Saved html bytes=44271 https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:09:25,260 INFO scraper.html_downloader Saved html bytes=43771 https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:09:25,272 INFO scraper.html_downloader Saved html bytes=42646 https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:09:25,282 INFO scraper.html_downloader Saved html bytes=39953 https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:09:37,244 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:09:37,251 INFO scraper.html_downloader Saved html bytes=44858 https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:09:37,257 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:09:37,287 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:09:37,348 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:09:37,355 INFO scraper.html_downloader Saved html bytes=51385 https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:09:37,367 INFO scraper.html_downloader Saved html bytes=40825 https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:09:37,381 INFO scraper.html_downloader Saved html bytes=35821 https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:09:52,430 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:09:52,438 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:09:52,466 INFO scraper.html_downloader Saved html bytes=68648 https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:09:52,501 INFO scraper.html_downloader Saved html bytes=64435 https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:09:52,562 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:09:52,598 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:09:52,604 INFO scraper.html_downloader Saved html bytes=64977 https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:09:52,633 INFO scraper.html_downloader Saved html bytes=71559 https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:10:04,023 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:10:04,156 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:10:04,386 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:10:04,426 INFO scraper.html_downloader Saved html bytes=109009 https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:10:04,433 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:10:04,443 INFO scraper.html_downloader Saved html bytes=11322 https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:10:04,455 INFO scraper.html_downloader Saved html bytes=11224 https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:10:04,465 INFO scraper.html_downloader Saved html bytes=10507 https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:10:16,599 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:10:16,619 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:10:16,731 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:10:16,743 INFO scraper.html_downloader Saved html bytes=11053 https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:10:16,757 INFO scraper.html_downloader Saved html bytes=11273 https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:10:16,783 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:10:16,791 INFO scraper.html_downloader Saved html bytes=11232 https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:10:16,802 INFO scraper.html_downloader Saved html bytes=11119 https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:10:28,161 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:10:28,171 INFO scraper.html_downloader Saved html bytes=11539 https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:10:28,256 INFO scraper.html_downloader Saved html bytes=12506 https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:10:28,329 INFO scraper.html_downloader Saved html bytes=12503 https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:10:28,352 INFO scraper.html_downloader Saved html bytes=39590 https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:10:51,550 INFO scraper.html_downloader Saved html bytes=13826 https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:10:51,561 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/arrow.gif
+2026-11-17 18:10:51,561 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:10:51,561 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/footer_second.gif
+2026-11-17 18:10:51,562 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:10:51,563 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/line.gif
+2026-11-17 18:10:51,565 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:10:56,812 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/logo_second.gif
+2026-11-17 18:10:56,857 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:10:56,858 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:10:56,945 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:10:56,947 INFO scraper.html_downloader Saved asset bytes=240 https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:10:56,992 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:10:56,993 INFO scraper.html_downloader Saved asset bytes=10820 https://turgor.ru/i/footer_second.gif
+2026-11-17 18:10:57,000 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:11:02,642 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:02,648 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:02,780 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:02,781 INFO scraper.html_downloader Saved asset bytes=21756 https://turgor.ru/i/logo_second.gif
+2026-11-17 18:11:02,871 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:02,872 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:11:02,880 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:11:02,888 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:11:08,490 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:08,492 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:08,493 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:08,635 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/i/title.gif
+2026-11-17 18:11:08,637 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:11:08,640 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:08,648 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:08,655 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:14,585 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:11:14,589 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/style.css
+2026-11-17 18:11:14,589 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:11:14,590 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:14,599 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:11:14,601 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:14,608 INFO scraper.html_downloader Saved asset bytes=3180 https://turgor.ru/i/title.gif
+2026-11-17 18:11:14,615 INFO scraper.html_downloader Saved asset bytes=1393 https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:11:19,927 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:11:19,928 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:11:19,929 INFO scraper.html_downloader Saved asset bytes=2879 https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:11:19,938 INFO scraper.html_downloader Saved asset bytes=4699 https://turgor.ru/style.css
+2026-11-17 18:11:32,538 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:11:32,538 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:11:32,540 INFO scraper.html_downloader Saved asset bytes=1138 https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:11:33,083 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:11:33,084 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:11:33,084 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:11:33,084 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:11:33,084 INFO scraper.html_downloader Saved asset bytes=3374 https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:33,091 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:11:33,092 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:33,093 INFO scraper.html_downloader Saved asset bytes=3395 https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:11:33,099 INFO scraper.html_downloader Saved asset bytes=2819 https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:11:38,022 INFO scraper.html_downloader Saved asset bytes=2224 https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:11:38,029 INFO scraper.html_downloader Saved asset bytes=4274 https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:11:38,034 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:11:38,039 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:11:38,044 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:11:38,049 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:11:38,054 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:11:38,059 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:11:38,064 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:11:38,069 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:11:38,073 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:11:38,078 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:38,083 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:38,088 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:38,093 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:38,098 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:38,102 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:38,107 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:11:38,112 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:11:38,117 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:11:38,127 INFO scraper.html_downloader Summary {'html': 87, 'assets': 47, 'failed_resources': 0, 'failed_dependencies': 0, 'complete': True}
+2026-11-17 18:11:38,615 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:11:48,530 INFO scraper.html_downloader Saved html bytes=90304 https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:11:48,538 INFO scraper.downloader Cache hit https://turgor.ru/i/arrow.gif
+2026-11-17 18:11:48,538 INFO scraper.downloader Cache hit https://turgor.ru/i/line.gif
+2026-11-17 18:11:48,538 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:11:48,539 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:11:48,541 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:48,541 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:11:48,542 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:48,542 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:11:48,542 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:48,542 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:48,548 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:48,548 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:11:48,548 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:11:48,548 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:48,548 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:11:48,549 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:11:48,549 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:11:48,558 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:11:48,563 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:11:48,568 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:11:48,573 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:11:48,578 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:11:48,583 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:11:48,588 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:11:48,593 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:11:48,598 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:11:53,171 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:11:53,190 INFO scraper.downloader Request attempt=1 url=https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:11:53,326 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:11:53,326 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:11:53,327 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:11:53,327 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:11:53,327 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:11:53,327 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:11:53,327 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:11:53,345 INFO scraper.html_downloader Saved asset bytes=1138 https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:11:53,353 INFO scraper.html_downloader Saved asset bytes=3374 https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:11:53,360 INFO scraper.html_downloader Saved asset bytes=3395 https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:11:53,366 INFO scraper.html_downloader Saved asset bytes=2819 https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:11:58,696 INFO scraper.html_downloader Saved asset bytes=2224 https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:11:58,753 INFO scraper.html_downloader Saved asset bytes=4274 https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:11:58,759 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:11:58,764 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:11:58,769 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:11:58,774 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:11:58,779 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:11:58,783 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:11:58,788 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:11:58,798 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'complete': True}
+2026-11-17 18:17:53,280 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:17:53,281 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:17:53,286 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:17:53,287 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:17:53,287 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:17:53,288 INFO scraper.html_downloader Saved html bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:17:53,288 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:17:53,294 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:17:53,294 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:17:53,294 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:17:53,301 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:17:53,302 INFO scraper.html_downloader Saved html bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:17:53,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:17:53,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:17:53,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:17:53,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:17:53,313 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:17:53,313 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:17:53,314 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:17:53,314 INFO scraper.html_downloader Saved html bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:17:53,314 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:17:53,315 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:17:53,319 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:17:53,328 INFO scraper.html_downloader Saved html bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:17:53,333 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:17:53,333 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:17:53,334 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:17:53,341 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:17:53,341 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:17:53,342 INFO scraper.html_downloader Saved html bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:17:53,342 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:17:53,342 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:17:53,357 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:17:53,357 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:17:53,358 INFO scraper.html_downloader Saved html bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:17:53,363 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:17:53,363 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:17:53,364 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:17:53,372 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:17:53,373 INFO scraper.html_downloader Saved html bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:17:53,378 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:17:53,378 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:17:53,378 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:17:53,378 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:17:53,386 INFO scraper.html_downloader Saved html bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:17:53,391 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:17:53,419 INFO scraper.html_downloader Saved html bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:17:53,434 INFO scraper.html_downloader Saved html bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:17:53,446 INFO scraper.html_downloader Saved html bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:17:53,460 INFO scraper.html_downloader Saved html bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:17:53,477 INFO scraper.html_downloader Saved html bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:17:53,493 INFO scraper.html_downloader Saved html bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:17:53,508 INFO scraper.html_downloader Saved html bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:17:53,521 INFO scraper.html_downloader Saved html bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:17:53,535 INFO scraper.html_downloader Saved html bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:17:53,549 INFO scraper.html_downloader Saved html bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:17:53,563 INFO scraper.html_downloader Saved html bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:17:53,576 INFO scraper.html_downloader Saved html bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:17:53,588 INFO scraper.html_downloader Saved html bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:17:53,602 INFO scraper.html_downloader Saved html bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:17:53,616 INFO scraper.html_downloader Saved html bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:17:53,628 INFO scraper.html_downloader Saved html bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:17:53,639 INFO scraper.html_downloader Saved html bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:17:53,648 INFO scraper.html_downloader Saved html bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:17:53,657 INFO scraper.html_downloader Saved html bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:17:53,666 INFO scraper.html_downloader Saved html bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:17:53,676 INFO scraper.html_downloader Saved html bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:17:53,686 INFO scraper.html_downloader Saved html bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:17:53,697 INFO scraper.html_downloader Saved html bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:17:53,724 INFO scraper.html_downloader Saved html bytes=67327 https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:17:53,750 INFO scraper.html_downloader Saved html bytes=63186 https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:17:53,777 INFO scraper.html_downloader Saved html bytes=63119 https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:17:53,807 INFO scraper.html_downloader Saved html bytes=66294 https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:17:53,864 INFO scraper.html_downloader Saved html bytes=107139 https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:17:53,878 INFO scraper.html_downloader Saved html bytes=29477 https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:17:53,888 INFO scraper.html_downloader Saved html bytes=9631 https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:17:53,894 INFO scraper.downloader Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:17:53,894 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:17:53,894 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:17:53,894 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:17:53,895 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:17:53,895 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:53,895 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:17:53,895 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:53,900 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:53,900 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:17:53,900 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:53,900 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:53,901 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:53,901 INFO scraper.html_downloader Saved asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:17:53,901 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:53,901 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:53,906 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:53,906 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:53,907 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:53,907 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:53,907 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:53,907 INFO scraper.html_downloader Saved asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:17:53,907 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:53,907 INFO scraper.downloader Cache hit https://www.turgor.ru/style.css
+2026-11-17 18:17:53,912 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:53,912 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:17:53,912 INFO scraper.html_downloader Saved asset bytes=2879 https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:17:53,917 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:17:53,921 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:53,926 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:53,930 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:53,935 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:17:53,940 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:53,944 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:53,949 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:53,953 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:53,958 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:53,963 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:53,967 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:53,972 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:53,976 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:53,981 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:53,985 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:53,990 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:53,994 INFO scraper.html_downloader Saved asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 18:17:53,999 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:17:54,008 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+2026-11-17 18:17:54,401 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:17:54,401 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:17:54,422 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:17:54,424 INFO scraper.html_downloader Saved html bytes=89215 https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:17:54,428 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:17:54,433 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:17:54,433 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:17:54,434 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:17:54,434 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:17:54,434 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:17:54,434 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:17:54,435 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:17:54,440 INFO scraper.html_downloader Saved html bytes=13378 https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:17:54,444 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:17:54,446 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:17:54,447 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:17:54,452 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:17:54,452 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:17:54,452 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:17:54,453 INFO scraper.html_downloader Saved html bytes=16268 https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:17:54,460 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:17:54,460 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:17:54,465 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:17:54,467 INFO scraper.html_downloader Saved html bytes=14696 https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:17:54,473 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:17:54,474 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:17:54,474 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:17:54,474 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:17:54,474 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:17:54,480 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:17:54,487 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:17:54,487 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:17:54,488 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:17:54,491 INFO scraper.html_downloader Saved html bytes=27245 https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:17:54,495 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:17:54,495 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:17:54,499 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:17:54,499 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:17:54,508 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:17:54,509 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:17:54,520 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:17:54,520 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:17:54,520 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:17:54,521 INFO scraper.html_downloader Saved html bytes=32287 https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:17:54,522 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:17:54,529 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:17:54,529 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:17:54,529 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:17:54,529 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:17:54,537 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:17:54,538 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:17:54,540 INFO scraper.html_downloader Saved html bytes=32424 https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:17:54,546 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:17:54,547 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:17:54,547 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:17:54,547 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:17:54,557 INFO scraper.html_downloader Saved html bytes=30680 https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:17:54,570 INFO scraper.html_downloader Saved html bytes=28928 https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:17:54,584 INFO scraper.html_downloader Saved html bytes=32454 https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:17:54,602 INFO scraper.html_downloader Saved html bytes=35774 https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:17:54,618 INFO scraper.html_downloader Saved html bytes=36639 https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:17:54,634 INFO scraper.html_downloader Saved html bytes=36478 https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:17:54,650 INFO scraper.html_downloader Saved html bytes=37723 https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:17:54,668 INFO scraper.html_downloader Saved html bytes=38824 https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:17:54,717 INFO scraper.html_downloader Saved html bytes=38489 https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:17:54,731 INFO scraper.html_downloader Saved html bytes=34441 https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:17:54,747 INFO scraper.html_downloader Saved html bytes=39209 https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:17:54,762 INFO scraper.html_downloader Saved html bytes=35762 https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:17:54,780 INFO scraper.html_downloader Saved html bytes=40827 https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:17:54,798 INFO scraper.html_downloader Saved html bytes=41931 https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:17:54,811 INFO scraper.html_downloader Saved html bytes=37672 https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:17:54,827 INFO scraper.html_downloader Saved html bytes=43606 https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:17:54,844 INFO scraper.html_downloader Saved html bytes=44601 https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:17:54,859 INFO scraper.html_downloader Saved html bytes=44271 https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:17:54,873 INFO scraper.html_downloader Saved html bytes=43771 https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:17:54,886 INFO scraper.html_downloader Saved html bytes=42646 https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:17:54,896 INFO scraper.html_downloader Saved html bytes=39953 https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:17:54,906 INFO scraper.html_downloader Saved html bytes=44858 https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:17:54,917 INFO scraper.html_downloader Saved html bytes=51385 https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:17:54,927 INFO scraper.html_downloader Saved html bytes=40825 https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:17:54,938 INFO scraper.html_downloader Saved html bytes=35821 https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:17:54,993 INFO scraper.html_downloader Saved html bytes=68648 https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:17:55,029 INFO scraper.html_downloader Saved html bytes=64435 https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:17:55,060 INFO scraper.html_downloader Saved html bytes=64977 https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:17:55,093 INFO scraper.html_downloader Saved html bytes=71559 https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:17:55,132 INFO scraper.html_downloader Saved html bytes=109009 https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:17:55,144 INFO scraper.html_downloader Saved html bytes=11322 https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:17:55,155 INFO scraper.html_downloader Saved html bytes=11224 https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:17:55,167 INFO scraper.html_downloader Saved html bytes=10507 https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:17:55,179 INFO scraper.html_downloader Saved html bytes=11053 https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:17:55,191 INFO scraper.html_downloader Saved html bytes=11273 https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:17:55,202 INFO scraper.html_downloader Saved html bytes=11232 https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:17:55,213 INFO scraper.html_downloader Saved html bytes=11119 https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:17:55,227 INFO scraper.html_downloader Saved html bytes=11539 https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:17:55,240 INFO scraper.html_downloader Saved html bytes=12506 https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:17:55,282 INFO scraper.html_downloader Saved html bytes=12503 https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:17:55,300 INFO scraper.html_downloader Saved html bytes=39590 https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:17:55,313 INFO scraper.html_downloader Saved html bytes=13826 https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:17:55,320 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:17:55,321 INFO scraper.downloader Cache hit https://turgor.ru/i/arrow.gif
+2026-11-17 18:17:55,321 INFO scraper.downloader Cache hit https://turgor.ru/i/line.gif
+2026-11-17 18:17:55,321 INFO scraper.downloader Cache hit https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:55,321 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:17:55,321 INFO scraper.downloader Cache hit https://turgor.ru/i/footer_second.gif
+2026-11-17 18:17:55,327 INFO scraper.downloader Cache hit https://turgor.ru/i/logo_second.gif
+2026-11-17 18:17:55,327 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:17:55,327 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:55,332 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:55,333 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:55,333 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:55,333 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:55,333 INFO scraper.html_downloader Saved asset bytes=240 https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:55,333 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:55,338 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:55,339 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:55,339 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:55,339 INFO scraper.downloader Cache hit https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:17:55,339 INFO scraper.downloader Cache hit https://turgor.ru/i/title.gif
+2026-11-17 18:17:55,340 INFO scraper.html_downloader Saved asset bytes=10820 https://turgor.ru/i/footer_second.gif
+2026-11-17 18:17:55,345 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:17:55,345 INFO scraper.downloader Cache hit https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:17:55,346 INFO scraper.downloader Cache hit https://turgor.ru/style.css
+2026-11-17 18:17:55,346 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:17:55,346 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:17:55,346 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:17:55,351 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:17:55,351 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:17:55,352 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:55,352 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:17:55,352 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:17:55,352 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:55,353 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:17:55,353 INFO scraper.html_downloader Saved asset bytes=21756 https://turgor.ru/i/logo_second.gif
+2026-11-17 18:17:55,357 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:55,358 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:55,358 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:55,358 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:55,358 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:55,359 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:55,359 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:55,359 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:55,359 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:55,364 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:55,364 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:55,364 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:55,364 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:55,365 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:55,365 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:55,370 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:17:55,371 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:55,377 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:55,381 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:55,387 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:55,392 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:55,398 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:55,403 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:55,408 INFO scraper.html_downloader Saved asset bytes=3180 https://turgor.ru/i/title.gif
+2026-11-17 18:17:55,415 INFO scraper.html_downloader Saved asset bytes=1393 https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:17:55,420 INFO scraper.html_downloader Saved asset bytes=2879 https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:17:55,425 INFO scraper.html_downloader Saved asset bytes=4699 https://turgor.ru/style.css
+2026-11-17 18:17:55,430 INFO scraper.html_downloader Saved asset bytes=1138 https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:17:55,435 INFO scraper.html_downloader Saved asset bytes=3374 https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:17:55,441 INFO scraper.html_downloader Saved asset bytes=3395 https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:17:55,447 INFO scraper.html_downloader Saved asset bytes=2819 https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:17:55,452 INFO scraper.html_downloader Saved asset bytes=2224 https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:17:55,458 INFO scraper.html_downloader Saved asset bytes=4274 https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:17:55,464 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:17:55,469 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:55,475 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:55,481 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:55,488 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:17:55,494 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:55,499 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:55,504 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:55,510 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:55,516 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:55,521 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:55,526 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:55,531 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:55,536 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:55,540 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:55,545 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:55,550 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:55,555 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:17:55,566 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+2026-11-17 18:17:56,097 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:17:56,119 INFO scraper.html_downloader Saved html bytes=90304 https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:17:56,127 INFO scraper.downloader Cache hit https://turgor.ru/i/arrow.gif
+2026-11-17 18:17:56,127 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:56,127 INFO scraper.downloader Cache hit https://turgor.ru/i/line.gif
+2026-11-17 18:17:56,128 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:56,128 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:56,128 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:56,128 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:17:56,129 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:56,134 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:56,134 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:56,134 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:56,134 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:56,135 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:17:56,135 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:17:56,135 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:17:56,140 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:17:56,141 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:17:56,141 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:17:56,141 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:56,141 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:17:56,142 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:17:56,142 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:56,147 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:56,147 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:56,147 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:56,147 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:56,148 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:17:56,148 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:17:56,153 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:17:56,157 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:17:56,162 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:17:56,166 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:17:56,171 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:17:56,176 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:17:56,181 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:17:56,185 INFO scraper.html_downloader Saved asset bytes=1138 https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:17:56,190 INFO scraper.html_downloader Saved asset bytes=3374 https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:17:56,195 INFO scraper.html_downloader Saved asset bytes=3395 https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:17:56,200 INFO scraper.html_downloader Saved asset bytes=2819 https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:17:56,205 INFO scraper.html_downloader Saved asset bytes=2224 https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:17:56,209 INFO scraper.html_downloader Saved asset bytes=4274 https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:17:56,214 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:17:56,219 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:17:56,224 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:17:56,230 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:17:56,235 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:17:56,240 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:17:56,244 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:17:56,254 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+2026-11-17 18:32:13,152 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:32:13,152 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:32:13,153 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:32:13,160 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:32:13,161 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:32:13,161 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:32:13,162 INFO scraper.html_downloader Saved html bytes=12123 https://www.turgor.ru/en/problems/01/index.php
+2026-11-17 18:32:13,162 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:32:13,162 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:32:13,170 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:32:13,173 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:32:13,173 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:32:13,173 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:32:13,173 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:32:13,174 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:32:13,174 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:32:13,174 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:32:13,174 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:32:13,174 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:32:13,175 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:32:13,175 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:32:13,175 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:32:13,182 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:32:13,182 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:32:13,182 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:32:13,182 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:32:13,184 INFO scraper.html_downloader Saved html bytes=15013 https://www.turgor.ru/en/problems/02/index.php
+2026-11-17 18:32:13,188 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:32:13,189 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:32:13,189 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:32:13,190 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:32:13,190 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:32:13,190 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:32:13,191 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:32:13,191 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:32:13,191 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:32:13,200 INFO scraper.html_downloader Saved html bytes=13441 https://www.turgor.ru/en/problems/03/index.php
+2026-11-17 18:32:13,204 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:32:13,205 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:32:13,206 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:32:13,206 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:32:13,216 INFO scraper.html_downloader Saved html bytes=26156 https://www.turgor.ru/en/problems/04/index.php
+2026-11-17 18:32:13,233 INFO scraper.html_downloader Saved html bytes=31198 https://www.turgor.ru/en/problems/05/index.php
+2026-11-17 18:32:13,252 INFO scraper.html_downloader Saved html bytes=31335 https://www.turgor.ru/en/problems/06/index.php
+2026-11-17 18:32:13,267 INFO scraper.html_downloader Saved html bytes=29591 https://www.turgor.ru/en/problems/07/index.php
+2026-11-17 18:32:13,279 INFO scraper.html_downloader Saved html bytes=27839 https://www.turgor.ru/en/problems/08/index.php
+2026-11-17 18:32:13,309 INFO scraper.html_downloader Saved html bytes=31365 https://www.turgor.ru/en/problems/09/index.php
+2026-11-17 18:32:13,326 INFO scraper.html_downloader Saved html bytes=34685 https://www.turgor.ru/en/problems/10/index.php
+2026-11-17 18:32:13,343 INFO scraper.html_downloader Saved html bytes=35546 https://www.turgor.ru/en/problems/11/index.php
+2026-11-17 18:32:13,363 INFO scraper.html_downloader Saved html bytes=35389 https://www.turgor.ru/en/problems/12/index.php
+2026-11-17 18:32:13,380 INFO scraper.html_downloader Saved html bytes=36623 https://www.turgor.ru/en/problems/13/index.php
+2026-11-17 18:32:13,400 INFO scraper.html_downloader Saved html bytes=37735 https://www.turgor.ru/en/problems/14/index.php
+2026-11-17 18:32:13,417 INFO scraper.html_downloader Saved html bytes=37400 https://www.turgor.ru/en/problems/15/index.php
+2026-11-17 18:32:13,443 INFO scraper.html_downloader Saved html bytes=33352 https://www.turgor.ru/en/problems/16/index.php
+2026-11-17 18:32:13,477 INFO scraper.html_downloader Saved html bytes=38120 https://www.turgor.ru/en/problems/17/index.php
+2026-11-17 18:32:13,495 INFO scraper.html_downloader Saved html bytes=34673 https://www.turgor.ru/en/problems/18/index.php
+2026-11-17 18:32:13,519 INFO scraper.html_downloader Saved html bytes=39738 https://www.turgor.ru/en/problems/19/index.php
+2026-11-17 18:32:13,544 INFO scraper.html_downloader Saved html bytes=40842 https://www.turgor.ru/en/problems/20/index.php
+2026-11-17 18:32:13,562 INFO scraper.html_downloader Saved html bytes=36583 https://www.turgor.ru/en/problems/21/index.php
+2026-11-17 18:32:13,596 INFO scraper.html_downloader Saved html bytes=42517 https://www.turgor.ru/en/problems/22/index.php
+2026-11-17 18:32:13,616 INFO scraper.html_downloader Saved html bytes=43510 https://www.turgor.ru/en/problems/23/index.php
+2026-11-17 18:32:13,633 INFO scraper.html_downloader Saved html bytes=43182 https://www.turgor.ru/en/problems/24/index.php
+2026-11-17 18:32:13,655 INFO scraper.html_downloader Saved html bytes=42682 https://www.turgor.ru/en/problems/25/index.php
+2026-11-17 18:32:13,673 INFO scraper.html_downloader Saved html bytes=41557 https://www.turgor.ru/en/problems/26/index.php
+2026-11-17 18:32:13,693 INFO scraper.html_downloader Saved html bytes=38864 https://www.turgor.ru/en/problems/27/index.php
+2026-11-17 18:32:13,712 INFO scraper.html_downloader Saved html bytes=43769 https://www.turgor.ru/en/problems/28/index.php
+2026-11-17 18:32:13,728 INFO scraper.html_downloader Saved html bytes=50292 https://www.turgor.ru/en/problems/29/index.php
+2026-11-17 18:32:13,741 INFO scraper.html_downloader Saved html bytes=37999 https://www.turgor.ru/en/problems/30/index.php
+2026-11-17 18:32:13,754 INFO scraper.html_downloader Saved html bytes=34732 https://www.turgor.ru/en/problems/31/index.php
+2026-11-17 18:32:13,800 INFO scraper.html_downloader Saved html bytes=67327 https://www.turgor.ru/en/problems/32/index.php
+2026-11-17 18:32:13,838 INFO scraper.html_downloader Saved html bytes=63186 https://www.turgor.ru/en/problems/33/index.php
+2026-11-17 18:32:13,873 INFO scraper.html_downloader Saved html bytes=63119 https://www.turgor.ru/en/problems/34/index.php
+2026-11-17 18:32:13,909 INFO scraper.html_downloader Saved html bytes=66294 https://www.turgor.ru/en/problems/35/index.php
+2026-11-17 18:32:13,991 INFO scraper.html_downloader Saved html bytes=107139 https://www.turgor.ru/en/problems/36/index.php
+2026-11-17 18:32:14,016 INFO scraper.html_downloader Saved html bytes=29477 https://www.turgor.ru/en/problems/47/index.php
+2026-11-17 18:32:14,035 INFO scraper.html_downloader Saved html bytes=9631 https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 18:32:14,042 INFO scraper.downloader Cache hit https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:32:14,042 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:32:14,043 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:32:14,043 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:32:14,044 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:32:14,044 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:14,045 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:32:14,045 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:14,045 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:14,045 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:32:14,055 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:14,057 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:14,057 INFO scraper.html_downloader Saved asset bytes=1261 https://www.turgor.ru/en/i/title.gif
+2026-11-17 18:32:14,062 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:14,063 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:14,063 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:14,063 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:14,063 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:14,064 INFO scraper.html_downloader Saved asset bytes=1393 https://www.turgor.ru/en/problems/04/t4z2s.gif
+2026-11-17 18:32:14,069 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:14,070 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:14,070 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:14,070 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:14,071 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:14,071 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:32:14,071 INFO scraper.html_downloader Saved asset bytes=2879 https://www.turgor.ru/en/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:32:14,076 INFO scraper.downloader Cache hit https://www.turgor.ru/style.css
+2026-11-17 18:32:14,080 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:32:14,090 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:14,098 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:14,106 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:14,112 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:32:14,118 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:14,124 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:14,131 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:14,137 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:14,144 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:14,151 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:14,159 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:14,166 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:14,174 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:14,180 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:14,186 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:14,192 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:14,199 INFO scraper.html_downloader Saved asset bytes=4699 https://www.turgor.ru/style.css
+2026-11-17 18:32:14,205 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:32:14,221 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+2026-11-17 18:32:14,684 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:32:14,684 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:32:14,685 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:32:14,690 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:32:14,696 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:32:14,713 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:32:14,714 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:32:14,719 INFO scraper.html_downloader Saved html bytes=89215 https://www.turgor.ru/en/problems/20/tg20o.php
+2026-11-17 18:32:14,719 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:32:14,719 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:32:14,720 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:32:14,729 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:32:14,735 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:32:14,736 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:32:14,736 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:32:14,737 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:32:14,743 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:32:14,745 INFO scraper.html_downloader Saved html bytes=13378 https://www.turgor.ru/problems/01/index.php
+2026-11-17 18:32:14,745 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:32:14,750 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:32:14,753 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:32:14,758 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:32:14,758 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:32:14,759 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:32:14,759 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:32:14,763 INFO scraper.html_downloader Saved html bytes=16268 https://www.turgor.ru/problems/02/index.php
+2026-11-17 18:32:14,763 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:32:14,769 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:32:14,774 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:32:14,774 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:32:14,774 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:32:14,780 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:32:14,780 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:32:14,782 INFO scraper.html_downloader Saved html bytes=14696 https://www.turgor.ru/problems/03/index.php
+2026-11-17 18:32:14,789 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:32:14,792 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:32:14,794 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:32:14,794 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:32:14,794 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:32:14,804 INFO scraper.html_downloader Saved html bytes=27245 https://www.turgor.ru/problems/04/index.php
+2026-11-17 18:32:14,804 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:32:14,805 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:32:14,818 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:32:14,819 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:32:14,819 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:32:14,831 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:32:14,831 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:32:14,832 INFO scraper.html_downloader Saved html bytes=32287 https://www.turgor.ru/problems/05/index.php
+2026-11-17 18:32:14,833 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:32:14,833 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:32:14,833 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:32:14,833 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:32:14,844 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:32:14,844 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:32:14,857 INFO scraper.html_downloader Saved html bytes=32424 https://www.turgor.ru/problems/06/index.php
+2026-11-17 18:32:14,864 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:32:14,878 INFO scraper.html_downloader Saved html bytes=30680 https://www.turgor.ru/problems/07/index.php
+2026-11-17 18:32:14,905 INFO scraper.html_downloader Saved html bytes=28928 https://www.turgor.ru/problems/08/index.php
+2026-11-17 18:32:14,921 INFO scraper.html_downloader Saved html bytes=32454 https://www.turgor.ru/problems/09/index.php
+2026-11-17 18:32:14,939 INFO scraper.html_downloader Saved html bytes=35774 https://www.turgor.ru/problems/10/index.php
+2026-11-17 18:32:14,959 INFO scraper.html_downloader Saved html bytes=36639 https://www.turgor.ru/problems/11/index.php
+2026-11-17 18:32:14,987 INFO scraper.html_downloader Saved html bytes=36478 https://www.turgor.ru/problems/12/index.php
+2026-11-17 18:32:15,008 INFO scraper.html_downloader Saved html bytes=37723 https://www.turgor.ru/problems/13/index.php
+2026-11-17 18:32:15,036 INFO scraper.html_downloader Saved html bytes=38824 https://www.turgor.ru/problems/14/index.php
+2026-11-17 18:32:15,108 INFO scraper.html_downloader Saved html bytes=38489 https://www.turgor.ru/problems/15/index.php
+2026-11-17 18:32:15,125 INFO scraper.html_downloader Saved html bytes=34441 https://www.turgor.ru/problems/16/index.php
+2026-11-17 18:32:15,143 INFO scraper.html_downloader Saved html bytes=39209 https://www.turgor.ru/problems/17/index.php
+2026-11-17 18:32:15,162 INFO scraper.html_downloader Saved html bytes=35762 https://www.turgor.ru/problems/18/index.php
+2026-11-17 18:32:15,180 INFO scraper.html_downloader Saved html bytes=40827 https://www.turgor.ru/problems/19/index.php
+2026-11-17 18:32:15,198 INFO scraper.html_downloader Saved html bytes=41931 https://www.turgor.ru/problems/20/index.php
+2026-11-17 18:32:15,213 INFO scraper.html_downloader Saved html bytes=37672 https://www.turgor.ru/problems/21/index.php
+2026-11-17 18:32:15,231 INFO scraper.html_downloader Saved html bytes=43606 https://www.turgor.ru/problems/22/index.php
+2026-11-17 18:32:15,248 INFO scraper.html_downloader Saved html bytes=44601 https://www.turgor.ru/problems/23/index.php
+2026-11-17 18:32:15,264 INFO scraper.html_downloader Saved html bytes=44271 https://www.turgor.ru/problems/24/index.php
+2026-11-17 18:32:15,277 INFO scraper.html_downloader Saved html bytes=43771 https://www.turgor.ru/problems/25/index.php
+2026-11-17 18:32:15,289 INFO scraper.html_downloader Saved html bytes=42646 https://www.turgor.ru/problems/26/index.php
+2026-11-17 18:32:15,306 INFO scraper.html_downloader Saved html bytes=39953 https://www.turgor.ru/problems/27/index.php
+2026-11-17 18:32:15,319 INFO scraper.html_downloader Saved html bytes=44858 https://www.turgor.ru/problems/28/index.php
+2026-11-17 18:32:15,333 INFO scraper.html_downloader Saved html bytes=51385 https://www.turgor.ru/problems/29/index.php
+2026-11-17 18:32:15,345 INFO scraper.html_downloader Saved html bytes=40825 https://www.turgor.ru/problems/30/index.php
+2026-11-17 18:32:15,358 INFO scraper.html_downloader Saved html bytes=35821 https://www.turgor.ru/problems/31/index.php
+2026-11-17 18:32:15,390 INFO scraper.html_downloader Saved html bytes=68648 https://www.turgor.ru/problems/32/index.php
+2026-11-17 18:32:15,426 INFO scraper.html_downloader Saved html bytes=64435 https://www.turgor.ru/problems/33/index.php
+2026-11-17 18:32:15,457 INFO scraper.html_downloader Saved html bytes=64977 https://www.turgor.ru/problems/34/index.php
+2026-11-17 18:32:15,498 INFO scraper.html_downloader Saved html bytes=71559 https://www.turgor.ru/problems/35/index.php
+2026-11-17 18:32:15,537 INFO scraper.html_downloader Saved html bytes=109009 https://www.turgor.ru/problems/36/index.php
+2026-11-17 18:32:15,548 INFO scraper.html_downloader Saved html bytes=11322 https://www.turgor.ru/problems/37/index.php
+2026-11-17 18:32:15,559 INFO scraper.html_downloader Saved html bytes=11224 https://www.turgor.ru/problems/38/index.php
+2026-11-17 18:32:15,571 INFO scraper.html_downloader Saved html bytes=10507 https://www.turgor.ru/problems/39/index.php
+2026-11-17 18:32:15,583 INFO scraper.html_downloader Saved html bytes=11053 https://www.turgor.ru/problems/40/index.php
+2026-11-17 18:32:15,595 INFO scraper.html_downloader Saved html bytes=11273 https://www.turgor.ru/problems/41/index.php
+2026-11-17 18:32:15,606 INFO scraper.html_downloader Saved html bytes=11232 https://www.turgor.ru/problems/42/index.php
+2026-11-17 18:32:15,617 INFO scraper.html_downloader Saved html bytes=11119 https://www.turgor.ru/problems/43/index.php
+2026-11-17 18:32:15,629 INFO scraper.html_downloader Saved html bytes=11539 https://www.turgor.ru/problems/44/index.php
+2026-11-17 18:32:15,641 INFO scraper.html_downloader Saved html bytes=12506 https://www.turgor.ru/problems/45/index.php
+2026-11-17 18:32:15,680 INFO scraper.html_downloader Saved html bytes=12503 https://www.turgor.ru/problems/46/index.php
+2026-11-17 18:32:15,697 INFO scraper.html_downloader Saved html bytes=39590 https://www.turgor.ru/problems/47/index.php
+2026-11-17 18:32:15,709 INFO scraper.html_downloader Saved html bytes=13826 https://www.turgor.ru/problems/48/index.php
+2026-11-17 18:32:15,715 INFO scraper.downloader Cache hit https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:32:15,716 INFO scraper.html_downloader Saved asset bytes=1293 https://site.yandex.net/load/form/1/form.js
+2026-11-17 18:32:15,717 INFO scraper.downloader Cache hit https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:15,722 INFO scraper.downloader Cache hit https://turgor.ru/i/arrow.gif
+2026-11-17 18:32:15,723 INFO scraper.downloader Cache hit https://turgor.ru/i/line.gif
+2026-11-17 18:32:15,723 INFO scraper.downloader Cache hit https://turgor.ru/i/footer_second.gif
+2026-11-17 18:32:15,724 INFO scraper.downloader Cache hit https://turgor.ru/i/logo_second.gif
+2026-11-17 18:32:15,724 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:15,724 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:32:15,729 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:15,730 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:15,730 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:15,730 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:15,730 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:15,731 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:15,731 INFO scraper.html_downloader Saved asset bytes=240 https://turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:15,731 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:15,736 INFO scraper.downloader Cache hit https://turgor.ru/i/title.gif
+2026-11-17 18:32:15,736 INFO scraper.downloader Cache hit https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:32:15,736 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:15,737 INFO scraper.html_downloader Saved asset bytes=10820 https://turgor.ru/i/footer_second.gif
+2026-11-17 18:32:15,742 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:32:15,742 INFO scraper.downloader Cache hit https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:32:15,742 INFO scraper.downloader Cache hit https://turgor.ru/style.css
+2026-11-17 18:32:15,742 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:32:15,743 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:32:15,749 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:32:15,749 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:32:15,749 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:32:15,749 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:32:15,750 INFO scraper.html_downloader Saved asset bytes=21756 https://turgor.ru/i/logo_second.gif
+2026-11-17 18:32:15,750 INFO scraper.downloader Cache hit https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:32:15,758 INFO scraper.downloader Cache hit https://www.turgor.ru/i/line.gif
+2026-11-17 18:32:15,755 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:15,755 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:15,755 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:15,765 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:15,765 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:15,766 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:15,766 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:15,766 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:15,766 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:15,767 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:15,767 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:15,767 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:15,767 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:15,773 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:15,773 INFO scraper.downloader Cache hit https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:15,774 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:15,774 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:15,774 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:32:15,774 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:15,779 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:15,784 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:15,789 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:15,794 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:15,798 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:15,803 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:15,808 INFO scraper.html_downloader Saved asset bytes=3180 https://turgor.ru/i/title.gif
+2026-11-17 18:32:15,813 INFO scraper.html_downloader Saved asset bytes=1393 https://turgor.ru/problems/04/t4z2s.gif
+2026-11-17 18:32:15,818 INFO scraper.html_downloader Saved asset bytes=2879 https://turgor.ru/problems/36/vs-36-baz-avt-1.svg
+2026-11-17 18:32:15,823 INFO scraper.html_downloader Saved asset bytes=4699 https://turgor.ru/style.css
+2026-11-17 18:32:15,828 INFO scraper.html_downloader Saved asset bytes=1138 https://www.turgor.ru/en/problems/20/ris1.gif
+2026-11-17 18:32:15,833 INFO scraper.html_downloader Saved asset bytes=3374 https://www.turgor.ru/en/problems/20/ris2.gif
+2026-11-17 18:32:15,839 INFO scraper.html_downloader Saved asset bytes=3395 https://www.turgor.ru/en/problems/20/ris3.gif
+2026-11-17 18:32:15,844 INFO scraper.html_downloader Saved asset bytes=2819 https://www.turgor.ru/en/problems/20/ris4.gif
+2026-11-17 18:32:15,849 INFO scraper.html_downloader Saved asset bytes=2224 https://www.turgor.ru/en/problems/20/ris5.gif
+2026-11-17 18:32:15,854 INFO scraper.html_downloader Saved asset bytes=4274 https://www.turgor.ru/en/problems/20/ris6.gif
+2026-11-17 18:32:15,860 INFO scraper.html_downloader Saved asset bytes=116 https://www.turgor.ru/i/arrow.gif
+2026-11-17 18:32:15,864 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:15,869 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:15,874 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:15,878 INFO scraper.html_downloader Saved asset bytes=67 https://www.turgor.ru/i/line.gif
+2026-11-17 18:32:15,884 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:15,889 INFO scraper.html_downloader Saved asset bytes=32846 https://www.turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:15,893 INFO scraper.html_downloader Saved asset bytes=815 https://www.turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:15,898 INFO scraper.html_downloader Saved asset bytes=811 https://www.turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:15,903 INFO scraper.html_downloader Saved asset bytes=44 https://www.turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:15,908 INFO scraper.html_downloader Saved asset bytes=52 https://www.turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:15,912 INFO scraper.html_downloader Saved asset bytes=178 https://www.turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:15,917 INFO scraper.html_downloader Saved asset bytes=176 https://www.turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:15,922 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:15,928 INFO scraper.html_downloader Saved asset bytes=174 https://www.turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:15,933 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:15,938 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:15,943 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:32:15,953 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}
+2026-11-17 18:32:16,450 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:32:16,469 INFO scraper.html_downloader Saved html bytes=90304 https://www.turgor.ru/problems/20/tg20o.php
+2026-11-17 18:32:16,475 INFO scraper.downloader Cache hit https://turgor.ru/i/arrow.gif
+2026-11-17 18:32:16,475 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:16,476 INFO scraper.downloader Cache hit https://turgor.ru/i/line.gif
+2026-11-17 18:32:16,476 INFO scraper.html_downloader Saved asset bytes=116 https://turgor.ru/i/arrow.gif
+2026-11-17 18:32:16,476 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:16,476 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:16,476 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:16,481 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:16,481 INFO scraper.html_downloader Saved asset bytes=67 https://turgor.ru/i/line.gif
+2026-11-17 18:32:16,481 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:16,482 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:16,482 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:16,487 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:32:16,489 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:32:16,489 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:32:16,488 INFO scraper.downloader Cache hit https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:16,489 INFO scraper.html_downloader Saved asset bytes=32846 https://turgor.ru/i/menu_bg.gif
+2026-11-17 18:32:16,495 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:32:16,495 INFO scraper.downloader Cache hit https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:16,495 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:32:16,495 INFO scraper.downloader Cache hit https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:32:16,495 INFO scraper.html_downloader Saved asset bytes=815 https://turgor.ru/i/menu_bg_bottom.gif
+2026-11-17 18:32:16,495 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:16,496 INFO scraper.downloader Cache hit https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:16,501 INFO scraper.downloader Cache hit https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:16,501 INFO scraper.downloader Cache hit https://www.turgor.ru/turgor.css
+2026-11-17 18:32:16,501 INFO scraper.downloader Cache hit https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:16,501 INFO scraper.downloader Cache hit https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:16,501 INFO scraper.html_downloader Saved asset bytes=811 https://turgor.ru/i/menu_bg_left.gif
+2026-11-17 18:32:16,506 INFO scraper.html_downloader Saved asset bytes=44 https://turgor.ru/i/menu_bg_right.gif
+2026-11-17 18:32:16,510 INFO scraper.html_downloader Saved asset bytes=52 https://turgor.ru/i/menu_bg_top.gif
+2026-11-17 18:32:16,515 INFO scraper.html_downloader Saved asset bytes=178 https://turgor.ru/i/menu_bottom_left.gif
+2026-11-17 18:32:16,520 INFO scraper.html_downloader Saved asset bytes=176 https://turgor.ru/i/menu_bottom_right.gif
+2026-11-17 18:32:16,525 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_left.gif
+2026-11-17 18:32:16,531 INFO scraper.html_downloader Saved asset bytes=174 https://turgor.ru/i/menu_top_right.gif
+2026-11-17 18:32:16,537 INFO scraper.html_downloader Saved asset bytes=1138 https://turgor.ru/problems/20/ris1.gif
+2026-11-17 18:32:16,542 INFO scraper.html_downloader Saved asset bytes=3374 https://turgor.ru/problems/20/ris2.gif
+2026-11-17 18:32:16,547 INFO scraper.html_downloader Saved asset bytes=3395 https://turgor.ru/problems/20/ris3.gif
+2026-11-17 18:32:16,552 INFO scraper.html_downloader Saved asset bytes=2819 https://turgor.ru/problems/20/ris4.gif
+2026-11-17 18:32:16,557 INFO scraper.html_downloader Saved asset bytes=2224 https://turgor.ru/problems/20/ris5.gif
+2026-11-17 18:32:16,563 INFO scraper.html_downloader Saved asset bytes=4274 https://turgor.ru/problems/20/ris6.gif
+2026-11-17 18:32:16,568 INFO scraper.html_downloader Saved asset bytes=527 https://www.turgor.ru/i/bg_second.gif
+2026-11-17 18:32:16,572 INFO scraper.html_downloader Saved asset bytes=240 https://www.turgor.ru/i/footer_mbg2.gif
+2026-11-17 18:32:16,578 INFO scraper.html_downloader Saved asset bytes=10820 https://www.turgor.ru/i/footer_second.gif
+2026-11-17 18:32:16,590 INFO scraper.html_downloader Saved asset bytes=21756 https://www.turgor.ru/i/logo_second.gif
+2026-11-17 18:32:16,595 INFO scraper.html_downloader Saved asset bytes=43 https://www.turgor.ru/i/pix.gif
+2026-11-17 18:32:16,600 INFO scraper.html_downloader Saved asset bytes=3180 https://www.turgor.ru/i/title.gif
+2026-11-17 18:32:16,605 INFO scraper.html_downloader Saved asset bytes=2061 https://www.turgor.ru/turgor.css
+2026-11-17 18:32:16,614 INFO scraper.html_downloader Summary {'html': 88, 'assets': 53, 'failed_resources': 0, 'failed_dependencies': 0, 'pending_dependencies': 0, 'complete': True}

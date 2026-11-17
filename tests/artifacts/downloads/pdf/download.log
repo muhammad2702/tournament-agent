@@ -1,0 +1,585 @@
+2026-11-17 18:11:58,837 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:11:58,837 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:11:58,838 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:11:58,841 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:12:04,861 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:12:04,948 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:12:04,950 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:12:04,953 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:12:04,993 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:12:04,996 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:12:04,998 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:12:04,999 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:12:10,654 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:12:10,676 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:12:10,810 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:12:10,839 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:12:10,841 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:12:10,843 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:12:10,844 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:12:10,846 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:12:16,431 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:12:16,434 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:12:16,453 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:12:16,454 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:12:16,520 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:12:16,585 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:12:16,587 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:12:16,588 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:12:21,946 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:12:21,948 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:12:21,971 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:12:22,082 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:12:22,084 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:12:22,087 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:12:22,088 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:12:22,089 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:12:27,518 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:12:27,611 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:12:27,614 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:12:27,616 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:12:27,648 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:12:27,756 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:12:27,758 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:12:27,761 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:12:33,193 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:12:33,195 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:12:38,295 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:12:38,298 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:12:38,379 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:12:38,381 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:12:38,471 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:12:38,473 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:12:44,110 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:12:44,113 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:12:49,599 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:12:49,691 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:12:49,727 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:12:49,730 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:12:49,732 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:12:49,734 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:12:56,055 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:12:56,057 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:13:02,634 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:13:02,763 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:13:02,765 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:13:02,811 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:13:02,844 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:13:02,846 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:13:02,848 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:13:02,849 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:13:13,231 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:13:13,241 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:13:13,243 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:13:13,351 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:13:13,375 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:13:13,377 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:13:13,379 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:13:13,381 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:13:23,700 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:13:23,744 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:13:23,748 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:13:23,822 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:13:23,825 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:13:23,845 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:13:23,849 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:13:23,852 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:13:34,358 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:13:34,407 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:13:34,493 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:13:34,543 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:13:34,546 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:13:34,548 INFO scraper.pdf_downloader Saved pages=2 bytes=104611 https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:13:34,550 INFO scraper.pdf_downloader Saved pages=2 bytes=168883 https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:13:34,552 INFO scraper.pdf_downloader Saved pages=2 bytes=119031 https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:13:47,078 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:13:47,175 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:13:47,179 INFO scraper.pdf_downloader Saved pages=2 bytes=148316 https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:13:47,181 INFO scraper.pdf_downloader Saved pages=1 bytes=116608 https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:13:47,204 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:13:47,206 INFO scraper.pdf_downloader Saved pages=2 bytes=129350 https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:13:47,311 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:13:47,313 INFO scraper.pdf_downloader Saved pages=2 bytes=161478 https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:13:58,224 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:13:58,227 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:13:58,229 INFO scraper.pdf_downloader Saved pages=2 bytes=144188 https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:13:58,317 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:13:58,407 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:13:58,410 INFO scraper.pdf_downloader Saved pages=2 bytes=152251 https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:13:58,412 INFO scraper.pdf_downloader Saved pages=1 bytes=138987 https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:13:58,414 INFO scraper.pdf_downloader Saved pages=2 bytes=122038 https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:14:09,670 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:14:09,680 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:14:09,804 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:14:09,814 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:14:09,817 INFO scraper.pdf_downloader Saved pages=2 bytes=163987 https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:14:09,819 INFO scraper.pdf_downloader Saved pages=2 bytes=123196 https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:14:09,821 INFO scraper.pdf_downloader Saved pages=2 bytes=129116 https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:14:09,823 INFO scraper.pdf_downloader Saved pages=1 bytes=102432 https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:14:20,464 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:14:20,467 INFO scraper.pdf_downloader Saved pages=2 bytes=113014 https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:14:20,477 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:14:20,599 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:14:20,602 INFO scraper.pdf_downloader Saved pages=2 bytes=163703 https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:14:20,611 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:14:20,613 INFO scraper.pdf_downloader Saved pages=2 bytes=129232 https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:14:20,615 INFO scraper.pdf_downloader Saved pages=2 bytes=153567 https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:14:31,741 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:14:31,743 INFO scraper.pdf_downloader Saved pages=1 bytes=120853 https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:14:31,784 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:14:31,849 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:14:31,851 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:14:31,852 INFO scraper.pdf_downloader Saved pages=2 bytes=132518 https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:14:31,855 INFO scraper.pdf_downloader Saved pages=2 bytes=164629 https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:14:31,857 INFO scraper.pdf_downloader Saved pages=2 bytes=144971 https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:14:42,841 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:14:42,863 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:14:42,957 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:14:42,962 INFO scraper.pdf_downloader Saved pages=2 bytes=145923 https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:14:42,965 INFO scraper.pdf_downloader Saved pages=2 bytes=113733 https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:14:42,968 INFO scraper.pdf_downloader Saved pages=2 bytes=147819 https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:14:42,987 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:14:42,990 INFO scraper.pdf_downloader Saved pages=2 bytes=133447 https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:14:55,189 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:14:55,239 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:14:55,328 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:14:55,370 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:14:55,373 INFO scraper.pdf_downloader Saved pages=2 bytes=140761 https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:14:55,375 INFO scraper.pdf_downloader Saved pages=2 bytes=125889 https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:14:55,378 INFO scraper.pdf_downloader Saved pages=2 bytes=220847 https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:14:55,380 INFO scraper.pdf_downloader Saved pages=2 bytes=123092 https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:15:06,509 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:15:06,567 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:15:06,644 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:15:06,646 INFO scraper.pdf_downloader Saved pages=2 bytes=142110 https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:15:06,649 INFO scraper.pdf_downloader Saved pages=2 bytes=116186 https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:15:06,651 INFO scraper.pdf_downloader Saved pages=2 bytes=160985 https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:15:06,656 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:15:06,658 INFO scraper.pdf_downloader Saved pages=2 bytes=136554 https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:15:18,358 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:15:18,360 INFO scraper.pdf_downloader Saved pages=2 bytes=130806 https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:15:18,488 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:15:18,491 INFO scraper.pdf_downloader Saved pages=2 bytes=133624 https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:15:18,496 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:15:18,498 INFO scraper.pdf_downloader Saved pages=1 bytes=256596 https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:15:18,727 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:15:18,735 INFO scraper.pdf_downloader Saved pages=3 bytes=823340 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:15:29,657 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:15:29,699 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:15:29,701 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:15:29,704 INFO scraper.pdf_downloader Saved pages=2 bytes=504454 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:15:29,707 INFO scraper.pdf_downloader Saved pages=2 bytes=503187 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:15:29,789 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:15:29,792 INFO scraper.pdf_downloader Saved pages=2 bytes=490369 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:15:29,794 INFO scraper.pdf_downloader Saved pages=2 bytes=135842 https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:15:43,254 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:15:43,400 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:15:43,424 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:15:43,584 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:15:43,590 INFO scraper.pdf_downloader Saved pages=2 bytes=532093 https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:15:43,593 INFO scraper.pdf_downloader Saved pages=2 bytes=451147 https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:15:43,597 INFO scraper.pdf_downloader Saved pages=2 bytes=260381 https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:15:43,600 INFO scraper.pdf_downloader Saved pages=2 bytes=544699 https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:15:54,843 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:15:54,845 INFO scraper.pdf_downloader Saved pages=2 bytes=121227 https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:15:54,879 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:15:54,973 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:15:55,097 INFO scraper.downloader Request attempt=1 url=https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:15:55,100 INFO scraper.pdf_downloader Saved pages=2 bytes=286562 https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:15:55,102 INFO scraper.pdf_downloader Saved pages=2 bytes=108704 https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:15:55,104 INFO scraper.pdf_downloader Saved pages=2 bytes=157757 https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:16:07,667 INFO scraper.pdf_downloader Saved pages=2 bytes=217987 https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:16:07,670 INFO scraper.pdf_downloader Saved pages=2 bytes=158945 https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:16:07,673 INFO scraper.pdf_downloader Saved pages=2 bytes=131685 https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:16:07,675 INFO scraper.pdf_downloader Saved pages=2 bytes=133948 https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:16:07,678 INFO scraper.pdf_downloader Summary {'pdfs': 97, 'failures': 0, 'complete': True}
+2026-11-17 18:17:56,297 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:17:56,298 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:17:56,299 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:17:56,299 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:17:56,299 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:17:56,300 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:17:56,300 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:17:56,300 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:17:56,301 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:17:56,302 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:17:56,302 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:17:56,303 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:17:56,303 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:17:56,303 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:17:56,303 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:17:56,304 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:17:56,305 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:17:56,305 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:17:56,306 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:17:56,306 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:17:56,306 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:17:56,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:17:56,308 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:17:56,309 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:17:56,309 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:17:56,309 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:17:56,310 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:17:56,311 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:17:56,311 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:17:56,312 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:17:56,312 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:17:56,313 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:17:56,313 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:17:56,313 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:17:56,315 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:17:56,315 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:17:56,316 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:17:56,316 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:17:56,317 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:17:56,317 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:17:56,317 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:17:56,317 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:17:56,319 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:17:56,319 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:17:56,320 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:17:56,320 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:17:56,321 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:17:56,321 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:17:56,321 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:17:56,324 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:17:56,324 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:17:56,324 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:17:56,324 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:17:56,324 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:17:56,325 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:17:56,326 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:17:56,328 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:17:56,328 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:17:56,328 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:17:56,328 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:17:56,329 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:17:56,330 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:17:56,330 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:17:56,331 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:17:56,331 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:17:56,332 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:17:56,332 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:17:56,333 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:17:56,334 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:17:56,334 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:17:56,335 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:17:56,335 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:17:56,336 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:17:56,337 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:17:56,337 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:17:56,337 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:17:56,339 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:17:56,339 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:17:56,340 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:17:56,340 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:17:56,340 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:17:56,341 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:17:56,343 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:17:56,343 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:17:56,343 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:17:56,343 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:17:56,343 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:17:56,345 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:17:56,345 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:17:56,346 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:17:56,347 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:17:56,347 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:17:56,347 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:17:56,349 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:17:56,349 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:17:56,349 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:17:56,350 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:17:56,350 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:17:56,352 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:17:56,352 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:17:56,352 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:17:56,355 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:17:56,356 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:17:56,357 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:17:56,357 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:17:56,357 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:17:56,358 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:17:56,359 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:17:56,360 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:17:56,360 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:17:56,362 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:17:56,363 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:17:56,363 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:17:56,363 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:17:56,363 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:17:56,364 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:17:56,365 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:17:56,365 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:17:56,366 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:17:56,366 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:17:56,367 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:17:56,367 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:17:56,367 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:17:56,367 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:17:56,369 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:17:56,370 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:17:56,372 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:17:56,373 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:17:56,374 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:17:56,376 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:17:56,377 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:17:56,379 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:17:56,380 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:17:56,382 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:17:56,383 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:17:56,385 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:17:56,386 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:17:56,388 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:17:56,389 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:17:56,391 INFO scraper.pdf_downloader Saved pages=2 bytes=104611 https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:17:56,392 INFO scraper.pdf_downloader Saved pages=2 bytes=168883 https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:17:56,394 INFO scraper.pdf_downloader Saved pages=2 bytes=119031 https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:17:56,396 INFO scraper.pdf_downloader Saved pages=2 bytes=148316 https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:17:56,397 INFO scraper.pdf_downloader Saved pages=1 bytes=116608 https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:17:56,399 INFO scraper.pdf_downloader Saved pages=2 bytes=129350 https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:17:56,400 INFO scraper.pdf_downloader Saved pages=2 bytes=161478 https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:17:56,402 INFO scraper.pdf_downloader Saved pages=2 bytes=144188 https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:17:56,403 INFO scraper.pdf_downloader Saved pages=2 bytes=152251 https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:17:56,405 INFO scraper.pdf_downloader Saved pages=1 bytes=138987 https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:17:56,407 INFO scraper.pdf_downloader Saved pages=2 bytes=122038 https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:17:56,408 INFO scraper.pdf_downloader Saved pages=2 bytes=163987 https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:17:56,409 INFO scraper.pdf_downloader Saved pages=2 bytes=123196 https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:17:56,411 INFO scraper.pdf_downloader Saved pages=2 bytes=129116 https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:17:56,413 INFO scraper.pdf_downloader Saved pages=1 bytes=102432 https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:17:56,415 INFO scraper.pdf_downloader Saved pages=2 bytes=113014 https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:17:56,416 INFO scraper.pdf_downloader Saved pages=2 bytes=163703 https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:17:56,418 INFO scraper.pdf_downloader Saved pages=2 bytes=129232 https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:17:56,420 INFO scraper.pdf_downloader Saved pages=2 bytes=153567 https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:17:56,421 INFO scraper.pdf_downloader Saved pages=1 bytes=120853 https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:17:56,422 INFO scraper.pdf_downloader Saved pages=2 bytes=132518 https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:17:56,424 INFO scraper.pdf_downloader Saved pages=2 bytes=164629 https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:17:56,425 INFO scraper.pdf_downloader Saved pages=2 bytes=144971 https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:17:56,427 INFO scraper.pdf_downloader Saved pages=2 bytes=145923 https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:17:56,429 INFO scraper.pdf_downloader Saved pages=2 bytes=113733 https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:17:56,430 INFO scraper.pdf_downloader Saved pages=2 bytes=147819 https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:17:56,432 INFO scraper.pdf_downloader Saved pages=2 bytes=133447 https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:17:56,433 INFO scraper.pdf_downloader Saved pages=2 bytes=140761 https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:17:56,434 INFO scraper.pdf_downloader Saved pages=2 bytes=125889 https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:17:56,436 INFO scraper.pdf_downloader Saved pages=2 bytes=220847 https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:17:56,438 INFO scraper.pdf_downloader Saved pages=2 bytes=123092 https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:17:56,439 INFO scraper.pdf_downloader Saved pages=2 bytes=142110 https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:17:56,440 INFO scraper.pdf_downloader Saved pages=2 bytes=116186 https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:17:56,442 INFO scraper.pdf_downloader Saved pages=2 bytes=160985 https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:17:56,444 INFO scraper.pdf_downloader Saved pages=2 bytes=136554 https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:17:56,445 INFO scraper.pdf_downloader Saved pages=2 bytes=130806 https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:17:56,446 INFO scraper.pdf_downloader Saved pages=2 bytes=133624 https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:17:56,448 INFO scraper.pdf_downloader Saved pages=1 bytes=256596 https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:17:56,451 INFO scraper.pdf_downloader Saved pages=3 bytes=823340 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:17:56,452 INFO scraper.pdf_downloader Saved pages=2 bytes=504454 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:17:56,454 INFO scraper.pdf_downloader Saved pages=2 bytes=503187 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:17:56,456 INFO scraper.pdf_downloader Saved pages=2 bytes=490369 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:17:56,457 INFO scraper.pdf_downloader Saved pages=2 bytes=135842 https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:17:56,460 INFO scraper.pdf_downloader Saved pages=2 bytes=532093 https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:17:56,461 INFO scraper.pdf_downloader Saved pages=2 bytes=451147 https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:17:56,463 INFO scraper.pdf_downloader Saved pages=2 bytes=260381 https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:17:56,464 INFO scraper.pdf_downloader Saved pages=2 bytes=544699 https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:17:56,466 INFO scraper.pdf_downloader Saved pages=2 bytes=121227 https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:17:56,467 INFO scraper.pdf_downloader Saved pages=2 bytes=286562 https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:17:56,469 INFO scraper.pdf_downloader Saved pages=2 bytes=108704 https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:17:56,470 INFO scraper.pdf_downloader Saved pages=2 bytes=157757 https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:17:56,472 INFO scraper.pdf_downloader Saved pages=2 bytes=217987 https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:17:56,473 INFO scraper.pdf_downloader Saved pages=2 bytes=158945 https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:17:56,475 INFO scraper.pdf_downloader Saved pages=2 bytes=131685 https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:17:56,476 INFO scraper.pdf_downloader Saved pages=2 bytes=133948 https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:17:56,478 INFO scraper.pdf_downloader Summary {'pdfs': 97, 'failures': 0, 'complete': True}
+2026-11-17 18:32:16,655 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:32:16,655 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:32:16,656 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:32:16,656 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:32:16,657 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:32:16,657 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/en/problems/31/os31sl.pdf
+2026-11-17 18:32:16,658 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:32:16,658 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:32:16,658 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:32:16,659 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:32:16,660 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:32:16,660 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:32:16,660 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:32:16,660 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/en/problems/32/os32baz-avt.pdf
+2026-11-17 18:32:16,661 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:32:16,662 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:32:16,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:32:16,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:32:16,663 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/en/problems/32/os32os-avt.pdf
+2026-11-17 18:32:16,663 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:32:16,664 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:32:16,664 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:32:16,666 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:32:16,666 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf
+2026-11-17 18:32:16,667 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:32:16,667 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:32:16,667 INFO scraper.downloader Cache hit https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:32:16,668 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:32:16,668 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf
+2026-11-17 18:32:16,668 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:32:16,669 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:32:16,670 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:32:16,670 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:32:16,670 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/en/problems/33/os33baz-avt.pdf
+2026-11-17 18:32:16,670 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:32:16,672 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:32:16,672 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:32:16,673 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:32:16,673 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:32:16,673 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/en/problems/33/os33sl-avt.pdf
+2026-11-17 18:32:16,673 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:32:16,673 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:32:16,674 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:32:16,675 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:32:16,676 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:32:16,676 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf
+2026-11-17 18:32:16,676 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:32:16,676 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:32:16,678 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:32:16,679 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:32:16,679 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:32:16,679 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf
+2026-11-17 18:32:16,680 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:32:16,681 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:32:16,681 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:32:16,681 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:32:16,681 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/en/problems/34/os34baz-avt.pdf
+2026-11-17 18:32:16,683 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:32:16,684 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:32:16,685 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:32:16,685 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:32:16,685 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/en/problems/34/os34sl-avt.pdf
+2026-11-17 18:32:16,685 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:32:16,687 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:32:16,688 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:32:16,688 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf
+2026-11-17 18:32:16,689 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:32:16,689 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:32:16,690 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:32:16,691 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:32:16,691 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf
+2026-11-17 18:32:16,692 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:32:16,692 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:32:16,692 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:32:16,693 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:32:16,693 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:32:16,693 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf
+2026-11-17 18:32:16,695 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:32:16,696 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:32:16,696 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:32:16,696 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:32:16,696 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf
+2026-11-17 18:32:16,696 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:32:16,697 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:32:16,698 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:32:16,698 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:32:16,699 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:32:16,699 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:32:16,700 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:32:16,700 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:32:16,700 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:32:16,701 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:32:16,701 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:32:16,703 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:32:16,703 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:32:16,704 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:32:16,704 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:32:16,704 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:32:16,706 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:32:16,707 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:32:16,708 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:32:16,709 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:32:16,710 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:32:16,710 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:32:16,710 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:32:16,711 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:32:16,712 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:32:16,713 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:32:16,713 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:32:16,713 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:32:16,714 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:32:16,716 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:32:16,717 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:32:16,717 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:32:16,717 INFO scraper.pdf_downloader Saved pages=2 bytes=152818 https://www.turgor.ru/problems/31/os31sl.pdf
+2026-11-17 18:32:16,717 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:32:16,719 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:32:16,720 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:32:16,720 INFO scraper.downloader Cache hit https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:32:16,720 INFO scraper.pdf_downloader Saved pages=2 bytes=125084 https://www.turgor.ru/problems/32/os32baz-avt.pdf
+2026-11-17 18:32:16,722 INFO scraper.pdf_downloader Saved pages=2 bytes=147682 https://www.turgor.ru/problems/32/os32os-avt.pdf
+2026-11-17 18:32:16,724 INFO scraper.pdf_downloader Saved pages=2 bytes=111671 https://www.turgor.ru/problems/32/vs32baz-avt.pdf
+2026-11-17 18:32:16,725 INFO scraper.pdf_downloader Saved pages=2 bytes=228981 https://www.turgor.ru/problems/32/vs32sl-avt.pdf
+2026-11-17 18:32:16,727 INFO scraper.pdf_downloader Saved pages=2 bytes=117606 https://www.turgor.ru/problems/33/os33baz-avt.pdf
+2026-11-17 18:32:16,728 INFO scraper.pdf_downloader Saved pages=2 bytes=157865 https://www.turgor.ru/problems/33/os33sl-avt.pdf
+2026-11-17 18:32:16,730 INFO scraper.pdf_downloader Saved pages=2 bytes=124386 https://www.turgor.ru/problems/33/vs33baz-avt.pdf
+2026-11-17 18:32:16,731 INFO scraper.pdf_downloader Saved pages=2 bytes=155762 https://www.turgor.ru/problems/33/vs33sl-avt.pdf
+2026-11-17 18:32:16,732 INFO scraper.pdf_downloader Saved pages=2 bytes=121149 https://www.turgor.ru/problems/34/os34baz-avt.pdf
+2026-11-17 18:32:16,734 INFO scraper.pdf_downloader Saved pages=2 bytes=138758 https://www.turgor.ru/problems/34/os34sl-avt.pdf
+2026-11-17 18:32:16,735 INFO scraper.pdf_downloader Saved pages=2 bytes=110675 https://www.turgor.ru/problems/34/vs34baz-avt.pdf
+2026-11-17 18:32:16,736 INFO scraper.pdf_downloader Saved pages=2 bytes=106017 https://www.turgor.ru/problems/34/vs34sl-avt.pdf
+2026-11-17 18:32:16,738 INFO scraper.pdf_downloader Saved pages=2 bytes=132080 https://www.turgor.ru/problems/35/os35-baz-avt.pdf
+2026-11-17 18:32:16,739 INFO scraper.pdf_downloader Saved pages=2 bytes=136395 https://www.turgor.ru/problems/35/os35-sl-avt.pdf
+2026-11-17 18:32:16,741 INFO scraper.pdf_downloader Saved pages=2 bytes=128475 https://www.turgor.ru/problems/35/vs-35-baz-avt.pdf
+2026-11-17 18:32:16,742 INFO scraper.pdf_downloader Saved pages=2 bytes=132488 https://www.turgor.ru/problems/35/vs-35-sl-avt.pdf
+2026-11-17 18:32:16,744 INFO scraper.pdf_downloader Saved pages=2 bytes=115047 https://www.turgor.ru/problems/36/os-36-baz-avt.pdf
+2026-11-17 18:32:16,745 INFO scraper.pdf_downloader Saved pages=2 bytes=247623 https://www.turgor.ru/problems/36/os-36-sl-avt.pdf
+2026-11-17 18:32:16,747 INFO scraper.pdf_downloader Saved pages=2 bytes=123020 https://www.turgor.ru/problems/36/vs-36-baz-avt.pdf
+2026-11-17 18:32:16,748 INFO scraper.pdf_downloader Saved pages=2 bytes=129608 https://www.turgor.ru/problems/36/vs-36-sl-avt.pdf
+2026-11-17 18:32:16,749 INFO scraper.pdf_downloader Saved pages=2 bytes=104611 https://www.turgor.ru/problems/37/os-37-baz-avt.pdf
+2026-11-17 18:32:16,751 INFO scraper.pdf_downloader Saved pages=2 bytes=168883 https://www.turgor.ru/problems/37/os-37-sl-avt.pdf
+2026-11-17 18:32:16,752 INFO scraper.pdf_downloader Saved pages=2 bytes=119031 https://www.turgor.ru/problems/37/vs-37-baz-avt.pdf
+2026-11-17 18:32:16,754 INFO scraper.pdf_downloader Saved pages=2 bytes=148316 https://www.turgor.ru/problems/37/vs-37-sl-avt.pdf
+2026-11-17 18:32:16,755 INFO scraper.pdf_downloader Saved pages=1 bytes=116608 https://www.turgor.ru/problems/37/vs-37-ustn-avt.pdf
+2026-11-17 18:32:16,756 INFO scraper.pdf_downloader Saved pages=2 bytes=129350 https://www.turgor.ru/problems/38/os-38-baz-avt.pdf
+2026-11-17 18:32:16,758 INFO scraper.pdf_downloader Saved pages=2 bytes=161478 https://www.turgor.ru/problems/38/os-38-sl-avt.pdf
+2026-11-17 18:32:16,759 INFO scraper.pdf_downloader Saved pages=2 bytes=144188 https://www.turgor.ru/problems/38/vs-38-baz-avt.pdf
+2026-11-17 18:32:16,761 INFO scraper.pdf_downloader Saved pages=2 bytes=152251 https://www.turgor.ru/problems/38/vs-38-sl-avt.pdf
+2026-11-17 18:32:16,762 INFO scraper.pdf_downloader Saved pages=1 bytes=138987 https://www.turgor.ru/problems/38/vs-38-ustn-avt.pdf
+2026-11-17 18:32:16,763 INFO scraper.pdf_downloader Saved pages=2 bytes=122038 https://www.turgor.ru/problems/39/os-39-baz-avt.pdf
+2026-11-17 18:32:16,765 INFO scraper.pdf_downloader Saved pages=2 bytes=163987 https://www.turgor.ru/problems/39/os-39-sl-avt.pdf
+2026-11-17 18:32:16,766 INFO scraper.pdf_downloader Saved pages=2 bytes=123196 https://www.turgor.ru/problems/39/vs-39-baz-avt.pdf
+2026-11-17 18:32:16,768 INFO scraper.pdf_downloader Saved pages=2 bytes=129116 https://www.turgor.ru/problems/39/vs-39-sl-avt.pdf
+2026-11-17 18:32:16,770 INFO scraper.pdf_downloader Saved pages=1 bytes=102432 https://www.turgor.ru/problems/39/vs-39-ustn-avt.pdf
+2026-11-17 18:32:16,771 INFO scraper.pdf_downloader Saved pages=2 bytes=113014 https://www.turgor.ru/problems/40/os-40-baz-avt.pdf
+2026-11-17 18:32:16,772 INFO scraper.pdf_downloader Saved pages=2 bytes=163703 https://www.turgor.ru/problems/40/os-40-sl-avt.pdf
+2026-11-17 18:32:16,773 INFO scraper.pdf_downloader Saved pages=2 bytes=129232 https://www.turgor.ru/problems/40/vs-40-baz-avt.pdf
+2026-11-17 18:32:16,776 INFO scraper.pdf_downloader Saved pages=2 bytes=153567 https://www.turgor.ru/problems/40/vs-40-sl-avt.pdf
+2026-11-17 18:32:16,777 INFO scraper.pdf_downloader Saved pages=1 bytes=120853 https://www.turgor.ru/problems/40/vs-40-ustn-avt.pdf
+2026-11-17 18:32:16,779 INFO scraper.pdf_downloader Saved pages=2 bytes=132518 https://www.turgor.ru/problems/41/os-41-baz-avt.pdf
+2026-11-17 18:32:16,780 INFO scraper.pdf_downloader Saved pages=2 bytes=164629 https://www.turgor.ru/problems/41/os-41-sl-avt.pdf
+2026-11-17 18:32:16,781 INFO scraper.pdf_downloader Saved pages=2 bytes=144971 https://www.turgor.ru/problems/41/vs-41-baz-avt.pdf
+2026-11-17 18:32:16,783 INFO scraper.pdf_downloader Saved pages=2 bytes=145923 https://www.turgor.ru/problems/41/vs-41-sl-avt.pdf
+2026-11-17 18:32:16,784 INFO scraper.pdf_downloader Saved pages=2 bytes=113733 https://www.turgor.ru/problems/42/os-42-baz-avt.pdf
+2026-11-17 18:32:16,785 INFO scraper.pdf_downloader Saved pages=2 bytes=147819 https://www.turgor.ru/problems/42/os-42-sl-avt.pdf
+2026-11-17 18:32:16,787 INFO scraper.pdf_downloader Saved pages=2 bytes=133447 https://www.turgor.ru/problems/42/vs-42-baz-avt.pdf
+2026-11-17 18:32:16,788 INFO scraper.pdf_downloader Saved pages=2 bytes=140761 https://www.turgor.ru/problems/42/vs-42-sl-avt.pdf
+2026-11-17 18:32:16,790 INFO scraper.pdf_downloader Saved pages=2 bytes=125889 https://www.turgor.ru/problems/43/os-43-baz-avt.pdf
+2026-11-17 18:32:16,791 INFO scraper.pdf_downloader Saved pages=2 bytes=220847 https://www.turgor.ru/problems/43/os-43-sl-avt.pdf
+2026-11-17 18:32:16,793 INFO scraper.pdf_downloader Saved pages=2 bytes=123092 https://www.turgor.ru/problems/43/vs-43-baz-avt.pdf
+2026-11-17 18:32:16,794 INFO scraper.pdf_downloader Saved pages=2 bytes=142110 https://www.turgor.ru/problems/43/vs-43-sl-avt.pdf
+2026-11-17 18:32:16,795 INFO scraper.pdf_downloader Saved pages=2 bytes=116186 https://www.turgor.ru/problems/44/os-44-baz-avt.pdf
+2026-11-17 18:32:16,796 INFO scraper.pdf_downloader Saved pages=2 bytes=160985 https://www.turgor.ru/problems/44/os-44-sl-avt.pdf
+2026-11-17 18:32:16,798 INFO scraper.pdf_downloader Saved pages=2 bytes=136554 https://www.turgor.ru/problems/44/vs-44-baz-avt.pdf
+2026-11-17 18:32:16,799 INFO scraper.pdf_downloader Saved pages=2 bytes=130806 https://www.turgor.ru/problems/44/vs-44-sl-avt.pdf
+2026-11-17 18:32:16,800 INFO scraper.pdf_downloader Saved pages=2 bytes=133624 https://www.turgor.ru/problems/45/os-45-baz-avt.pdf
+2026-11-17 18:32:16,802 INFO scraper.pdf_downloader Saved pages=1 bytes=256596 https://www.turgor.ru/problems/45/os-45-baz-ml-5-strat.pdf
+2026-11-17 18:32:16,805 INFO scraper.pdf_downloader Saved pages=3 bytes=823340 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Junior.pdf
+2026-11-17 18:32:16,806 INFO scraper.pdf_downloader Saved pages=2 bytes=504454 https://www.turgor.ru/problems/45/os-45-marking_scheme_A_Senior.pdf
+2026-11-17 18:32:16,808 INFO scraper.pdf_downloader Saved pages=2 bytes=503187 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Junior.pdf
+2026-11-17 18:32:16,810 INFO scraper.pdf_downloader Saved pages=2 bytes=490369 https://www.turgor.ru/problems/45/os-45-marking_scheme_O_Senior.pdf
+2026-11-17 18:32:16,811 INFO scraper.pdf_downloader Saved pages=2 bytes=135842 https://www.turgor.ru/problems/45/os-45-sl-avt.pdf
+2026-11-17 18:32:16,813 INFO scraper.pdf_downloader Saved pages=2 bytes=532093 https://www.turgor.ru/problems/45/vs-45-baz-avt.pdf
+2026-11-17 18:32:16,815 INFO scraper.pdf_downloader Saved pages=2 bytes=451147 https://www.turgor.ru/problems/45/vs-45-sl-avt.pdf
+2026-11-17 18:32:16,816 INFO scraper.pdf_downloader Saved pages=2 bytes=260381 https://www.turgor.ru/problems/46/os-46-baz-avt.pdf
+2026-11-17 18:32:16,818 INFO scraper.pdf_downloader Saved pages=2 bytes=544699 https://www.turgor.ru/problems/46/os-46-sl-avt.pdf
+2026-11-17 18:32:16,819 INFO scraper.pdf_downloader Saved pages=2 bytes=121227 https://www.turgor.ru/problems/46/vs-46-baz-avt.pdf
+2026-11-17 18:32:16,821 INFO scraper.pdf_downloader Saved pages=2 bytes=286562 https://www.turgor.ru/problems/46/vs-46-sl-avt.pdf
+2026-11-17 18:32:16,822 INFO scraper.pdf_downloader Saved pages=2 bytes=108704 https://www.turgor.ru/problems/47/os-47-baz-avt.pdf
+2026-11-17 18:32:16,823 INFO scraper.pdf_downloader Saved pages=2 bytes=157757 https://www.turgor.ru/problems/47/os-47-sl-avt.pdf
+2026-11-17 18:32:16,824 INFO scraper.pdf_downloader Saved pages=2 bytes=217987 https://www.turgor.ru/problems/47/vs-47-baz-avt.pdf
+2026-11-17 18:32:16,826 INFO scraper.pdf_downloader Saved pages=2 bytes=158945 https://www.turgor.ru/problems/47/vs-47-sl-avt.pdf
+2026-11-17 18:32:16,827 INFO scraper.pdf_downloader Saved pages=2 bytes=131685 https://www.turgor.ru/problems/48/os-48-baz-avt.pdf
+2026-11-17 18:32:16,829 INFO scraper.pdf_downloader Saved pages=2 bytes=133948 https://www.turgor.ru/problems/48/os-48-sl-avt.pdf
+2026-11-17 18:32:16,831 INFO scraper.pdf_downloader Summary {'pdfs': 97, 'failures': 0, 'complete': True}
