@@ -8,8 +8,8 @@ from collections import deque
 from html.parser import HTMLParser
 from urllib.parse import urldefrag, urljoin, urlsplit
 
-from downloader import download
-from storage import Storage
+from .downloader import download
+from .storage import Storage
 
 INDEX = "https://www.turgor.ru/en/problems/allproblems.php"
 logger = logging.getLogger(__name__)
@@ -152,7 +152,7 @@ def _scrape(store, limit):
     return failed
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--limit", type=int, help="Maximum resources to process, including the index")

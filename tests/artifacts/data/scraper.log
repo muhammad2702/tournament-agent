@@ -1,0 +1,3 @@
+2026-11-17 17:04:00,855 INFO __main__ Cache hit url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:04:00,868 INFO __main__ Processed url=https://www.turgor.ru/en/problems/allproblems.php bytes=49074
+2026-11-17 17:04:00,872 INFO __main__ Run finished processed=1 cached=1 failed=0 pending=106

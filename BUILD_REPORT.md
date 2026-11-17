@@ -117,3 +117,19 @@ Live limited run in data/problem_html saved /en/problems/31/index.html and
 /i/footer_mbg2.gif; other discovered assets remain pending due to the limit.
 QA: 9 tests pass, one known missing-anchor check remains. Earlier demo directories
 remain historical runs, not evidence of the revised collection scope.
+
+## Review snapshot uploaded
+
+All current source files and data directories are included for user review.
+Historical demo runs are retained unchanged, including erroneous landing-page
+and solution-PDF downloads. They are evidence of earlier mistakes, not accepted
+outputs. data/problem_html is the latest limited HTML demonstration; it is not
+a complete crawl and most related assets are still pending. No secrets are
+included. Current QA has nine passing tests and one known expected failure.
+
+## Repository organization
+
+Application modules moved to scraper/; QA moved to tests/. All historical
+downloads, manifests and logs moved unchanged to tests/artifacts/data/. Earlier
+paths and commands in this report describe historical runs. Current commands:
+python -m scraper --limit 2; python -m unittest discover -s tests -v.

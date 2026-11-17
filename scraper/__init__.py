@@ -1,0 +1,1 @@
+"""Tournament archive source collection."""

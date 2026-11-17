@@ -1,0 +1,5 @@
+2026-11-17 17:06:37,569 INFO downloader Request attempt=1 url=https://www.turgor.ru/en/problems/allproblems.php
+2026-11-17 17:06:44,679 INFO __main__ Processed url=https://www.turgor.ru/en/problems/allproblems.php bytes=49074
+2026-11-17 17:06:45,683 INFO downloader Request attempt=1 url=https://www.turgor.ru/en/problems/48/index.php
+2026-11-17 17:06:52,338 INFO __main__ Processed url=https://www.turgor.ru/en/problems/48/index.php bytes=9631
+2026-11-17 17:06:52,341 INFO __main__ Run finished processed=2 cached=0 failed=0 pending=105

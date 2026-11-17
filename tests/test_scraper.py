@@ -7,9 +7,9 @@ import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError, URLError
 
-import downloader
-import scraper
-from storage import Storage
+from scraper import downloader
+from scraper import scraper
+from scraper.storage import Storage
 
 
 class ScraperQA(unittest.TestCase):
@@ -18,13 +18,13 @@ class ScraperQA(unittest.TestCase):
         self.addCleanup(temporary.cleanup)
         output = io.StringIO()
         metadata = {"final_url": scraper.INDEX, "content_type": "text/html", "encoding": None}
-        with patch("scraper.download", return_value=(html, metadata)), patch("scraper.time.sleep"), contextlib.redirect_stdout(output):
+        with patch("scraper.scraper.download", return_value=(html, metadata)), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(output):
             result = scraper.scrape(temporary.name, limit)
         manifest = json.loads((Storage(temporary.name).path).read_text())
         return result, manifest, output.getvalue()
 
     def test_network_failure_recorded(self):
-        with tempfile.TemporaryDirectory() as directory, patch("scraper.download", side_effect=URLError("offline")), patch("scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+        with tempfile.TemporaryDirectory() as directory, patch("scraper.scraper.download", side_effect=URLError("offline")), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(scraper.scrape(directory), 1)
             record = Storage(directory).manifest["resources"][scraper.INDEX]
             self.assertEqual(record["status"], "failed")
@@ -35,14 +35,14 @@ class ScraperQA(unittest.TestCase):
             self.assertIn("Traceback", log)
 
     def test_transient_failure_gets_three_attempts(self):
-        with patch("downloader.urlopen", side_effect=URLError("offline")) as request, patch("downloader.time.sleep"):
+        with patch("scraper.downloader.urlopen", side_effect=URLError("offline")) as request, patch("scraper.downloader.time.sleep"):
             with self.assertRaises(URLError):
                 downloader.download(scraper.INDEX)
             self.assertEqual(request.call_count, 3)
 
     def test_404_not_retried(self):
         error = HTTPError(scraper.INDEX, 404, "missing", {}, None)
-        with patch("downloader.urlopen", side_effect=error) as request:
+        with patch("scraper.downloader.urlopen", side_effect=error) as request:
             with self.assertRaises(HTTPError):
                 downloader.download(scraper.INDEX)
             self.assertEqual(request.call_count, 1)
@@ -76,7 +76,7 @@ class ScraperQA(unittest.TestCase):
         def fetch(url):
             body = b'<a href="31/index.php#a">set</a>' if url == scraper.INDEX else b'<img src="diagram.png"><link rel="stylesheet" href="style.css">'
             return body, {"final_url": url, "content_type": "text/html", "encoding": "utf-8"}
-        with tempfile.TemporaryDirectory() as directory, patch("scraper.download", side_effect=fetch), patch("scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+        with tempfile.TemporaryDirectory() as directory, patch("scraper.scraper.download", side_effect=fetch), patch("scraper.scraper.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(scraper.scrape(directory, limit=2), 0)
             manifest = Storage(directory).manifest
             self.assertIn(page.replace("index.php", "diagram.png"), manifest["resources"])
