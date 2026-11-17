@@ -1,0 +1,27 @@
+name: Restore and verify source snapshots
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements-qa.txt
+      - name: Restore exact source bytes
+        run: python -m tests.restore_downloads
+      - name: Audit every saved file
+        run: python -m scraper.audit --output tests/artifacts/downloads
+      - name: Commit restored artifacts
+        run: |
+          git add tests/artifacts/downloads
+          if ! git diff --cached --quiet; then
+            git -c user.name='Source snapshot bot' -c user.email='sources@users.noreply.github.com' commit -m 'Restore and verify source archive snapshots'
+            git push
+          fi
