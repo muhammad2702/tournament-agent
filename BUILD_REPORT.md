@@ -35,3 +35,7 @@ Source-language hints are not a full content-language classifier. Static assets 
 ## Reproducible artifact publication
 
 Added tests/restore_downloads.py and a GitHub Actions workflow. Missing raw artifacts are fetched directly from their original URLs and must match the already-audited local SHA-256 and byte length. A second audit runs on GitHub. The job commits the restored artifacts and a restore report, including failures if any. The local restore check passed for all 240 files.
+
+## GitHub verification
+
+GitHub workflow run 44094612937 restored all remaining raw files, independently audited all 240 artifacts and committed them successfully. Its complete repository tree hash matched the verified local copy exactly. The job emitted a Node.js 20 deprecation warning for older action versions. Updated to official Node.js 24 releases checkout v7.0.1 and setup-python v7.1.0, and added the unit tests to the workflow. No source-download failures occurred during publication.

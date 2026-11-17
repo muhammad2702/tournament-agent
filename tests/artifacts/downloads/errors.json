@@ -24,5 +24,11 @@
     "fix": "Pending work is resumed and pending/failed counts are separate",
     "regression_test": "test_resume_finishes_old_pending_dependencies",
     "current_pending_dependencies": 0
+  },
+  "github_verification": {
+    "run_url": "https://github.com/muhammad2702/tournament-agent/actions/runs/44094612937",
+    "restore_and_audit": "success",
+    "repository_tree_matches_verified_local_copy": true,
+    "ci_runtime_warning": "Older action versions requested deprecated Node.js 20; updated to official Node.js 24 action releases checkout v7.0.1 and setup-python v7.1.0."
   }
 }

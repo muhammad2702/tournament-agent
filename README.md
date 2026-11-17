@@ -58,4 +58,4 @@ Saving uses HTTP response bytes. BeautifulSoup only discovers links/assets; it d
 
 ## Reproduce the exact source snapshots
 
-`python -m tests.restore_downloads` restores missing raw files directly from their recorded source URLs, accepting only bytes matching the committed size and SHA-256. Existing correct files are reused. It never silently replaces the snapshot with changed source content. GitHub Actions runs this restore step, audits the result and commits restored raw files plus a restore report. The workflow uses GitHub's short-lived repository token; no credential is stored in code or logs.
+`python -m tests.restore_downloads` restores missing raw files directly from their recorded source URLs, accepting only bytes matching the committed size and SHA-256. Existing correct files are reused. It never silently replaces the snapshot with changed source content. GitHub Actions runs the unit tests, this restore step, audits the result and commits restored raw files plus a restore report. The workflow uses GitHub's short-lived repository token; no credential is stored in code or logs.
