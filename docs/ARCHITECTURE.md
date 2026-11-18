@@ -1,42 +1,9 @@
-# Program structure
+# Direct program flow
 
-Run `.venv/bin/python -m tournament_agent.main` from the repository root. The
-program uses the saved delivery when it exists. For a new archive, it downloads
-and inspects sources, extracts ready sets, and writes a plan. It does not make
-paid calls by itself. The GitHub Actions workflow executes an approved plan.
+`main.py` always calls `archive_builder.py` on the fixed assignment index. The archive builder reads its links, visits each numbered page, downloads each distinct PDF, and records every source in one SQLite `source` table with the path to its original file.
 
-| File | What it does |
-| --- | --- |
-| `models.py` | Shared records and saved path handling. |
-| `main.py` | Runs the stages in order and saves extraction and preparation reports. |
-| `archive_builder.py` | Starts at the fixed archive URL, records every source link, downloads each distinct page and PDF sequentially, caches original bytes, and checkpoints the manifest. |
-| `webpage_extractor.py` | Reads HTML anchors and questions. Lingua checks actual prose in each section and PDF page before deciding whether a source is English. HTML question ranges and image references stay attached to the original HTML. |
-| `pdf_extractor.py` | Uses PyMuPDF spans and coordinates to find question boundaries, scores, authors, and graphics. Saves question regions for source review. |
-| `model_call.py` | Prepares statements, calls OpenRouter only with the approved plan and account ledger, records costs, and asks for bilingual review. |
-| `verification.py` | Applies saved source reviews, typesets the four PDFs, builds the output manifest, checks source hashes, and audits archive coverage. |
+`main.py` then sends HTML sections to `webpage_extractor.py` and PDF pages to `pdf_extractor.py`. Lingua checks the actual source text before English sources are skipped. Ambiguous boundaries, figures, and notation stay marked for review. Extracted question rows are saved in the same SQLite table.
 
-## Source flow
+`model_call.py` reads unfinished question rows. It contacts OpenRouter only when a key and an explicit new-call cap are present. A translation is saved before its separate bilingual review, so the program can resume. The wire protocol uses JSON; no JSON files are saved.
 
-1. `archive_builder.run` saves the assignment index, numbered linked pages,
-   PDF links, and original files. Each URL is downloaded once. Failed URLs stay
-   visible in the manifest.
-2. `main.inspect_sources` checks cached HTML sections and PDF pages. Lingua
-   labels confident English units for skipping. Unclear language is marked for
-   review.
-3. `main.extract_cached_html` and `main.extract_cached_pdf` call the two
-   extractors. They save original source ranges, text spans, figures, and page
-   crops alongside candidate question text. Missing or ambiguous boundaries
-   remain review items.
-4. `model_call.prepare_translation` checks hashes and source review decisions
-   before creating the translation requests. `model_call.paid_main` prints the
-   exact plan and maximum reservation; it sends requests only when given that
-   plan hash and the canonical ledger checkout.
-5. Translation and bilingual review results are saved after each statement.
-   `verification.render_main` accepts reviewed English, applies recorded source
-   corrections, typesets the four PDFs, and saves page images for visual QA.
-6. `verification.verify_main` checks cached source and report hashes, HTML
-   question ranges, PDF span coverage, source images, and model accounting.
-
-Figures remain connected to their source crops. A question with unresolved
-figure placement or mathematical notation cannot silently become a reviewed
-translation or accepted PDF.
+`verification.py` creates PDFs only from fully reviewed questions and checks the original source hashes and output PDFs. `models.py` holds the extractor records and cross-platform path reader. These are the seven Python files in the program.

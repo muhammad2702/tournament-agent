@@ -9,11 +9,10 @@ from html.parser import HTMLParser
 from pathlib import Path
 import hashlib
 import re
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urldefrag, urljoin, urlsplit
 from bs4 import BeautifulSoup
 from lingua import LanguageDetectorBuilder
 import pymupdf
-from .archive_builder import discover_documents
 from .models import (HtmlQuestion, HtmlQuestionSet, ImageRef, LanguageCheck,
                      SourceProbe, SourceRef)
 
@@ -164,7 +163,12 @@ def inspect_html(html: str, ref: SourceRef, known_anchors: set[str]) -> tuple[So
     for tag in soup(["script", "style"]):
         tag.decompose()
     text = soup.get_text()
-    links = tuple(dict.fromkeys(doc.url for doc in discover_documents(fragment, ref.page_url)))
+    links = tuple(dict.fromkeys(
+        urldefrag(urljoin(ref.page_url, tag["href"]))[0]
+        for tag in soup.find_all("a", href=True)
+        if urlsplit(urljoin(ref.page_url, tag["href"])).netloc == urlsplit(ref.page_url).netloc
+        and urlsplit(urljoin(ref.page_url, tag["href"])).path.lower().endswith(".pdf")
+    ))
     return _probe(text, ref.page_url, "html", anchor=ref.anchor, links=links), fragment
 
 

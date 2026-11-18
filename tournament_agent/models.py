@@ -1,11 +1,7 @@
-"""Records shared by the inventory components."""
+"""Source and question records used by the two extractors."""
 
 from dataclasses import dataclass
-from decimal import Decimal
-from typing import Any
 from pathlib import Path
-
-
 
 
 @dataclass(frozen=True)
@@ -13,24 +9,6 @@ class SourceRef:
     page_url: str
     anchor: str = ""
     label: str = ""
-
-
-@dataclass(frozen=True)
-class DocumentRef:
-    url: str
-    source_page_url: str
-    anchor: str = ""
-    label: str = ""
-
-
-@dataclass(frozen=True)
-class Download:
-    url: str
-    final_url: str
-    path: str
-    sha256: str
-    content_type: str
-    from_cache: bool
 
 
 @dataclass(frozen=True)
@@ -152,57 +130,6 @@ class PdfQuestionSet:
     span_coverage_verified: bool
     status: str
     issues: tuple[str, ...]
-
-
-@dataclass(frozen=True)
-class StatementSource:
-    id: str
-    source_sha256: str
-    kind: str
-    language: str
-    text: str
-    evidence: str
-
-
-@dataclass(frozen=True)
-class ModelRequest:
-    purpose: str
-    source_sha256: str
-    prompt_version: str
-    model: str
-    messages: tuple[dict[str, Any], ...]
-    max_output_tokens: int
-    response_schema: dict[str, Any] | None = None
-
-
-@dataclass(frozen=True)
-class RequestBudget:
-    """Caller-supplied conservative bound, not a character-count estimate.
-
-    Input tokens must include images and prompt/schema overhead. Extra cost
-    covers any documented non-token fees. Selecting/verifying current model
-    pricing and its image-token rules is required before a live request.
-    """
-    input_token_bound: int
-    input_usd_per_million: Decimal
-    output_usd_per_million: Decimal
-    price_reference: str
-    extra_cost_usd: Decimal = Decimal("0")
-
-
-@dataclass(frozen=True)
-class ModelResult:
-    call_id: str
-    provider_id: str
-    model: str
-    content: str
-    cost_usd: Decimal
-    from_cache: bool
-
-
-
-# Read saved Windows-relative paths on both Windows and Linux.
-
 
 
 def saved_path(value: str) -> Path:
