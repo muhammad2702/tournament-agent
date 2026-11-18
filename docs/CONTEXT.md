@@ -218,3 +218,13 @@ Git attributes prevent source and report line-ending normalization. The key and
 
 Cloud bootstrap: read this and AGENTS, install listed requirements, verify real
 cached state, report what passed, then wait for user instruction. No model calls.
+
+Migration outcome: workspace commit 674c9db886b973e505c6eef8a35080f5fc622b7f
+published 477 files with matching Git blob hashes. The old scraper/ tree was
+removed from master; previous commits remain. GitHub Actions run 44233715267
+passed dependency installation and offline verification on Linux/Python 3.12.
+The requested create_thread call for the runnable Default environment was
+rejected with "MCP tool call requires approval, but approval policy is never".
+No cloud chat exists from this migration and no interactive cloud checkout was
+verified. Do not infer it was created from the user's approval. CLOUD_PROMPT.md
+contains the same bootstrap/continuation instructions for a future cloud chat.

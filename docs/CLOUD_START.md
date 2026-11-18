@@ -3,6 +3,13 @@
 Repository: https://github.com/muhammad2702/tournament-agent
 Branch: master
 
+The repository passed Linux verification in GitHub Actions. Automatic creation
+of the requested Codex Cloud chat was blocked by the current session's approval
+policy; no chat was created. Use [CLOUD_PROMPT.md](CLOUD_PROMPT.md) as the initial
+message when starting a cloud chat with this repository. The full working
+agreement and implementation context are committed, rather than depending on
+the previous conversation being available.
+
 Read AGENTS.md and docs/CONTEXT.md. Cached sources and paid ledger are part of
 the handoff; do not recreate the project or reset costs.
 

@@ -22,6 +22,9 @@ Windows: use `.venv\Scripts\python.exe` instead. Verification reads real cached
 data and existing cost records without model calls or source downloads. Historical
 Windows paths are read through paths.py; Git attributes preserve exact data bytes.
 See [cloud bootstrap](docs/CLOUD_START.md).
+The [Linux verification run](https://github.com/muhammad2702/tournament-agent/actions/runs/44233715267)
+passed. Cloud chat creation was blocked by the migration session's approval
+policy; the [continuation prompt](docs/CLOUD_PROMPT.md) is ready for a new chat.
 
 ## Saved state
 
