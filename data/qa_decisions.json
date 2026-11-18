@@ -1,0 +1,70 @@
+{
+  "turnir31ots:note": {
+    "source_sha256": "5092476f6f5c65c117791dfb1fe1b937136f4644a79d6bdab23b0c4216790032",
+    "english_sha256": "e4713addea15dca8788f01c4c5a4fdd216e84e45c8e3dd83a9506d0addfa6dfe",
+    "translation_call_id": "4800d2483b3048c29f6fc131d64e7a0c",
+    "review_call_id": "cb5ed1b862ec4146928946969fc9898e",
+    "validation_errors": [
+      "A check has invalid verdict or missing source/translation evidence"
+    ],
+    "source_evidence": "сумма кубов чисел a, b, c, d равна 100 в сотой степени.",
+    "english_evidence": "the sum of the cubes of the numbers a, b, c, d is equal to 100 to the hundredth power.",
+    "reason": "Compared the English with the original HTML section note. It preserves the expression, variables, and meaning. The note explains the expression and adds no condition. The automated reviewer passed all six checks, but its conditions check had no quotations."
+  },
+  "turnir31ots:q4": {
+    "source_sha256": "5092476f6f5c65c117791dfb1fe1b937136f4644a79d6bdab23b0c4216790032",
+    "english_sha256": "82b54da439423b582d135c5948757155b25af19ea747b790c562849e0bf8d7d9",
+    "translation_call_id": "f337752d506d4ae1b5f28e8c63b4c98f",
+    "review_call_id": "c0bdb0939af047f39cdea6b3b3192962",
+    "validation_errors": [],
+    "source_evidence": "На сторонах правильного 2009-угольника отметили по точ-\nке.",
+    "english_evidence": "Points are marked on the sides of a regular 2009-gon.",
+    "replacement": [
+      "Points are marked on the sides of a regular 2009-gon.",
+      "One point is marked on each side of a regular 2009-gon."
+    ],
+    "reason": "The original HTML specifies one point on each side. The saved English left this quantifier implicit."
+  },
+  "https://www.turgor.ru/en/problems/31/os31sl.pdf#p1:q2": {
+    "source_sha256": "719e689667d82d2d72026ff07107e5a7a3c55e2c0cb47942d3f68d5329e9ecac",
+    "english_sha256": "f0c1789767e4d25dfc0b77667ce4b8c1a5aa124a50f52e579ed5d53d2cdd6195",
+    "translation_call_id": "d152484c23ab48ebb50c4b2071f922c1",
+    "review_call_id": "ba6bd64c1f4a40c69b4cd7bbe46f2406",
+    "validation_errors": [],
+    "source_evidence": "10×10×10",
+    "english_evidence": "10x10x10",
+    "replacement": [
+      "10x10x10",
+      "10×10×10"
+    ],
+    "reason": "The original PDF uses multiplication signs for the dimensions."
+  },
+  "https://www.turgor.ru/en/problems/31/os31sl.pdf#p2:q7": {
+    "source_sha256": "719e689667d82d2d72026ff07107e5a7a3c55e2c0cb47942d3f68d5329e9ecac",
+    "english_sha256": "4beb35904428ae5b7b3d2b7ee6ce2d9027f7f6f968443bd90a45edf0e1e5a91f",
+    "translation_call_id": "b0e5db74d8b346f685054c1b8901e9c9",
+    "review_call_id": "3507882480d54f49a158e2d6469d2bcb",
+    "validation_errors": [],
+    "source_evidence": "Али-Баба сможет за сколько-то ходов открыть пещеру?",
+    "english_evidence": "open the cave in a few moves?",
+    "replacement": [
+      "open the cave in a few moves?",
+      "open the cave in some finite number of moves?"
+    ],
+    "reason": "Compared the last line with the original PDF crop. The original asks whether some number of moves suffices and supplies no small bound. 'A few' adds a smallness implication."
+  },
+  "https://www.turgor.ru/en/problems/31/os31sl.pdf#p2:q4": {
+    "source_sha256": "719e689667d82d2d72026ff07107e5a7a3c55e2c0cb47942d3f68d5329e9ecac",
+    "english_sha256": "c0ac9f6d4074cff2146340ed346525d70841cee2d22a63907c4c5cd1d94edb5b",
+    "translation_call_id": "5699051709d345c89d71a04c44326c75",
+    "review_call_id": "33045ab0189d4de6b75fb314cef9e0e1",
+    "validation_errors": [],
+    "source_evidence": "единиц",
+    "english_evidence": "\\text{ units}",
+    "replacement": [
+      "\\text{ units}",
+      "\\text{ ones}"
+    ],
+    "reason": "The label under the final factor counts digit 1s. 'Ones' names these digits directly in English."
+  }
+}

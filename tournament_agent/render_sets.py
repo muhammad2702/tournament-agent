@@ -29,6 +29,14 @@ _DOCUMENT = r"""
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
 \raggedbottom
+\newsavebox{\questionbox}
+\newenvironment{questionblock}
+ {\begin{lrbox}{\questionbox}\begin{minipage}{\linewidth}\raggedright}
+ {\end{minipage}\end{lrbox}%
+  \ifdim\dimexpr\ht\questionbox+\dp\questionbox\relax>\textheight
+     \PackageError{tournament}{A question exceeds one page}{Review the question layout.}%
+  \fi
+  \noindent\usebox{\questionbox}\par\medskip}
 \begin{document}
 {\LARGE\bfseries Tournament of Towns}\par
 """
@@ -81,13 +89,17 @@ def set_tex(item: dict) -> str:
                 subpart = (score["subpart"] or "").translate(str.maketrans("аб", "ab"))
                 scores.append(f"{subpart + ' ' if subpart else ''}{score['value']} points")
             points = r"\quad " + _plain(" · ".join(scores))
-        body = statement_tex(row["english"])
+        english = row["english"]
+        if row["number"] is None:
+            english = re.sub(r"^\s*Note\s*:\s*", "", english, count=1, flags=re.I)
+        body = statement_tex(english)
         body = re.sub(r"(?m)\n(?=[a-z]\)\s)", r"\\par\n", body)
+        sections.append(r"\begin{questionblock}")
         sections.append(r"\textbf{" + label + "}" + points + r"\par\nobreak")
         sections.append(body + r"\par")
         if row["author"]:
             sections.append(r"\nobreak{\raggedleft\itshape " + _plain(row["author"]) + r"\par}")
-        sections.append(r"\medskip")
+        sections.append(r"\end{questionblock}")
     return "\n".join([*sections, r"\end{document}"]) + "\n"
 
 
@@ -141,12 +153,46 @@ def render_sets(report: dict, output: Path, qa_dir: Path, engine: str) -> list[d
                     image.parent.mkdir(parents=True, exist_ok=True)
                     page.get_pixmap(dpi=144).save(image)
                     images.append(image.relative_to(qa_dir).as_posix())
+            manual_reviews = [row["source"]["id"] for row in item["statements"] if row.get("manual_review")]
             results.append({**key, "status": "rendered_needs_visual_qa", "path": relative.as_posix(),
                             "sha256": sha256(path.read_bytes()).hexdigest(), "page_count": len(images),
-                            "page_images": images})
+                            "page_images": images, "manual_reviews": manual_reviews})
         except (OSError, ValueError, RuntimeError, subprocess.TimeoutExpired) as exc:
             results.append({**key, "status": "render_failed", "error": str(exc)})
     return results
+
+
+def apply_manual_reviews(report: dict, decisions: dict) -> None:
+    applied = set()
+    for item in report["sets"]:
+        for row in item["statements"]:
+            source = row["source"]
+            decision = decisions.get(source["id"])
+            if decision is None:
+                continue
+            review = row.get("review", {})
+            replacement = decision.get("replacement")
+            expected_status = "review_passed" if replacement else "invalid_review"
+            if (row["status"] != expected_status
+                    or review.get("review", {}).get("verdict") != "pass"
+                    or review.get("validation_errors") != decision["validation_errors"]
+                    or source["source_sha256"] != decision["source_sha256"]
+                    or sha256(row["english"].encode()).hexdigest() != decision["english_sha256"]
+                    or row["translation"]["call_id"] != decision["translation_call_id"]
+                    or review["call_id"] != decision["review_call_id"]
+                    or decision["source_evidence"] not in source["text"]
+                    or decision["english_evidence"] not in row["english"]):
+                raise ValueError(f"Manual review evidence no longer matches {source['id']}")
+            if replacement:
+                before, after = replacement
+                if row["english"].count(before) != 1:
+                    raise ValueError(f"Reviewed replacement is ambiguous for {source['id']}")
+                row["english"] = row["english"].replace(before, after, 1)
+            row.update(status="review_passed", manual_review=decision)
+            applied.add(source["id"])
+        if item["statements"] and all(row["status"] == "review_passed" for row in item["statements"]):
+            item["status"] = "review_passed"
+    report["manual_reviews_applied"] = sorted(applied)
 
 
 def main() -> int:
@@ -160,6 +206,9 @@ def main() -> int:
     if not args.engine:
         parser.error("XeLaTeX is required for PDF export")
     report = json.loads(args.results.read_bytes())
+    decisions_path = args.data_dir / "qa_decisions.json"
+    if decisions_path.is_file():
+        apply_manual_reviews(report, json.loads(decisions_path.read_bytes()))
     outputs = render_sets(report, args.output, args.qa, args.engine)
     _save(args.qa / "render_report.json", {"outputs": outputs, "model_accounting": report["model_accounting"]})
     _save(args.output / "manifest.json", build_manifest(args.data_dir, report, outputs))

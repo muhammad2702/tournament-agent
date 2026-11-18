@@ -1,110 +1,74 @@
-# Tournament of Towns agent — current workspace
+# Tournament of Towns English PDF agent
 
-This is the user's current implementation, cached sources, extraction evidence,
-and real model-call ledger. It replaces the previous `scraper/` implementation
-in this repository. **The assignment is unfinished; four final PDFs do not yet exist.**
+The four demonstration sets are generated and page-checked. They contain 24
+questions and the Senior Basic section note. Every PDF has one page.
 
-Read [AGENTS.md](AGENTS.md), [complete context](docs/CONTEXT.md), and
-[architecture](docs/ARCHITECTURE.md) before doing work. The user requires teaching
-and approval before each subsequent implementation stage or paid API call.
+| Set | Date | Questions | PDF |
+| --- | --- | --- | --- |
+| Junior Basic | 18 October 2009 | 5 | [Download](output/junior/basic/2009-10-18.pdf) |
+| Senior Basic | 18 October 2009 | 5 + section note | [Download](output/senior/basic/2009-10-18.pdf) |
+| Junior Advanced | 25 October 2009 | 7 | [Download](output/junior/advanced/2009-10-25.pdf) |
+| Senior Advanced | 25 October 2009 | 7 | [Download](output/senior/advanced/2009-10-25.pdf) |
 
-## Cloud/Linux setup
+The [source and output manifest](output/manifest.json) records URLs, hashes,
+classifications, counts, and statuses. The [QA note](qa/QA.md) records the
+source comparisons, page checks, and unresolved archive layouts.
 
-Use Python 3.11+ and run from the repository root:
+## Run locally
+
+Use Python 3.11+, XeLaTeX, and DejaVu Serif. Run from the project root.
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m tournament_agent.verify
-```
-
-Windows: use `.venv\Scripts\python.exe` instead. Verification reads real cached
-data and existing cost records without model calls or source downloads. Historical
-Windows paths are read through paths.py; Git attributes preserve exact data bytes.
-See [cloud bootstrap](docs/CLOUD_START.md).
-The [Linux verification run](https://github.com/muhammad2702/tournament-agent/actions/runs/44233715267)
-passed. Cloud chat creation was blocked by the migration session's approval
-policy; the [continuation prompt](docs/CLOUD_PROMPT.md) is ready for a new chat.
-
-## Saved state
-
-- Index + 38 archive pages = 39 HTML files; 255 webpage references (219 anchors).
-- 99 PDF references, 73 unique downloaded PDFs. Completed download run: no failures.
-- Inspection: 186 HTML sections, 190 PDF pages, 33 section errors. Some language
-  decisions and classifications need review; these are not counts of validated sets.
-- Required basic HTML sets: five questions each, scores/authors and original markup retained.
-- Required advanced PDF: seven questions on each of two pages, raw spans/crops retained.
-  Exponents and a complex underbrace are explicitly flagged for review.
-- ONE basic junior question translated and bilingually reviewed through the real API.
-- **Two real calls, $0.0017948 spent. Preserve data/model_calls.json across resumes.**
-
-## Review artifacts
-
-- [HTML questions](data/extracted/html_questions_review.html)
-- [PDF question crops](data/extracted/pdf_questions_review.html)
-- [Real translation](data/live_api_test.json)
-- [Real bilingual review](data/live_api_review.json)
-- [Assignment PDF](docs/ASE%20Take%20Home%20Assignment.pdf)
-
-## Stage commands and side effects
-
-```bash
-# Rewrites inspection metadata and section fragments:
-.venv/bin/python -m tournament_agent.cli --inspect
-# Rewrites selected HTML question reports:
-.venv/bin/python -m tournament_agent.cli --extract-html --anchor turnir31otm --anchor turnir31ots
-# Rewrites selected PDF reports and source images:
-.venv/bin/python -m tournament_agent.cli --extract-pdf --document-url https://www.turgor.ru/en/problems/31/os31sl.pdf
-
-# Prepares statement inputs and checks the saved probe offline:
-.venv/bin/python -m tournament_agent.cli --prepare-translation
-```
-
-`--prepare-translation` reads the saved extraction reports and writes
-`data/prepared_translation.json` with source evidence, scores, authors,
-and the exact translation requests. It also retains the reviewed English
-statement for Junior Basic Q1. The source checks for the Advanced PDF are
-recorded in `data/pdf_source_checks.json`.
-
-## Preview, execute and inspect a set run
-
-```bash
+.venv/bin/python -m tournament_agent.audit_archive
 .venv/bin/python -m tournament_agent.run_sets
-.venv/bin/python -m tournament_agent.render_sets  # Uses a saved translation run and XeLaTeX
 ```
 
-The first command builds `data/run_plan.json` offline. It lists each statement,
-translation request, and review template, with a SHA-256 and spending ceiling.
-The review template receives the actual English after translation. In GitHub
-Actions open **Tournament of Towns PDFs** and select **preview** to see the same
-plan. After explicit approval, use **execute** with the preview's SHA-256. The
-workflow reads `OpenRouterKey` as `OPENROUTER_API_KEY` and records reservations
-and charges in the `openrouter-ledger` branch. Resume with the same plan and
-ledger. If a reservation remains unresolved, inspect it before spending again.
+The first three agent commands verify the original cached files and reports,
+try the existing extractors on every eligible cached archive unit, and write
+an exact translation plan with review templates. All three operate offline.
+The temporary archive audit keeps the demonstration extraction reports intact.
+[Architecture](docs/ARCHITECTURE.md) · [Project history](docs/CONTEXT.md)
 
-The workflow provides `data/translation_run.json`, the reviewed PDFs in
-`output/`, `output/manifest.json`, and a PNG for every PDF page in `qa/`. Each
-`rendered_needs_visual_qa` PDF has passed the automated page and numbering checks
-and still requires a visual check. Unsupported source layouts and unresolved
-figures surface in the reports for review.
+## Reproduce the four PDFs offline
 
-**Do not run the bare CLI over this handoff without approval:** its download
-inventory stage currently recreates manifest.json, dropping later-stage pointers.
+The saved live responses are in [translation_run.json](data/translation_run.json).
+The renderer applies [source-bound QA decisions](data/qa_decisions.json) to
+those saved responses and typesets the PDFs with XeLaTeX.
 
-Live commands `--test-api --allow-paid` and `--review-api --allow-paid` require
-separate approval and the SAME assignment key supplied as OPENROUTER_API_KEY in
-cloud secret settings. No key is included in this repository. English units are
-skipped after inspection; do not translate, rebuild or render already-English sets.
+```bash
+.venv/bin/python -m tournament_agent.render_sets --output reproduced --qa reproduced-qa
+```
 
-## Remaining work
+This writes four PDFs and renders a PNG for each page. Fresh exports carry
+`rendered_needs_visual_qa` until someone inspects their pages. The checked
+submission identifies the exact original PDF and page image hashes in
+[visual_checks.json](qa/visual_checks.json).
 
-Robust inventory reconciliation/solution exclusion, broader format support,
-complete math/assets handling, set translation/review/repair, final PDF generation,
-all-four visual QA, and final deliverables. The model gateway exists; the full
-archive-to-output workflow does not. Read the exact limitations in CONTEXT.md.
+## Live translation and resume
 
-## Tests
+The manually triggered GitHub Actions workflow has an offline `preview` mode
+and a paid `execute` mode. Execute requires the approved plan hash and the
+assignment key, supplied as the `OpenRouterKey` repository secret. The runner
+passes it to the gateway as `OPENROUTER_API_KEY`. Completed matching requests
+can be reused on resume. The `openrouter-ledger` branch is the canonical
+accounting record once a live run begins. An unresolved reservation stops
+new spending until its accounting can be reconciled.
 
-Simulated MODEL API tests were removed at the user's request. The real integration
-test is opt-in via RUN_LIVE_API_TEST=1; leave that unset during setup. Legacy
-source-parser/HTTP fixture tests remain and are not proof of full-archive fidelity.
+The demonstration used Gemini 2.5 Flash-Lite for translation and Gemini 2.5
+Flash for bilingual review. The live run added **48 calls and $0.0559729**.
+Including the saved two-call probe, the ledger totals **50 calls and
+$0.0577677**. The provider key cap was $5, with a $4.50 local ceiling.
+[Live run](https://github.com/muhammad2702/tournament-agent/actions/runs/44257730151) · [Accounting checkpoint](https://github.com/muhammad2702/tournament-agent/blob/3fdde00532598a14f86c4755ec579173b15514fd/data/model_calls.json)
+
+## Archive scope
+
+The manifest accounts for 255 HTML references and 99 PDF references to 73
+distinct document URLs. The offline audit tested the existing extractors on
+19 HTML sections and 42 PDF pages classified ready by inspection. Seventeen
+HTML results and 27 PDF results still need review. Layouts without a reliable
+question boundary, scanned PDFs, cross-page questions, and unresolved figure
+placement require additional adapters or source review. Confident English
+units are recorded and left in the original form. [Archive audit](qa/archive_audit.json)

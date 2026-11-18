@@ -59,6 +59,7 @@ def build_manifest(data_dir: Path, report: dict, outputs: list[dict]) -> dict:
         documents.append(document)
     return {"index": source["index"], "html_references": records, "pdf_documents": documents,
             "inspection_errors": inspect["errors"], "outputs": outputs, "model_accounting": report["model_accounting"],
+            "repeated_problem_statements": _repeated_statements(report.get("sets", [])),
             "counts": {"html_references": len(records), "pdf_references": sum(len(doc["references"]) for doc in documents),
                        "pdf_documents": len(documents), "html_statuses": dict(Counter(row["status"] for row in records)),
                        "pdf_page_statuses": dict(Counter(page["status"] for doc in documents for page in doc["pages"]))}}
@@ -69,3 +70,13 @@ def _details(probe: dict, output: dict) -> dict:
             "difficulty": output.get("difficulty", probe.get("difficulty")), "question_count": output.get("question_count"),
             "inspection_status": probe.get("status"), "language": (probe.get("language") or {}).get("language"),
             "output_path": output.get("path"), "output_sha256": output.get("sha256")}
+
+
+def _repeated_statements(sets: list[dict]) -> list[list[str]]:
+    ids_by_text = defaultdict(list)
+    for item in sets:
+        for row in item["statements"]:
+            if row["number"] is not None:
+                statement = row["source"]
+                ids_by_text[" ".join(statement["text"].split())].append(statement["id"])
+    return [ids for ids in ids_by_text.values() if len(ids) > 1]
