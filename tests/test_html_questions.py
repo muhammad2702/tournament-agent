@@ -6,9 +6,9 @@ from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
 
-from tournament_agent.extractor import extract_html_questions, section_html
+from tournament_agent.webpage_extractor import extract_html_questions, section_html
 from tournament_agent.models import SourceRef
-from tournament_agent.pipeline import extract_cached_html
+from tournament_agent.main import extract_cached_html
 
 
 REF = SourceRef("https://www.turgor.ru/en/problems/31/index.php", "example")
@@ -95,7 +95,7 @@ class HtmlQuestionTests(unittest.TestCase):
                         "references": [asdict(REF)], "inspection": {"path": str(inspection_file),
                         "sha256": hashlib.sha256(inspection_file.read_bytes()).hexdigest()}}
             (root / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
-            with patch("tournament_agent.fetcher.urlopen", side_effect=AssertionError("No network allowed")):
+            with patch("tournament_agent.archive_builder.urlopen", side_effect=AssertionError("No network allowed")):
                 report = extract_cached_html(root, [REF.anchor])
             self.assertEqual(report["errors"], [])
             self.assertEqual(report["model_calls"], 0)

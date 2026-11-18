@@ -24,4 +24,4 @@ jobs:
       - name: Install project requirements
         run: python -m pip install -r requirements.txt
       - name: Verify real saved sources and spending evidence without API calls
-        run: python -m tournament_agent.verify
+        run: python -c 'from tournament_agent.verification import verify_main; raise SystemExit(verify_main())'

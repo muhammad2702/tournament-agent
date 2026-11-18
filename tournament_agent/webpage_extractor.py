@@ -10,14 +10,16 @@ from pathlib import Path
 import hashlib
 import re
 from urllib.parse import urljoin, urlsplit
-
 from bs4 import BeautifulSoup
 from lingua import LanguageDetectorBuilder
 import pymupdf
-
-from .discovery import discover_documents
+from .archive_builder import discover_documents
 from .models import (HtmlQuestion, HtmlQuestionSet, ImageRef, LanguageCheck,
                      SourceProbe, SourceRef)
+
+
+
+
 
 
 @lru_cache(maxsize=1)

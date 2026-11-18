@@ -1,88 +1,17 @@
-"""Run the inventory and checkpoint successes and failures in a manifest."""
+
 
 from dataclasses import asdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import hashlib
 import json
 import os
 from pathlib import Path
-import re
-import hashlib
-
-from .discovery import discover, discover_documents
-from .fetcher import Fetcher
-from .paths import saved_path
-
-INDEX_URL = "https://www.turgor.ru/en/problems/allproblems.php"
-
-
-def _decode(data: bytes, content_type: str) -> str:
-    match = re.search(r"charset\s*=\s*['\"]?([\w.-]+)", content_type, re.I)
-    if not match:
-        match = re.search(rb"charset\s*=\s*['\"]?([\w.-]+)", data[:4096], re.I)
-    encoding = match.group(1) if match else "utf-8"
-    if isinstance(encoding, bytes):
-        encoding = encoding.decode("ascii")
-    return data.decode(encoding)
-
-
-def _save(path: Path, manifest: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_suffix(".json.tmp")
-    temp.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    os.replace(temp, path)
-
-
-def run(data_dir: Path, index_url: str = INDEX_URL, *, timeout: float = 30,
-        retries: int = 2, pace: float = 0.5, refresh: bool = False) -> dict:
-    data_dir = Path(data_dir)
-    manifest_path = data_dir / "manifest.json"
-    fetcher = Fetcher(data_dir / "raw", timeout, retries, pace, refresh)
-    manifest = {"scope": "numbered index pages and same-host PDF links in the index and downloaded pages; classification and extraction pending",
-                "index": {"url": index_url, "status": "pending"}, "references": [], "pages": [],
-                "document_references": [], "documents": []}
-    _save(manifest_path, manifest)
-    try:
-        index = fetcher.fetch(index_url)
-        manifest["index"] = {**asdict(index), "status": "downloaded"}
-        html = _decode(saved_path(index.path).read_bytes(), index.content_type)
-        refs = discover(html, index.final_url)
-        manifest["references"] = [asdict(ref) for ref in refs]
-        manifest["document_references"] = [asdict(ref) for ref in discover_documents(html, index.final_url)]
-    except (OSError, ValueError, UnicodeError, LookupError) as exc:
-        manifest["index"].update(status="failed", error=f"{type(exc).__name__}: {exc}")
-        _save(manifest_path, manifest)
-        return manifest
-
-    # dict preserves the order of first appearance and drops duplicate page URLs only.
-    page_urls = dict.fromkeys(ref.page_url for ref in refs)
-    manifest["pages"] = [{"url": url, "status": "pending"} for url in page_urls]
-    _save(manifest_path, manifest)
-    for page in manifest["pages"]:
-        try:
-            page.update(asdict(fetcher.fetch(page["url"])), status="downloaded")
-            page_html = _decode(saved_path(page["path"]).read_bytes(), page["content_type"])
-            manifest["document_references"].extend(asdict(ref) for ref in discover_documents(page_html, page["final_url"]))
-        except (OSError, ValueError, UnicodeError, LookupError) as exc:
-            page.update(status="failed", error=f"{type(exc).__name__}: {exc}")
-        _save(manifest_path, manifest)
-    urls = dict.fromkeys(ref["url"] for ref in manifest["document_references"])
-    manifest["documents"] = [{"url": url, "status": "pending", "classification_status": "needs_review", "language": "unknown"} for url in urls]
-    _save(manifest_path, manifest)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        pending = {pool.submit(fetcher.fetch, doc["url"], kind="pdf"): doc for doc in manifest["documents"]}
-        for future in as_completed(pending):
-            document = pending[future]
-            try:
-                document.update(asdict(future.result()), status="downloaded")
-            except (OSError, ValueError) as exc:
-                document.update(status="failed", error=f"{type(exc).__name__}: {exc}")
-            _save(manifest_path, manifest)
-    return manifest
-
+from .archive_builder import INDEX_URL, _decode, _save, run
+from .models import SourceRef
+from .models import saved_path
 
 def inspect_sources(data_dir: Path) -> dict:
     """Inspect cached sources locally; do not fetch or call any model."""
-    from .extractor import inspect_html, inspect_pdf
+    from .webpage_extractor import inspect_html, inspect_pdf
     from .models import SourceRef
 
     data_dir = Path(data_dir)
@@ -140,7 +69,7 @@ def inspect_sources(data_dir: Path) -> dict:
 def extract_cached_html(data_dir: Path, anchors: list[str]) -> dict:
     """Extract only explicitly selected cached HTML sections, without network."""
     from html import escape
-    from .extractor import extract_html_questions, section_html
+    from .webpage_extractor import extract_html_questions, section_html
     from .models import SourceRef
 
     data_dir = Path(data_dir)
@@ -274,3 +203,53 @@ def extract_cached_pdf(data_dir: Path, document_urls: list[str]) -> dict:
                                   "documents": list(dict.fromkeys(document_urls)), "page_sets": len(report["sets"]), "errors": len(report["errors"])}
     _save(manifest_path, manifest)
     return report
+
+
+def main() -> int:
+    """Run the saved handoff, or prepare a new archive without paid calls."""
+    from .model_call import build_plan, prepare_translation
+    from .verification import render_main, verify_main
+
+    data_dir = Path("data")
+    if (data_dir / "translation_run.json").is_file():
+        if not all(Path("output", group, level, date).is_file()
+                   for group, level, date in (
+                       ("junior", "basic", "2009-10-18.pdf"),
+                       ("senior", "basic", "2009-10-18.pdf"),
+                       ("junior", "advanced", "2009-10-25.pdf"),
+                       ("senior", "advanced", "2009-10-25.pdf"))):
+            if render_main():
+                return 1
+        return verify_main()
+
+    # Fetch the fixed archive only when its inventory is missing.
+    if not (data_dir / "manifest.json").is_file():
+        run(data_dir)
+    manifest = json.loads((data_dir / "manifest.json").read_bytes())
+    if "inspection" not in manifest:
+        inspect_sources(data_dir)
+    inspection = json.loads((data_dir / "inspection.json").read_bytes())
+
+    # Extract every source that the local inspection marked ready.
+    if not (data_dir / "extracted" / "html_questions.json").is_file():
+        anchors = [row["anchor"] for row in inspection["html_sections"]
+                   if row["status"] == "ready_for_extraction"]
+        extract_cached_html(data_dir, anchors)
+    if not (data_dir / "extracted" / "pdf_questions.json").is_file():
+        urls = list(dict.fromkeys(row["source_url"] for row in inspection["pdf_pages"]
+                                  if row["status"] == "ready_for_extraction"))
+        extract_cached_pdf(data_dir, urls)
+
+    prepared = prepare_translation(data_dir)
+    _save(data_dir / "prepared_translation.json", prepared)
+    if prepared["errors"]:
+        print(f"Source preparation needs review: {len(prepared['errors'])} errors")
+        return 1
+    plan = build_plan(prepared)
+    _save(data_dir / "run_plan.json", plan)
+    print(f"Prepared {len(plan['requests'])} statements; plan {plan['sha256']}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

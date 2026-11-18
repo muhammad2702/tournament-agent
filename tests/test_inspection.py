@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 import pymupdf
 
-from tournament_agent.extractor import check_language, inspect_html, inspect_pdf, section_html
+from tournament_agent.webpage_extractor import check_language, inspect_html, inspect_pdf, section_html
 from tournament_agent.models import SourceRef
 
 

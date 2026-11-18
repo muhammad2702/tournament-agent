@@ -10,11 +10,13 @@ from collections import Counter
 from dataclasses import replace
 from statistics import median
 import re
-
 import pymupdf
-
-from .extractor import _metadata
+from .webpage_extractor import _metadata
 from .models import PdfGraphic, PdfQuestion, PdfQuestionSet, PdfScore, PdfSpan
+
+
+
+
 
 
 def _read_lines(page: pymupdf.Page) -> list[list[PdfSpan]]:

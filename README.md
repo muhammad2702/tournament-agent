@@ -21,15 +21,13 @@ Use Python 3.11+, XeLaTeX, and DejaVu Serif. Run from the project root.
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python -m tournament_agent.verify
-.venv/bin/python -m tournament_agent.audit_archive
-.venv/bin/python -m tournament_agent.run_sets
+.venv/bin/python -m tournament_agent.main
 ```
 
-The first three agent commands verify the original cached files and reports,
-try the existing extractors on every eligible cached archive unit, and write
-an exact translation plan with review templates. All three operate offline.
-The temporary archive audit keeps the demonstration extraction reports intact.
+The main program checks the saved delivery without network or model calls.
+On a fresh checkout without a saved run, it inventories and extracts sources,
+then writes a translation plan. Paid calls require the approved plan in the
+GitHub Actions workflow.
 [Architecture](docs/ARCHITECTURE.md) · [Project history](docs/CONTEXT.md)
 
 ## Reproduce the four PDFs offline
@@ -39,7 +37,7 @@ The renderer applies [source-bound QA decisions](data/qa_decisions.json) to
 those saved responses and typesets the PDFs with XeLaTeX.
 
 ```bash
-.venv/bin/python -m tournament_agent.render_sets --output reproduced --qa reproduced-qa
+.venv/bin/python -c "from pathlib import Path; from tournament_agent.verification import render_main; raise SystemExit(render_main(output=Path('reproduced'), qa_dir=Path('reproduced-qa')))"
 ```
 
 This writes four PDFs and renders a PNG for each page. Fresh exports carry

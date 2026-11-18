@@ -6,10 +6,10 @@ import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
 
-from tournament_agent.discovery import discover, discover_documents
-from tournament_agent.fetcher import Fetcher
+from tournament_agent.archive_builder import discover, discover_documents
+from tournament_agent.archive_builder import Fetcher
 from tournament_agent.models import Download
-from tournament_agent.pipeline import run
+from tournament_agent.main import run
 
 
 INDEX = "https://www.turgor.ru/en/problems/allproblems.php"
@@ -54,18 +54,18 @@ class InventoryTests(unittest.TestCase):
         class PDFResponse(Response):
             def read(self):
                 return b"%PDF-1.4\nexample"
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.urlopen", return_value=PDFResponse()) as request:
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.urlopen", return_value=PDFResponse()) as request:
             fetcher = Fetcher(Path(tmp), pace=0)
             result = fetcher.fetch(PAGE + "/sample.pdf", kind="pdf")
             self.assertEqual(Path(result.path).suffix, ".pdf")
             self.assertTrue(fetcher.fetch(PAGE + "/sample.pdf", kind="pdf").from_cache)
             self.assertEqual(request.call_count, 1)
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.urlopen", return_value=Response()):
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.urlopen", return_value=Response()):
             with self.assertRaisesRegex(ValueError, "not a PDF"):
                 Fetcher(Path(tmp), pace=0).fetch(PAGE + "/bad.pdf", kind="pdf")
 
     def test_cache_verifies_bytes_and_refetches_corruption(self):
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.urlopen", return_value=Response()) as request:
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.urlopen", return_value=Response()) as request:
             fetcher = Fetcher(Path(tmp), pace=0)
             first = fetcher.fetch(PAGE)
             self.assertEqual(Path(first.path).suffix, ".html")
@@ -80,7 +80,7 @@ class InventoryTests(unittest.TestCase):
                 fetcher.fetch(PAGE + "#anchor")
 
     def test_legacy_cache_is_migrated_after_integrity_check(self):
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.urlopen", return_value=Response()) as request:
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.urlopen", return_value=Response()) as request:
             fetcher = Fetcher(Path(tmp), pace=0)
             first = fetcher.fetch(PAGE)
             html = Path(first.path)
@@ -93,12 +93,12 @@ class InventoryTests(unittest.TestCase):
             self.assertEqual(request.call_count, 1)
 
     def test_retry_transient_failure_but_not_404(self):
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.time.sleep"), patch(
-            "tournament_agent.fetcher.urlopen", side_effect=[HTTPError(PAGE, 503, "unavailable", {}, None), Response()]
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.time.sleep"), patch(
+            "tournament_agent.archive_builder.urlopen", side_effect=[HTTPError(PAGE, 503, "unavailable", {}, None), Response()]
         ) as request:
             Fetcher(Path(tmp), retries=1, pace=0).fetch(PAGE)
             self.assertEqual(request.call_count, 2)
-        with TemporaryDirectory() as tmp, patch("tournament_agent.fetcher.urlopen", side_effect=HTTPError(PAGE, 404, "missing", {}, None)) as request:
+        with TemporaryDirectory() as tmp, patch("tournament_agent.archive_builder.urlopen", side_effect=HTTPError(PAGE, 404, "missing", {}, None)) as request:
             with self.assertRaises(HTTPError):
                 Fetcher(Path(tmp), retries=2, pace=0).fetch(PAGE)
             self.assertEqual(request.call_count, 1)
@@ -109,7 +109,7 @@ class InventoryTests(unittest.TestCase):
             index_file = data_dir / "index.html"
             index_file.write_text(HTML, encoding="utf-8")
             index = Download(INDEX, INDEX, str(index_file), "hash", "text/html; charset=utf-8", False)
-            with patch("tournament_agent.pipeline.Fetcher.fetch", side_effect=[index, OSError("offline"), OSError("offline pdf")]) as fetch:
+            with patch("tournament_agent.archive_builder.Fetcher.fetch", side_effect=[index, OSError("offline"), OSError("offline pdf")]) as fetch:
                 result = run(data_dir, pace=0)
             self.assertEqual(fetch.call_count, 3)
             self.assertEqual(len(result["references"]), 5)
@@ -130,7 +130,7 @@ class InventoryTests(unittest.TestCase):
             def fake_fetch(url, kind="html"):
                 path = {INDEX: index_file, PAGE: page_file, pdf_url: pdf_file}[url]
                 return Download(url, url, str(path), "hash", "text/html; charset=utf-8", False)
-            with patch("tournament_agent.pipeline.Fetcher.fetch", side_effect=fake_fetch) as fetch:
+            with patch("tournament_agent.archive_builder.Fetcher.fetch", side_effect=fake_fetch) as fetch:
                 result = run(data_dir, pace=0)
             self.assertEqual(fetch.call_count, 3)
             self.assertEqual(len(result["document_references"]), 2)

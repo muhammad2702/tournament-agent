@@ -9,7 +9,7 @@ import pymupdf
 
 from tournament_agent.models import PdfSpan
 from tournament_agent.pdf_extractor import _line_text, _script_evidence, extract_pdf_page
-from tournament_agent.pipeline import extract_cached_pdf
+from tournament_agent.main import extract_cached_pdf
 
 
 URL = "https://example.com/questions.pdf"
@@ -115,7 +115,7 @@ class PdfQuestionTests(unittest.TestCase):
             source = root / "source.pdf"
             create_source(source)
             configure_cache(root, source)
-            with patch("tournament_agent.fetcher.urlopen", side_effect=AssertionError("No network allowed")):
+            with patch("tournament_agent.archive_builder.urlopen", side_effect=AssertionError("No network allowed")):
                 result = extract_cached_pdf(root, [URL])
             self.assertEqual(result["errors"], [])
             self.assertEqual(result["model_calls"], 0)

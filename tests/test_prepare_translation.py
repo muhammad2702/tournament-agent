@@ -5,11 +5,11 @@ from decimal import Decimal
 from pathlib import Path
 import unittest
 
-from tournament_agent.live_test import translation_request
+from tournament_agent.model_call import translation_request
 from tournament_agent.models import RequestBudget, StatementSource
-from tournament_agent.prepare_translation import prepare_translation
-from tournament_agent.translator import ModelGateway
-from tournament_agent.validator import review_request
+from tournament_agent.model_call import prepare_translation
+from tournament_agent.model_call import ModelGateway
+from tournament_agent.model_call import review_request
 
 
 class TranslationPreparationTests(unittest.TestCase):

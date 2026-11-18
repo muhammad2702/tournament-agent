@@ -3,6 +3,9 @@
 from dataclasses import dataclass
 from decimal import Decimal
 from typing import Any
+from pathlib import Path
+
+
 
 
 @dataclass(frozen=True)
@@ -195,3 +198,12 @@ class ModelResult:
     content: str
     cost_usd: Decimal
     from_cache: bool
+
+
+
+# Read saved Windows-relative paths on both Windows and Linux.
+
+
+
+def saved_path(value: str) -> Path:
+    return Path(value.replace("\\", "/"))

@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 import unittest
 
-from tournament_agent.live_test import run_live_api_test
+from tournament_agent.model_call import run_live_api_test
 
 
 @unittest.skipUnless(os.environ.get("RUN_LIVE_API_TEST") == "1", "Real API test requires explicit opt-in")
