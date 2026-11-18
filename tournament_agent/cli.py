@@ -19,6 +19,7 @@ def main(argv=None) -> int:
     mode.add_argument("--inspect", action="store_true", help="inspect cached sections and PDF page languages locally; no network or model calls")
     mode.add_argument("--extract-html", action="store_true", help="split selected cached HTML sections into questions; no network or model calls")
     mode.add_argument("--extract-pdf", action="store_true", help="split requested cached non-English PDF page sets and create source review images; no model calls")
+    mode.add_argument("--prepare-translation", action="store_true", help="prepare verified extracted statements and inspect model inputs locally")
     mode.add_argument("--test-api", action="store_true", help="run one small REAL translation API test using an extracted question")
     mode.add_argument("--review-api", action="store_true", help="run one real bilingual review of the saved translation probe")
     parser.add_argument("--anchor", action="append", default=[], help="section anchor to extract; repeat for multiple sections")
@@ -39,6 +40,35 @@ def main(argv=None) -> int:
         parser.error("Live API operations require --allow-paid")
     if args.allow_paid and not (args.test_api or args.review_api):
         parser.error("--allow-paid is only used with live API operations")
+    if args.prepare_translation:
+        from .pipeline import _save
+        from .prepare_translation import prepare_translation
+        from .translator import GatewayError
+
+        try:
+            report = prepare_translation(args.data_dir)
+            path = args.data_dir / "prepared_translation.json"
+            _save(path, report)
+        except (GatewayError, OSError, ValueError, KeyError) as exc:
+            print(f"Translation preparation stopped: {exc}")
+            return 1
+        request_count = 0
+        for item in report["sets"]:
+            statements = item["statements"]
+            note_count = len(statements) - item["question_count"]
+            new = sum("translation_request" in row for row in statements)
+            reused = len(statements) - new
+            request_count += new
+            print(f"{item['date']} {item['age_group']} {item['difficulty']} | "
+                  f"{item['question_count']} questions, {note_count} section note(s) | "
+                  f"{new} new translations, {reused} reviewed input reused")
+            for row in statements:
+                if row.get("source_check"):
+                    print(f"  Q{row['number']} source check: {row['source_check']}")
+        for issue in report["errors"]:
+            print(f"Preparation error: {issue}")
+        print(f"Prepared requests: {request_count}; model calls: {report['model_calls']}; report: {path}")
+        return int(bool(report["errors"]))
     if args.review_api:
         from .validator import review_saved_translation
         from .translator import GatewayError

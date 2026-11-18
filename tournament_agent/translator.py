@@ -24,6 +24,7 @@ from .models import ModelRequest, ModelResult, RequestBudget
 
 HARD_CAP = Decimal("5.00")
 LOCAL_CEILING = Decimal("4.50")
+SMALL_TEXT_REQUEST_CEILING = Decimal("0.01")
 UNRESOLVED = {"pending", "uncertain"}
 
 
@@ -145,7 +146,7 @@ class OpenRouterClient:
 
 
 def prepare_text_budget(client: OpenRouterClient, request: ModelRequest,
-                        ceiling: Decimal = Decimal("0.01")) -> tuple[RequestBudget, dict, Decimal]:
+                        ceiling: Decimal = SMALL_TEXT_REQUEST_CEILING) -> tuple[RequestBudget, dict, Decimal]:
     """Fetch real current pricing and bound a small text-only request.
 
     This intentionally refuses multimodal input. Image token estimation must
@@ -178,7 +179,7 @@ def prepare_text_budget(client: OpenRouterClient, request: ModelRequest,
 
 
 class ModelGateway:
-    def __init__(self, directory: Path, *, client=None, limit_usd=LOCAL_CEILING):
+    def __init__(self, directory: Path, *, client=None, limit_usd=LOCAL_CEILING, checkpoint=None):
         self.directory = Path(directory)
         self.client = client if client is not None else OpenRouterClient()
         self.limit = _money(limit_usd)
@@ -187,6 +188,12 @@ class ModelGateway:
         if not isinstance(self.client, OpenRouterClient) or self.client.mode != "live":
             raise ValueError("Only the real OpenRouter client is supported")
         self.path = self.directory / "model_calls.json"
+        self.checkpoint = checkpoint
+
+    def _save(self, state: dict) -> None:
+        _write(self.path, state)
+        if self.checkpoint is not None:
+            self.checkpoint(self.path)
 
     @contextmanager
     def _locked(self):
@@ -317,7 +324,7 @@ class ModelGateway:
                 raise LedgerError("API key identity changed; refusing to bypass the existing ledger")
             state["key_id"] = provider["key_id"]
             state["provider_usage_usd"] = str(max(_money(state["provider_usage_usd"]), _money(provider["usage_usd"])))
-            _write(self.path, state)
+            self._save(state)
             if bound > _money(self._summary(state)["available_usd"]) or bound > _money(provider["remaining_usd"]):
                 raise BudgetExceeded("Request reservation does not fit the remaining allowance")
             call = {"id": uuid4().hex, "cache_key": cache_key, "purpose": request.purpose,
@@ -330,12 +337,12 @@ class ModelGateway:
                     "output_usd_per_million": str(budget.output_usd_per_million),
                     "extra_cost_usd": str(budget.extra_cost_usd)}
             state["calls"].append(call)
-            _write(self.path, state)
+            self._save(state)
             try:
                 response = self.client.send(payload)
             except Exception as exc:
                 call.update(status="uncertain", error_type=type(exc).__name__)
-                _write(self.path, state)
+                self._save(state)
                 raise AccountingUncertain("Request may have been charged; reservation retained and automatic retry disabled") from None
             provider_id = response.get("id") if isinstance(response, dict) else None
             if isinstance(provider_id, str) and len(provider_id) <= 256:
@@ -345,7 +352,7 @@ class ModelGateway:
                 cost = _money(usage["cost"])
             except (KeyError, TypeError, ValueError):
                 call.update(status="uncertain", error_type="MissingOrInvalidCost")
-                _write(self.path, state)
+                self._save(state)
                 raise AccountingUncertain("Response has no confirmed cost; reservation retained") from None
             self._settle(state, call, cost)
             if isinstance(response.get("model"), str):
@@ -378,9 +385,9 @@ class ModelGateway:
                 call["status"] = "completed"
             except (KeyError, IndexError, TypeError, ValueError):
                 call["error_type"] = "InvalidOrIncompleteResponse"
-                _write(self.path, state)
+                self._save(state)
                 raise InvalidModelResponse("Response was charged but not accepted; inspect the ledger before repair") from None
-            _write(self.path, state)
+            self._save(state)
             return self._result(call, False)
 
     def reconcile_generation(self, call_id: str) -> dict:
@@ -405,5 +412,5 @@ class ModelGateway:
                 raise AccountingUncertain("Generation is not confirmed final")
             self._settle(state, call, _money(data["total_cost"]))
             call["error_type"] = "AccountingReconciledResponseUnavailable"
-            _write(self.path, state)
+            self._save(state)
             return self._summary(state)

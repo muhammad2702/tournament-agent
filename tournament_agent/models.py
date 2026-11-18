@@ -152,6 +152,16 @@ class PdfQuestionSet:
 
 
 @dataclass(frozen=True)
+class StatementSource:
+    id: str
+    source_sha256: str
+    kind: str
+    language: str
+    text: str
+    evidence: str
+
+
+@dataclass(frozen=True)
 class ModelRequest:
     purpose: str
     source_sha256: str

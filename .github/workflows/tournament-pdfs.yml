@@ -1,0 +1,88 @@
+name: Tournament of Towns PDFs
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Preview requests offline or execute an approved plan
+        type: choice
+        options: [preview, execute]
+        default: preview
+      approved_plan:
+        description: Exact plan SHA-256 for execute mode
+        type: string
+        required: false
+
+concurrency:
+  group: tournament-openrouter-ledger
+  cancel-in-progress: false
+
+jobs:
+  tournament:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    env:
+      RUN_LIVE_API_TEST: "0"
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Show the exact request plan without model calls
+        run: python -m tournament_agent.run_sets
+      - name: Check approval and load the canonical ledger
+        if: inputs.mode == 'execute'
+        env:
+          APPROVED_PLAN: ${{ inputs.approved_plan }}
+        shell: bash
+        run: |
+          actual_plan=$(python -c 'import json; print(json.load(open("data/run_plan.json"))["sha256"])')
+          if [[ "$APPROVED_PLAN" != "$actual_plan" ]]; then
+            echo "Execute mode requires the exact SHA-256 from the preview."
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          ref=refs/heads/openrouter-ledger
+          if git ls-remote --exit-code --heads origin "$ref" > /dev/null; then
+            git fetch --no-tags origin "$ref"
+          else
+            status=$?
+            if [[ "$status" != 2 ]]; then exit "$status"; fi
+            git push origin "HEAD:$ref"
+            git fetch --no-tags origin "$ref"
+          fi
+          git worktree add --detach "$RUNNER_TEMP/tournament-ledger" FETCH_HEAD
+          cp "$RUNNER_TEMP/tournament-ledger/data/model_calls.json" data/model_calls.json
+      - name: Install the PDF renderer
+        if: inputs.mode == 'execute'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex fonts-dejavu-core
+      - name: Translate and review the approved questions
+        if: inputs.mode == 'execute'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTERKEY }}
+          APPROVED_PLAN: ${{ inputs.approved_plan }}
+        run: |
+          python -m tournament_agent.run_sets --approved-plan "$APPROVED_PLAN" \
+            --ledger-checkout "$RUNNER_TEMP/tournament-ledger"
+      - name: Export and rasterize reviewed PDFs
+        if: ${{ !cancelled() && inputs.mode == 'execute' && hashFiles('data/translation_run.json') != '' }}
+        run: python -m tournament_agent.render_sets
+      - name: Upload the plan and available results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: tournament-${{ inputs.mode }}
+          if-no-files-found: error
+          path: |
+            data/run_plan.json
+            data/translation_run.json
+            output/
+            qa/

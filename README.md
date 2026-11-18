@@ -55,7 +55,38 @@ policy; the [continuation prompt](docs/CLOUD_PROMPT.md) is ready for a new chat.
 .venv/bin/python -m tournament_agent.cli --extract-html --anchor turnir31otm --anchor turnir31ots
 # Rewrites selected PDF reports and source images:
 .venv/bin/python -m tournament_agent.cli --extract-pdf --document-url https://www.turgor.ru/en/problems/31/os31sl.pdf
+
+# Prepares statement inputs and checks the saved probe offline:
+.venv/bin/python -m tournament_agent.cli --prepare-translation
 ```
+
+`--prepare-translation` reads the saved extraction reports and writes
+`data/prepared_translation.json` with source evidence, scores, authors,
+and the exact translation requests. It also retains the reviewed English
+statement for Junior Basic Q1. The source checks for the Advanced PDF are
+recorded in `data/pdf_source_checks.json`.
+
+## Preview, execute and inspect a set run
+
+```bash
+.venv/bin/python -m tournament_agent.run_sets
+.venv/bin/python -m tournament_agent.render_sets  # Uses a saved translation run and XeLaTeX
+```
+
+The first command builds `data/run_plan.json` offline. It lists each statement,
+translation request, and review template, with a SHA-256 and spending ceiling.
+The review template receives the actual English after translation. In GitHub
+Actions open **Tournament of Towns PDFs** and select **preview** to see the same
+plan. After explicit approval, use **execute** with the preview's SHA-256. The
+workflow reads `OpenRouterKey` as `OPENROUTER_API_KEY` and records reservations
+and charges in the `openrouter-ledger` branch. Resume with the same plan and
+ledger. If a reservation remains unresolved, inspect it before spending again.
+
+The workflow provides `data/translation_run.json`, the reviewed PDFs in
+`output/`, `output/manifest.json`, and a PNG for every PDF page in `qa/`. Each
+`rendered_needs_visual_qa` PDF has passed the automated page and numbering checks
+and still requires a visual check. Unsupported source layouts and unresolved
+figures surface in the reports for review.
 
 **Do not run the bare CLI over this handoff without approval:** its download
 inventory stage currently recreates manifest.json, dropping later-stage pointers.
