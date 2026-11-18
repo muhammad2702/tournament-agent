@@ -1,0 +1,371 @@
+Index: downloaded https://www.turgor.ru/en/problems/allproblems.php
+References: 255; unique pages: 38
+  https://www.turgor.ru/en/problems/48/index.php  48th Tournament of Towns, 2026-2027
+  https://www.turgor.ru/en/problems/47/index.php  47th Tournament of Towns, 2025-2026
+  https://www.turgor.ru/en/problems/36/index.php  Тридцать шестой Турнир Городов
+  https://www.turgor.ru/en/problems/35/index.php  Тридцать пятый Турнир Городов
+  https://www.turgor.ru/en/problems/34/index.php  Тридцать четвертый Турнир Городов
+  https://www.turgor.ru/en/problems/33/index.php  Тридцать третий Турнир Городов
+  https://www.turgor.ru/en/problems/32/index.php  Тридцать второй Турнир Городов
+  https://www.turgor.ru/en/problems/31/index.php  Тридцать первый Турнир Городов
+  https://www.turgor.ru/en/problems/31/index.php#turnir31otm  8-9
+  https://www.turgor.ru/en/problems/31/index.php#turnir31ots  10-11
+  https://www.turgor.ru/en/problems/31/index.php#turnir31oom  8-9
+  https://www.turgor.ru/en/problems/31/index.php#turnir31oos  10-11
+  https://www.turgor.ru/en/problems/31/index.php#turnir31vtm  8-9
+  https://www.turgor.ru/en/problems/31/index.php#turnir31vts  10-11
+  https://www.turgor.ru/en/problems/31/index.php#turnir31vom  8-9
+  https://www.turgor.ru/en/problems/31/index.php#turnir31vos  10-11
+  https://www.turgor.ru/en/problems/30/index.php  Тридцатый Турнир Городов
+  https://www.turgor.ru/en/problems/30/index.php#turnir30otm  8-9
+  https://www.turgor.ru/en/problems/30/index.php#turnir30ots  10-11
+  https://www.turgor.ru/en/problems/30/index.php#turnir30oom  8-9
+  https://www.turgor.ru/en/problems/30/index.php#turnir30oos  10-11
+  https://www.turgor.ru/en/problems/30/index.php#turnir30vtm  8-9
+  https://www.turgor.ru/en/problems/30/index.php#turnir30vts  10-11
+  https://www.turgor.ru/en/problems/30/index.php#turnir30vom  8-9
+  https://www.turgor.ru/en/problems/30/index.php#turnir30vos  10-11
+  https://www.turgor.ru/en/problems/29/index.php  Двадцать девятый Турнир Городов
+  https://www.turgor.ru/en/problems/29/index.php#turnir29otm  8-9
+  https://www.turgor.ru/en/problems/29/index.php#turnir29ots  10-11
+  https://www.turgor.ru/en/problems/29/index.php#turnir29oom  8-9
+  https://www.turgor.ru/en/problems/29/index.php#turnir29oos  10-11
+  https://www.turgor.ru/en/problems/29/index.php#turnir29vtm  8-9
+  https://www.turgor.ru/en/problems/29/index.php#turnir29vts  10-11
+  https://www.turgor.ru/en/problems/29/index.php#turnir29vom  8-9
+  https://www.turgor.ru/en/problems/29/index.php#turnir29vos  10-11
+  https://www.turgor.ru/en/problems/28/index.php  Двадцать восьмой Турнир Городов
+  https://www.turgor.ru/en/problems/28/index.php#turnir28otm  8-9
+  https://www.turgor.ru/en/problems/28/index.php#turnir28ots  10-11
+  https://www.turgor.ru/en/problems/28/index.php#turnir28oom  8-9
+  https://www.turgor.ru/en/problems/28/index.php#turnir28oos  10-11
+  https://www.turgor.ru/en/problems/28/index.php#turnir28vtm  8-9
+  https://www.turgor.ru/en/problems/28/index.php#turnir28vts  10-11
+  https://www.turgor.ru/en/problems/28/index.php#turnir28vom  8-9
+  https://www.turgor.ru/en/problems/28/index.php#turnir28vos  10-11
+  https://www.turgor.ru/en/problems/27/index.php  Двадцать седьмой Турнир Городов
+  https://www.turgor.ru/en/problems/27/index.php#turnir27otm  8-9
+  https://www.turgor.ru/en/problems/27/index.php#turnir27ots  10-11
+  https://www.turgor.ru/en/problems/27/index.php#turnir27oom  8-9
+  https://www.turgor.ru/en/problems/27/index.php#turnir27oos  10-11
+  https://www.turgor.ru/en/problems/27/index.php#turnir27vtm  8-9
+  https://www.turgor.ru/en/problems/27/index.php#turnir27vts  10-11
+  https://www.turgor.ru/en/problems/27/index.php#turnir27vom  8-9
+  https://www.turgor.ru/en/problems/27/index.php#turnir27vos  10-11
+  https://www.turgor.ru/en/problems/26/index.php  Двадцать шестой Турнир Городов
+  https://www.turgor.ru/en/problems/26/index.php#turnir26otm  8-9
+  https://www.turgor.ru/en/problems/26/index.php#turnir26ots  10-11
+  https://www.turgor.ru/en/problems/26/index.php#turnir26oom  8-9
+  https://www.turgor.ru/en/problems/26/index.php#turnir26oos  10-11
+  https://www.turgor.ru/en/problems/26/index.php#turnir26vtm  8-9
+  https://www.turgor.ru/en/problems/26/index.php#turnir26vts  10-11
+  https://www.turgor.ru/en/problems/26/index.php#turnir26vom  8-9
+  https://www.turgor.ru/en/problems/26/index.php#turnir26vos  10-11
+  https://www.turgor.ru/en/problems/25/index.php  Двадцать пятый Турнир Городов
+  https://www.turgor.ru/en/problems/25/index.php#turnir25otm  8-9
+  https://www.turgor.ru/en/problems/25/index.php#turnir25ots  10-11
+  https://www.turgor.ru/en/problems/25/index.php#turnir25oom  8-9
+  https://www.turgor.ru/en/problems/25/index.php#turnir25oos  10-11
+  https://www.turgor.ru/en/problems/25/index.php#turnir25vtm  8-9
+  https://www.turgor.ru/en/problems/25/index.php#turnir25vts  10-11
+  https://www.turgor.ru/en/problems/25/index.php#turnir25vom  8-9
+  https://www.turgor.ru/en/problems/25/index.php#turnir25vos  10-11
+  https://www.turgor.ru/en/problems/24/index.php  Двадцать четвертый Турнир Городов
+  https://www.turgor.ru/en/problems/24/index.php#turnir24otm  8-9
+  https://www.turgor.ru/en/problems/24/index.php#turnir24ots  10-11
+  https://www.turgor.ru/en/problems/24/index.php#turnir24oom  8-9
+  https://www.turgor.ru/en/problems/24/index.php#turnir24oos  10-11
+  https://www.turgor.ru/en/problems/24/index.php#turnir24vtm  8-9
+  https://www.turgor.ru/en/problems/24/index.php#turnir24vts  10-11
+  https://www.turgor.ru/en/problems/24/index.php#turnir24vom  8-9
+  https://www.turgor.ru/en/problems/24/index.php#turnir24vos  10-11
+  https://www.turgor.ru/en/problems/23/index.php  Двадцать третий Турнир Городов
+  https://www.turgor.ru/en/problems/23/index.php#turnir23otm  8-9
+  https://www.turgor.ru/en/problems/23/index.php#turnir23ots  10-11
+  https://www.turgor.ru/en/problems/23/index.php#turnir23oom  8-9
+  https://www.turgor.ru/en/problems/23/index.php#turnir23oos  10-11
+  https://www.turgor.ru/en/problems/23/index.php#turnir23vtm  8-9
+  https://www.turgor.ru/en/problems/23/index.php#turnir23vts  10-11
+  https://www.turgor.ru/en/problems/23/index.php#turnir23vom  8-9
+  https://www.turgor.ru/en/problems/23/index.php#turnir23vos  10-11
+  https://www.turgor.ru/en/problems/22/index.php  Двадцать второй Турнир Городов
+  https://www.turgor.ru/en/problems/22/index.php#turnir22otm  8-9
+  https://www.turgor.ru/en/problems/22/index.php#turnir22ots  10-11
+  https://www.turgor.ru/en/problems/22/index.php#turnir22oom  8-9
+  https://www.turgor.ru/en/problems/22/index.php#turnir22oos  10-11
+  https://www.turgor.ru/en/problems/22/index.php#turnir22vtm  8-9
+  https://www.turgor.ru/en/problems/22/index.php#turnir22vts  10-11
+  https://www.turgor.ru/en/problems/22/index.php#turnir22vom  8-9
+  https://www.turgor.ru/en/problems/22/index.php#turnir22vos  10-11
+  https://www.turgor.ru/en/problems/21/index.php  Двадцать первый Турнир Городов
+  https://www.turgor.ru/en/problems/21/index.php#turnir21otm  8-9
+  https://www.turgor.ru/en/problems/21/index.php#turnir21ots  10-11
+  https://www.turgor.ru/en/problems/21/index.php#turnir21oom  8-9
+  https://www.turgor.ru/en/problems/21/index.php#turnir21oos  10-11
+  https://www.turgor.ru/en/problems/21/index.php#turnir21vtm  8-9
+  https://www.turgor.ru/en/problems/21/index.php#turnir21vts  10-11
+  https://www.turgor.ru/en/problems/21/index.php#turnir21vom  8-9
+  https://www.turgor.ru/en/problems/21/index.php#turnir21vos  10-11
+  https://www.turgor.ru/en/problems/20/index.php  Двадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/20/index.php#turnir20otm  8-9
+  https://www.turgor.ru/en/problems/20/index.php#turnir20ots  10-11
+  https://www.turgor.ru/en/problems/20/index.php#turnir20oom  8-9
+  https://www.turgor.ru/en/problems/20/index.php#turnir20oos  10-11
+  https://www.turgor.ru/en/problems/20/index.php#turnir20vtm  8-9
+  https://www.turgor.ru/en/problems/20/index.php#turnir20vts  10-11
+  https://www.turgor.ru/en/problems/20/index.php#turnir20vom  8-9
+  https://www.turgor.ru/en/problems/20/index.php#turnir20vos  10-11
+  https://www.turgor.ru/en/problems/19/index.php  Девятнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/19/index.php#turnir19otm  8-9
+  https://www.turgor.ru/en/problems/19/index.php#turnir19ots  10-11
+  https://www.turgor.ru/en/problems/19/index.php#turnir19oom  8-9
+  https://www.turgor.ru/en/problems/19/index.php#turnir19oos  10-11
+  https://www.turgor.ru/en/problems/19/index.php#turnir19vtm  8-9
+  https://www.turgor.ru/en/problems/19/index.php#turnir19vts  10-11
+  https://www.turgor.ru/en/problems/19/index.php#turnir19vom  8-9
+  https://www.turgor.ru/en/problems/19/index.php#turnir19vos  10-11
+  https://www.turgor.ru/en/problems/18/index.php  Восемнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/18/index.php#turnir18otm  8-9
+  https://www.turgor.ru/en/problems/18/index.php#turnir18ots  10-11
+  https://www.turgor.ru/en/problems/18/index.php#turnir18oom  8-9
+  https://www.turgor.ru/en/problems/18/index.php#turnir18oos  10-11
+  https://www.turgor.ru/en/problems/18/index.php#turnir18vtm  8-9
+  https://www.turgor.ru/en/problems/18/index.php#turnir18vts  10-11
+  https://www.turgor.ru/en/problems/18/index.php#turnir18vom  8-9
+  https://www.turgor.ru/en/problems/18/index.php#turnir18vos  10-11
+  https://www.turgor.ru/en/problems/17/index.php  Семнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/17/index.php#turnir17otm  8-9
+  https://www.turgor.ru/en/problems/17/index.php#turnir17ots  10-11
+  https://www.turgor.ru/en/problems/17/index.php#turnir17oom  8-9
+  https://www.turgor.ru/en/problems/17/index.php#turnir17oos  10-11
+  https://www.turgor.ru/en/problems/17/index.php#turnir17vtm  8-9
+  https://www.turgor.ru/en/problems/17/index.php#turnir17vts  10-11
+  https://www.turgor.ru/en/problems/17/index.php#turnir17vom  8-9
+  https://www.turgor.ru/en/problems/17/index.php#turnir17vos  10-11
+  https://www.turgor.ru/en/problems/16/index.php  Шестнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/16/index.php#turnir16otm  8-9
+  https://www.turgor.ru/en/problems/16/index.php#turnir16ots  10-11
+  https://www.turgor.ru/en/problems/16/index.php#turnir16oom  8-9
+  https://www.turgor.ru/en/problems/16/index.php#turnir16oos  10-11
+  https://www.turgor.ru/en/problems/16/index.php#turnir16vtm  8-9
+  https://www.turgor.ru/en/problems/16/index.php#turnir16vts  10-11
+  https://www.turgor.ru/en/problems/16/index.php#turnir16vom  8-9
+  https://www.turgor.ru/en/problems/16/index.php#turnir16vos  10-11
+  https://www.turgor.ru/en/problems/15/index.php  Пятнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/15/index.php#turnir15otm  8-9
+  https://www.turgor.ru/en/problems/15/index.php#turnir15ots  10-11
+  https://www.turgor.ru/en/problems/15/index.php#turnir15oom  8-9
+  https://www.turgor.ru/en/problems/15/index.php#turnir15oos  10-11
+  https://www.turgor.ru/en/problems/15/index.php#turnir15vtm  8-9
+  https://www.turgor.ru/en/problems/15/index.php#turnir15vts  10-11
+  https://www.turgor.ru/en/problems/15/index.php#turnir15vom  8-9
+  https://www.turgor.ru/en/problems/15/index.php#turnir15vos  10-11
+  https://www.turgor.ru/en/problems/14/index.php  Четырнадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/14/index.php#turnir14otm  8-9
+  https://www.turgor.ru/en/problems/14/index.php#turnir14ots  10-11
+  https://www.turgor.ru/en/problems/14/index.php#turnir14oom  8-9
+  https://www.turgor.ru/en/problems/14/index.php#turnir14oos  10-11
+  https://www.turgor.ru/en/problems/14/index.php#turnir14vtm  8-9
+  https://www.turgor.ru/en/problems/14/index.php#turnir14vts  10-11
+  https://www.turgor.ru/en/problems/14/index.php#turnir14vom  8-9
+  https://www.turgor.ru/en/problems/14/index.php#turnir14vos  10-11
+  https://www.turgor.ru/en/problems/13/index.php  Тринадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/13/index.php#turnir13otm  8-9
+  https://www.turgor.ru/en/problems/13/index.php#turnir13ots  10-11
+  https://www.turgor.ru/en/problems/13/index.php#turnir13oom  8-9
+  https://www.turgor.ru/en/problems/13/index.php#turnir13oos  10-11
+  https://www.turgor.ru/en/problems/13/index.php#turnir13vtm  8-9
+  https://www.turgor.ru/en/problems/13/index.php#turnir13vts  10-11
+  https://www.turgor.ru/en/problems/13/index.php#turnir13vom  8-9
+  https://www.turgor.ru/en/problems/13/index.php#turnir13vos  10-11
+  https://www.turgor.ru/en/problems/12/index.php  Двенадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/12/index.php#turnir12otm  8-9
+  https://www.turgor.ru/en/problems/12/index.php#turnir12ots  10-11
+  https://www.turgor.ru/en/problems/12/index.php#turnir12oom  8-9
+  https://www.turgor.ru/en/problems/12/index.php#turnir12oos  10-11
+  https://www.turgor.ru/en/problems/12/index.php#turnir12vtm  8-9
+  https://www.turgor.ru/en/problems/12/index.php#turnir12vts  10-11
+  https://www.turgor.ru/en/problems/12/index.php#turnir12vom  8-9
+  https://www.turgor.ru/en/problems/12/index.php#turnir12vos  10-11
+  https://www.turgor.ru/en/problems/11/index.php  Одиннадцатый Турнир Городов
+  https://www.turgor.ru/en/problems/11/index.php#turnir11otm  8-9
+  https://www.turgor.ru/en/problems/11/index.php#turnir11ots  10-11
+  https://www.turgor.ru/en/problems/11/index.php#turnir11oom  8-9
+  https://www.turgor.ru/en/problems/11/index.php#turnir11oos  10-11
+  https://www.turgor.ru/en/problems/11/index.php#turnir11vtm  8-9
+  https://www.turgor.ru/en/problems/11/index.php#turnir11vts  10-11
+  https://www.turgor.ru/en/problems/11/index.php#turnir11vom  8-9
+  https://www.turgor.ru/en/problems/11/index.php#turnir11vos  10-11
+  https://www.turgor.ru/en/problems/10/index.php  Десятый Турнир Городов
+  https://www.turgor.ru/en/problems/10/index.php#turnir10otm  7-8
+  https://www.turgor.ru/en/problems/10/index.php#turnir10ots  9-10
+  https://www.turgor.ru/en/problems/10/index.php#turnir10oom  7-8
+  https://www.turgor.ru/en/problems/10/index.php#turnir10oos  9-10
+  https://www.turgor.ru/en/problems/10/index.php#turnir10vtm  7-8
+  https://www.turgor.ru/en/problems/10/index.php#turnir10vts  9-10
+  https://www.turgor.ru/en/problems/10/index.php#turnir10vom  7-8
+  https://www.turgor.ru/en/problems/10/index.php#turnir10vos  9-10
+  https://www.turgor.ru/en/problems/10/index.php#turnir10vm1vm  7-8
+  https://www.turgor.ru/en/problems/09/index.php#turnir9  Девятый Турнир Городов
+  https://www.turgor.ru/en/problems/09/index.php#turnir9om  7-8
+  https://www.turgor.ru/en/problems/09/index.php#turnir9os  9-10
+  https://www.turgor.ru/en/problems/09/index.php#turnir9tm  7-8
+  https://www.turgor.ru/en/problems/09/index.php#turnir9ts  9-10
+  https://www.turgor.ru/en/problems/09/index.php#turnir9vm  7-8
+  https://www.turgor.ru/en/problems/09/index.php#turnir9vs  9-10
+  https://www.turgor.ru/en/problems/08/index.php#turnir8  Восьмой Турнир Городов
+  https://www.turgor.ru/en/problems/08/index.php#turnir8om  7-8
+  https://www.turgor.ru/en/problems/08/index.php#turnir8os  9-10
+  https://www.turgor.ru/en/problems/08/index.php#turnir8vtm  7-8
+  https://www.turgor.ru/en/problems/08/index.php#turnir8vts  9-10
+  https://www.turgor.ru/en/problems/08/index.php#turnir8vom  7-8
+  https://www.turgor.ru/en/problems/08/index.php#turnir8vos  9-10
+  https://www.turgor.ru/en/problems/07/index.php  Седьмой Турнир Городов
+  https://www.turgor.ru/en/problems/07/index.php#turnir7om  7-8
+  https://www.turgor.ru/en/problems/07/index.php#turnir7os  9-10
+  https://www.turgor.ru/en/problems/07/index.php#turnir7vm  7-8
+  https://www.turgor.ru/en/problems/07/index.php#turnir7vs  9-10
+  https://www.turgor.ru/en/problems/06/index.php  Шестой Турнир Городов
+  https://www.turgor.ru/en/problems/06/index.php#turnir6otm  7-8
+  https://www.turgor.ru/en/problems/06/index.php#turnir6ots  9-10
+  https://www.turgor.ru/en/problems/06/index.php#turnir6oom  7-8
+  https://www.turgor.ru/en/problems/06/index.php#turnir6oos  9-10
+  https://www.turgor.ru/en/problems/06/index.php#turnir6vtm  7-8
+  https://www.turgor.ru/en/problems/06/index.php#turnir6vts  9-10
+  https://www.turgor.ru/en/problems/06/index.php#turnir6vom  7-8
+  https://www.turgor.ru/en/problems/06/index.php#turnir6vos  9-10
+  https://www.turgor.ru/en/problems/05/index.php  Пятый Турнир Городов
+  https://www.turgor.ru/en/problems/05/index.php#turnir5om  7-8
+  https://www.turgor.ru/en/problems/05/index.php#turnir5os  9-10
+  https://www.turgor.ru/en/problems/05/index.php#turnir5vtm  6-7-8
+  https://www.turgor.ru/en/problems/05/index.php#turnir5vts  9-10
+  https://www.turgor.ru/en/problems/05/index.php#turnir5vom  6-7-8
+  https://www.turgor.ru/en/problems/05/index.php#turnir5vos  9-10
+  https://www.turgor.ru/en/problems/04/index.php  Четвёртый Турнир Городов
+  https://www.turgor.ru/en/problems/04/index.php#tur1m  7-8
+  https://www.turgor.ru/en/problems/04/index.php#tur1s  9-10
+  https://www.turgor.ru/en/problems/04/index.php#tur2lm  7-8
+  https://www.turgor.ru/en/problems/04/index.php#tur2ls  9-10
+  https://www.turgor.ru/en/problems/04/index.php#tur2tm  7-8
+  https://www.turgor.ru/en/problems/04/index.php#tur2ts  9-10
+  https://www.turgor.ru/en/problems/03/index.php  Третий Турнир Городов
+  https://www.turgor.ru/en/problems/03/index.php#m  7-8
+  https://www.turgor.ru/en/problems/03/index.php#s  9-10
+  https://www.turgor.ru/en/problems/02/index.php  Второй Турнир Городов
+  https://www.turgor.ru/en/problems/02/index.php#m  7-8
+  https://www.turgor.ru/en/problems/02/index.php#s  9-10
+  https://www.turgor.ru/en/problems/01/index.php  Первый Турнир Городов
+Page downloads:
+  downloaded: https://www.turgor.ru/en/problems/48/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/47/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/36/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/35/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/34/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/33/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/32/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/31/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/30/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/29/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/28/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/27/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/26/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/25/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/24/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/23/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/22/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/21/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/20/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/19/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/18/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/17/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/16/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/15/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/14/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/13/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/12/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/11/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/10/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/09/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/08/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/07/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/06/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/05/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/04/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/03/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/02/index.php (cache)
+  downloaded: https://www.turgor.ru/en/problems/01/index.php (cache)
+PDF references: 99; unique PDFs: 73
+  downloaded: https://www.turgor.ru/en/problems/48/fall-48-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/48/fall-48-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/48/fall-48-solutions-en.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/47/fall-47-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/47/fall-47-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/46/fall-46-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/46/fall-46-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/46/spring-46-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/46/spring-46-A-eng-auth.pdf (cache)
+  downloaded: https://www.turgor.ru/en/problems/45/fall-45-O-eng-auth.pdf (cache)
+  downloaded: https://www.turgor.ru/en/problems/45/fall-45-A-eng-auth.pdf (cache)
+  downloaded: https://www.turgor.ru/en/problems/45/spring-45-O-eng-auth.pdf (cache)
+  downloaded: https://www.turgor.ru/en/problems/45/spring-45-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/44/fall-44-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/44/fall-44-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/44/spring-44-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/44/spring-44-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/43/fall-43-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/43/fall-43-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/43/spring-43-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/43/spring-43-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/42/fall-42-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/42/fall-42-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/42/spring-42-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/42/spring-42-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/42/spring-42-all-eng-sol.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/fall-41-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/fall-41-O-eng-sol.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/fall-41-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/fall-41-A-eng-sol.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/spring-41-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/41/spring-41-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/40/fall-40-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/40/fall-40-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/40/spring-40-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/40/spring-40-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/39/fall-39-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/39/fall-39-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/39/spring-39-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/39/spring-39-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/38/fall-38-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/38/fall-38-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/38/spring-38-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/38/spring-38-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/37/fall-37-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/37/fall-37-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/37/spr-37-O-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/37/spr-37-A-eng-auth.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/34/os34baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/34/os34sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/33/os33baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/33/os33sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/32/os32baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/32/os32os-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/31/os31sl.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/30/sol_os30baz.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/30/sol_os30sloj.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/28/sol28ots.pdf (network)
+  downloaded: https://www.turgor.ru/en/problems/28/tolpygo_sol28oos_7v.pdf (network)
+Manifest: data\manifest.json

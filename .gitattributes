@@ -1,0 +1,9 @@
+* text=auto
+# Raw bytes, prompts already used in charged calls, and hashed reports must
+# survive checkout unchanged on Windows and Linux.
+/data/** -text
+/prompts/** -text
+*.pdf -text
+*.png -text
+*.PNG -text
+/diagrams/** -text

@@ -1,61 +1,76 @@
-# Tournament archive downloads
+# Tournament of Towns agent — current workspace
 
-Download original HTML and non-English/uncertain-language PDFs from the supplied Tournament of Towns archive. No question extraction, translation or PDF generation.
+This is the user's current implementation, cached sources, extraction evidence,
+and real model-call ledger. It replaces the previous `scraper/` implementation
+in this repository. **The assignment is unfinished; four final PDFs do not yet exist.**
 
-## Run
+Read [AGENTS.md](AGENTS.md), [complete context](docs/CONTEXT.md), and
+[architecture](docs/ARCHITECTURE.md) before doing work. The user requires teaching
+and approval before each subsequent implementation stage or paid API call.
+
+## Cloud/Linux setup
+
+Use Python 3.11+ and run from the repository root:
 
 ```bash
-python -m pip install -r requirements.txt
-python -m scraper --output tests/artifacts/downloads
-python -m unittest discover -s tests -v
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m tournament_agent.verify
 ```
 
-Independent saved-file QA (includes image decoding):
+Windows: use `.venv\Scripts\python.exe` instead. Verification reads real cached
+data and existing cost records without model calls or source downloads. Historical
+Windows paths are read through paths.py; Git attributes preserve exact data bytes.
+See [cloud bootstrap](docs/CLOUD_START.md).
+
+## Saved state
+
+- Index + 38 archive pages = 39 HTML files; 255 webpage references (219 anchors).
+- 99 PDF references, 73 unique downloaded PDFs. Completed download run: no failures.
+- Inspection: 186 HTML sections, 190 PDF pages, 33 section errors. Some language
+  decisions and classifications need review; these are not counts of validated sets.
+- Required basic HTML sets: five questions each, scores/authors and original markup retained.
+- Required advanced PDF: seven questions on each of two pages, raw spans/crops retained.
+  Exponents and a complex underbrace are explicitly flagged for review.
+- ONE basic junior question translated and bilingually reviewed through the real API.
+- **Two real calls, $0.0017948 spent. Preserve data/model_calls.json across resumes.**
+
+## Review artifacts
+
+- [HTML questions](data/extracted/html_questions_review.html)
+- [PDF question crops](data/extracted/pdf_questions_review.html)
+- [Real translation](data/live_api_test.json)
+- [Real bilingual review](data/live_api_review.json)
+- [Assignment PDF](docs/ASE%20Take%20Home%20Assignment.pdf)
+
+## Stage commands and side effects
 
 ```bash
-python -m pip install -r requirements-qa.txt
-python -m scraper.audit --output tests/artifacts/downloads
+# Rewrites inspection metadata and section fragments:
+.venv/bin/python -m tournament_agent.cli --inspect
+# Rewrites selected HTML question reports:
+.venv/bin/python -m tournament_agent.cli --extract-html --anchor turnir31otm --anchor turnir31ots
+# Rewrites selected PDF reports and source images:
+.venv/bin/python -m tournament_agent.cli --extract-pdf --document-url https://www.turgor.ru/en/problems/31/os31sl.pdf
 ```
 
-## Modules
+**Do not run the bare CLI over this handoff without approval:** its download
+inventory stage currently recreates manifest.json, dropping later-stage pointers.
 
-- `discovery.py`: BeautifulSoup reads links only. Full source URLs keep fragments; download keys strip fragments while retaining queries. Follow the supplied index and directly linked written-archive pages, including the linked Russian archive index.
-- `html_downloader.py`: save complete HTML bytes unchanged and collect static assets, including recursive CSS dependencies. It does not download document links.
-- `pdf_downloader.py`: independently save original PDF bytes and verify each file opens and has pages. No HTML dependencies or text extraction.
-- `downloader.py` and `storage.py`: shared HTTP/retries, logs, hashes, cache and atomic writes.
-- `scraper.py`: coordinates the inventory and the two independent downloaders.
-- `audit.py`: independently rechecks every saved file.
+Live commands `--test-api --allow-paid` and `--review-api --allow-paid` require
+separate approval and the SAME assignment key supplied as OPENROUTER_API_KEY in
+cloud secret settings. No key is included in this repository. English units are
+skipped after inspection; do not translate, rebuild or render already-English sets.
 
-## Files for review
+## Remaining work
 
-Under `tests/artifacts/downloads/`:
+Robust inventory reconciliation/solution exclusion, broader format support,
+complete math/assets handling, set translation/review/repair, final PDF generation,
+all-four visual QA, and final deliverables. The model gateway exists; the full
+archive-to-output workflow does not. Read the exact limitations in CONTEXT.md.
 
-```text
-inventory.json          Every discovered link, selection/exclusion and language evidence
-errors.json             Failures, recovered retries and language uncertainties
-audit.json              Independent check of every stored file
-run.log                 Full collection log
-discovery/              Cached index pages and discovery diagnostics
-html/raw/               Original HTML and assets with readable host/path names
-html/manifest.json      HTML/asset mapping, hashes and statuses
-html/download.log       HTML phase log
-pdf/raw/                Original PDF files
-pdf/manifest.json       PDF mapping, hashes and page counts
-pdf/download.log        PDF phase log
-```
+## Tests
 
-## Scope and language decisions
-
-Menus, external archives, oral rounds, result lists and solutions are explicitly excluded with reasons. PDFs with explicit English filename markers are excluded. Other PDFs are retained; Cyrillic link labels are evidence for non-English selection, not a full automatic language diagnosis. `/en/` in a URL is never treated as language proof. Two uncertain-language HTML pages and four marking-scheme PDFs are retained for review.
-
-Saving uses HTTP response bytes. BeautifulSoup only discovers links/assets; it does not interpret statements, mathematical notation, page layouts or section anchors. Original HTML references are unchanged; manifests map remote URLs to local files. Tracking is excluded and recorded. Static HTML/CSS dependencies are collected; remote JavaScript is not executed.
-
-## Current verified result
-
-88 HTML pages, 53 assets, 97 PDFs and 2 index snapshots saved. All 240 stored hashes pass; all PDFs open; all 47 images decode. No missing files, pending dependencies or unresolved download errors. 44 explicitly English PDFs excluded. 17 tests pass.
-
-`errors.json` also records the initial HTTP 503 probe, one recovered retry, and the corrected resume-reporting defect. Earlier experimental logs are retained as history. No model calls or paid costs.
-
-## Reproduce the exact source snapshots
-
-`python -m tests.restore_downloads` restores missing raw files directly from their recorded source URLs, accepting only bytes matching the committed size and SHA-256. Existing correct files are reused. It never silently replaces the snapshot with changed source content. GitHub Actions runs the unit tests, this restore step, audits the result and commits restored raw files plus a restore report. The workflow uses GitHub's short-lived repository token; no credential is stored in code or logs.
+Simulated MODEL API tests were removed at the user's request. The real integration
+test is opt-in via RUN_LIVE_API_TEST=1; leave that unset during setup. Legacy
+source-parser/HTTP fixture tests remain and are not proof of full-archive fidelity.

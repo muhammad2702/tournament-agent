@@ -1,0 +1,66 @@
+{
+  "status": "review_passed",
+  "problem_id": "turnir31otm:q1",
+  "source_sha256": "eb11d19f9818e8f4f1a06d5e7ef6bab3df4e0344fc006ec7dc736cf695d6cbf3",
+  "translation_report_sha256": "9a98ab7ebcd9f7bae5b464074fc5bd6fb7c3246b45f42e01544d27bcf7c3f0ba",
+  "translation_call_id": "b2cfa777be8e436881fc67697a529e8a",
+  "review": {
+    "checks": [
+      {
+        "explanation": "The core task of determining possibility ('Можно ли' / 'Is it possible') is correctly translated.",
+        "name": "task",
+        "source_evidence": "Можно ли",
+        "translation_evidence": "Is it possible",
+        "verdict": "pass"
+      },
+      {
+        "explanation": "The conditions regarding the number of squares (9), the color distribution (1 white, 3 gray, 5 black), and the equality/inequality of squares based on color are all accurately translated.",
+        "name": "conditions",
+        "source_evidence": "квадрат разрезать на 9 квадратов и раскрасить их так, чтобы получились 1 белый, 3 серых и 5 черных квадратов, причем одноцветные квадраты были бы равны, а разноцветные квадраты --- не равны?",
+        "translation_evidence": "cut a square into 9 squares and color them such that there are 1 white, 3 gray, and 5 black squares, with squares of the same color being equal, and squares of different colors being unequal?",
+        "verdict": "pass"
+      },
+      {
+        "explanation": "The quantifiers '9 squares', '1 white', '3 gray', '5 black', 'squares of the same color', and 'squares of different colors' are all correctly represented.",
+        "name": "quantifiers",
+        "source_evidence": "на 9 квадратов",
+        "translation_evidence": "into 9 squares",
+        "verdict": "pass"
+      },
+      {
+        "explanation": "All numerical values (9, 1, 3, 5) are correctly translated and correspond to the source.",
+        "name": "numbers",
+        "source_evidence": "9 квадратов",
+        "translation_evidence": "9 squares",
+        "verdict": "pass"
+      },
+      {
+        "explanation": "No specific mathematical notation is used beyond standard numerical digits and basic geometric terms, which are consistently translated.",
+        "name": "notation",
+        "source_evidence": "квадрат",
+        "translation_evidence": "square",
+        "verdict": "pass"
+      },
+      {
+        "explanation": "All parts of the original question, including the initial query, the division, the coloring, and the conditions on square sizes, are present in the English translation.",
+        "name": "completeness",
+        "source_evidence": "Можно ли квадрат разрезать на 9 квадратов и раскрасить их так, чтобы получились 1 белый, 3 серых и 5 черных квадратов, причем одноцветные квадраты были бы равны, а разноцветные квадраты --- не равны?",
+        "translation_evidence": "Is it possible to cut a square into 9 squares and color them such that there are 1 white, 3 gray, and 5 black squares, with squares of the same color being equal, and squares of different colors being unequal?",
+        "verdict": "pass"
+      }
+    ],
+    "issues": [],
+    "problem_id": "turnir31otm:q1",
+    "verdict": "pass"
+  },
+  "validation_errors": [],
+  "local_numbers_match": true,
+  "model": "google/gemini-2.5-flash",
+  "call_id": "438cab8694204697a8d9b03beb3fbf50",
+  "provider_id": "gen-1794942457-BqnVy2rxR4Xra4JzmHTz",
+  "new_cost_usd": "0.0017347",
+  "from_cache": false,
+  "reserved_bound_usd": "0.0078884",
+  "pricing_model": "google/gemini-2.5-flash",
+  "qa_note": "One text-only problem reviewed against its original HTML. Model review is not a correctness guarantee; final PDF generation and visual inspection are pending."
+}

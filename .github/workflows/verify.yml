@@ -1,0 +1,27 @@
+name: Verify saved project
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      RUN_LIVE_API_TEST: "0"
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install project requirements
+        run: python -m pip install -r requirements.txt
+      - name: Verify real saved sources and spending evidence without API calls
+        run: python -m tournament_agent.verify

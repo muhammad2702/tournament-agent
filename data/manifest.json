@@ -1,0 +1,3060 @@
+{
+  "scope": "numbered index pages and same-host PDF links in the index and downloaded pages; classification and extraction pending",
+  "index": {
+    "url": "https://www.turgor.ru/en/problems/allproblems.php",
+    "final_url": "https://www.turgor.ru/en/problems/allproblems.php",
+    "path": "data\\raw\\808ef7d3cfbfdd210c8448678261149b693f2eecb1d5c9c84b90e7ae3536c1a2.html",
+    "sha256": "686609626784ab1a96db41a0bc82799f9b7abb272bb579c1c2b71c0acd307381",
+    "content_type": "text/html; charset=UTF-8",
+    "from_cache": true,
+    "status": "downloaded"
+  },
+  "references": [
+    {
+      "page_url": "https://www.turgor.ru/en/problems/48/index.php",
+      "anchor": "",
+      "label": "48th Tournament of Towns, 2026-2027"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/47/index.php",
+      "anchor": "",
+      "label": "47th Tournament of Towns, 2025-2026"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "anchor": "",
+      "label": "Тридцать шестой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "anchor": "",
+      "label": "Тридцать пятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "anchor": "",
+      "label": "Тридцать четвертый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "anchor": "",
+      "label": "Тридцать третий Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "anchor": "",
+      "label": "Тридцать второй Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "",
+      "label": "Тридцать первый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "turnir31vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "",
+      "label": "Тридцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "turnir30vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "",
+      "label": "Двадцать девятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "anchor": "turnir29vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "",
+      "label": "Двадцать восьмой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "turnir28vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "",
+      "label": "Двадцать седьмой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "anchor": "turnir27vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "",
+      "label": "Двадцать шестой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "anchor": "turnir26vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "",
+      "label": "Двадцать пятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "anchor": "turnir25vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "",
+      "label": "Двадцать четвертый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "anchor": "turnir24vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "",
+      "label": "Двадцать третий Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "anchor": "turnir23vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "",
+      "label": "Двадцать второй Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "anchor": "turnir22vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "",
+      "label": "Двадцать первый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "anchor": "turnir21vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "",
+      "label": "Двадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "anchor": "turnir20vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "",
+      "label": "Девятнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "anchor": "turnir19vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "",
+      "label": "Восемнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "anchor": "turnir18vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "",
+      "label": "Семнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "anchor": "turnir17vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "",
+      "label": "Шестнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "anchor": "turnir16vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "",
+      "label": "Пятнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "anchor": "turnir15vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "",
+      "label": "Четырнадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "anchor": "turnir14vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "",
+      "label": "Тринадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "anchor": "turnir13vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "",
+      "label": "Двенадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "anchor": "turnir12vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "",
+      "label": "Одиннадцатый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11otm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11ots",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11oom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11oos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11vtm",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11vts",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11vom",
+      "label": "8-9"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "anchor": "turnir11vos",
+      "label": "10-11"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "",
+      "label": "Десятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10otm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10ots",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10oom",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10oos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10vtm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10vts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10vom",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10vos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "anchor": "turnir10vm1vm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9",
+      "label": "Девятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9om",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9os",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9tm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9ts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9vm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "anchor": "turnir9vs",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8",
+      "label": "Восьмой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8om",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8os",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8vtm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8vts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8vom",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "anchor": "turnir8vos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "anchor": "",
+      "label": "Седьмой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "anchor": "turnir7om",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "anchor": "turnir7os",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "anchor": "turnir7vm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "anchor": "turnir7vs",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "",
+      "label": "Шестой Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6otm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6ots",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6oom",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6oos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6vtm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6vts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6vom",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "anchor": "turnir6vos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "",
+      "label": "Пятый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5om",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5os",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5vtm",
+      "label": "6-7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5vts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5vom",
+      "label": "6-7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "anchor": "turnir5vos",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "",
+      "label": "Четвёртый Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur1m",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur1s",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur2lm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur2ls",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur2tm",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "anchor": "tur2ts",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "anchor": "",
+      "label": "Третий Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "anchor": "m",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "anchor": "s",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "anchor": "",
+      "label": "Второй Турнир Городов"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "anchor": "m",
+      "label": "7-8"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "anchor": "s",
+      "label": "9-10"
+    },
+    {
+      "page_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "anchor": "",
+      "label": "Первый Турнир Городов"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.turgor.ru/en/problems/48/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/48/index.php",
+      "path": "data\\raw\\95e456ab0bc9b25c377455292ca3c4823fd4b82cfbacef03f9fba41547e3577c.html",
+      "sha256": "d76cafdbdefdcb6fdf250782bd7022f8264a90d2f539852f4216cfe091b8bcd7",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/47/index.php",
+      "path": "data\\raw\\fce57bde9f920b661dacd91250dd1eebc542c126f6d0b5ba7634094f8c675769.html",
+      "sha256": "a07848c832f330eda3ec3e181062e034ccfeb5ac004619c187920cb58552e668",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "path": "data\\raw\\2e8a01182c9d774233658bc0ebf861a4bbd7d9b644169f70e5dbfd68682644e9.html",
+      "sha256": "c348e639b01c8e0a780e1df4fb8e6592713f198ddce54e07d769271a07e9106f",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "path": "data\\raw\\b2d2a9348faf2ca78b041cf6a735bf1ecac5d2cbeb4675f4f7681c7a482ded29.html",
+      "sha256": "d05207bb68373f3f7300b7dcbbbb25a475215719167d8edb7f55c9d4656dd5a4",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "path": "data\\raw\\be0f880c3408170892bfc60e72db8ec2333f577a00e9f6fc16917984dba02019.html",
+      "sha256": "633473fe49db30c48b73e7c5a4d35d81ae86699a4150c29997c4d42b9ba41bd4",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "path": "data\\raw\\5769eac4667ada49d25591cb751b8c1fa51ed00dead6fb83effe04f64e6c14d8.html",
+      "sha256": "0e424c1b118ba64777ff73cf5d01ebb6a1f474fc7cfb417c94b76be440ba8f4c",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "path": "data\\raw\\b721cd9b644ea8af9b400dfc5bc749bf914b15b651d194d57de9ef3d3a94ed96.html",
+      "sha256": "2e8237db22a562d19c2c30244e706a3b8a389763be670f66588d83f5b2ae08c4",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/31/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "path": "data\\raw\\d8d9b3b827cf71a3db908adfbc5c05625b7e89b5399f038fcab8083c1ae82911.html",
+      "sha256": "cf5afc168ab46030f85d747ae752733ddea84780778ab6382891892621dc1ef1",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/30/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "path": "data\\raw\\53261dad2dffcad75bf06529b64d72f0eadfd565e474f6edab35cfa5b96c9445.html",
+      "sha256": "64827c79b09b8cbe83ee5e3e739653c463b21f3d6ac74261f503d9edada4c108",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/29/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/29/index.php",
+      "path": "data\\raw\\5c0d9f86efaa7a455e9cd4168016f8bae99d819103cb63527045af552ce1332d.html",
+      "sha256": "651b62472ce8ed7f70de49a5c1c150c3257fd336bce177d226e15ee65406e2c7",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/28/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "path": "data\\raw\\c57a5faf60973b8d6305f91c6f59f174d9622d5bbf43540b993b033a17b9217c.html",
+      "sha256": "74fb04623a2bc86539eb6e8af534f3bffcb5efef096151467ca682aa9c6d7942",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/27/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/27/index.php",
+      "path": "data\\raw\\351700ced70b1ed3b1d4b5304e63fa41fd1b2f5370eb19c7ddb7a073aa2ca78f.html",
+      "sha256": "2da0f9fec42a3839037bfe9bdf4863ef1a4855a1d8cc55c2d69e1be3e68f4fb8",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/26/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/26/index.php",
+      "path": "data\\raw\\e6efab2912255672b66137321f61d2f5e24501af09e768c57a40426937ca7bec.html",
+      "sha256": "cae35231c85f2955c5778610403735087ca9bd99933b3d84938497aec001a8dc",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/25/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/25/index.php",
+      "path": "data\\raw\\fdb1b0cc9ffdfa192c4a2a64d294e174271fb782534ebb27968319cf75ac3c8b.html",
+      "sha256": "ec876536da6d2a05b2d4dbc35def61a43b5f4b69f5e3bf5105e0b26dab331c55",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/24/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/24/index.php",
+      "path": "data\\raw\\7acbbc94edee29ae7a940ba7942bf345a8347becdb98d71d6acec5d6a706754d.html",
+      "sha256": "5e59ce7396df5ab30c3fbbdfbf06cbe3791e37559ed565487258b808bf1983c4",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/23/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/23/index.php",
+      "path": "data\\raw\\096d8270d570c5d3180a0f61eb034fefcac6ce942c2407d74f6e7de9ddd73262.html",
+      "sha256": "48839e4d670eafa32b0a9f4540adc2e56ad645d796c63a2ba1f33ff508bf72e6",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/22/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/22/index.php",
+      "path": "data\\raw\\b23a649e6e7d2266a83c07ba83e40628a524fe6b6f9c3cdbcc5087921d8c8424.html",
+      "sha256": "5e36519a7b5f6ad2ea26bff1ccee91fa836822966f2059b0a409532acf7b11f1",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/21/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/21/index.php",
+      "path": "data\\raw\\a471cf93866fbdb039db6b64fa3329f671c4676bb5907a681c6a4d48ae14cbf1.html",
+      "sha256": "8d4c91cddf34fed5d31199e43203083892e9afea82db1eb58353a387c8a4af16",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/20/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/20/index.php",
+      "path": "data\\raw\\cd316ccc513aca37e6e549d1aaeb6a9a156b7972ea1bbee92e02d636b5b55b01.html",
+      "sha256": "8c31ec853434b87a03e863b32086b7829c226ddaf97a593292eb79a8851f5160",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/19/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/19/index.php",
+      "path": "data\\raw\\02c8ccedfd6668c2d29407a6b53027b9fe29da506c9d9d40261faaa94b2b7ac5.html",
+      "sha256": "ab3df103d4af40222bf1666c330e16e5933a6d9a6b10bcb1231593c59c36e121",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/18/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/18/index.php",
+      "path": "data\\raw\\cbd23e063a0479e31e770e8628d1c7fed0c8a85ad162d7d0caa7ba30cdaec688.html",
+      "sha256": "4357144f90132edd0e95bd8400f1e8dd4247ec228800e501c22aabb39e12a9cf",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/17/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/17/index.php",
+      "path": "data\\raw\\17f3e0d8609856e5c059321ad6693c4a665c96e80a2b871ed8566e97adfcae83.html",
+      "sha256": "a205e631c713c4bd242bb3aa6df0e896bc9e71c27c1371257d9dd84f9a3b1994",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/16/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/16/index.php",
+      "path": "data\\raw\\49a9d1296c8aaa8cbe8e3cad4114a4a0d3d3f957a69e87bda5e972d4f0ab86d6.html",
+      "sha256": "1104c8af70862721b0a00b5977aa04c15662a4e6e822b0f13cde13bf27d38ca0",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/15/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/15/index.php",
+      "path": "data\\raw\\015b02567e9051068be4d98253e64fe97846a7aa53534cb1d3e53c4a16f9f519.html",
+      "sha256": "19a944f3865a4e7bb8321f3294f3d8eeb8b14c54cdce62288631b6169f9ef222",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/14/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/14/index.php",
+      "path": "data\\raw\\c5f83164cb05d6ca4cca0d09832c7faacdc1f41d491803b7301101d73327e6b0.html",
+      "sha256": "2ea3d4b329df27a0a5e913852801aa503eb1cd8a57a0f7a34fc85915fc75413c",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/13/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/13/index.php",
+      "path": "data\\raw\\3cf85c7c31550e6d5c037b4cbf69798282905e102ccfef3e77f4836aa436844c.html",
+      "sha256": "a1ce7cf9189afe70b7e48f78e33ec8e547d2089143ed2c580027b0415f67c194",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/12/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/12/index.php",
+      "path": "data\\raw\\8b2a4711eab69eba48af5c36a328e88f16888e8df36c3d46054e8c5fb76636f2.html",
+      "sha256": "fbf842d5dcc2682312be436e23a8d111abaa48d49cc93eed2f7c04f26e016f34",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/11/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/11/index.php",
+      "path": "data\\raw\\d64d2a292cce69212eeced4858449cf0e2bba78d16f5bc77ea86c5992487608d.html",
+      "sha256": "07141a28b0a3412058b9b345185209bb52671e218685a616cc38ec749fc402d8",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/10/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/10/index.php",
+      "path": "data\\raw\\bc2feeec73afe9198c896948c297314731ed96c7f696664f9b2f61d60be259c6.html",
+      "sha256": "d300a70fda90866a676f8b30a753445e2edaa7a2ffe459cd611f399c31241cb9",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/09/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/09/index.php",
+      "path": "data\\raw\\a524b2049b9e3dceab90729a8d77daf2478a437d6b2150ac89276e4793250b05.html",
+      "sha256": "0472cc0d5408207f3feb57f40dc44b0a8d5c9df364d18d257e496c41338fdb9e",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/08/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/08/index.php",
+      "path": "data\\raw\\a690d6ca5120df520198d790a825a75214ce618d531f36728bb3922499b6a204.html",
+      "sha256": "153e7c92ffcd1cdc61a2b74a4a0115009455a8c0d2d2825c2d91795b9f868f03",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/07/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/07/index.php",
+      "path": "data\\raw\\be67e2e877e16cb400cd0f9f0f9f1195ec8036059ccded39f33eb867dd2071cb.html",
+      "sha256": "46e257392fe4a3f75b534e5ec1cb08628f3506e407604c1784057446c9d28cc5",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/06/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/06/index.php",
+      "path": "data\\raw\\cdb1b17d4854c1aface6d2745d91d689e5a0317a2062a94c20287a4be07e93a5.html",
+      "sha256": "1ecf3f0392e51cdc7cdacb2b4c4dd6f1fab110bf566355d0a18c0d62ca25a9b1",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/05/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/05/index.php",
+      "path": "data\\raw\\e2ab7cadce252f9b35fef121682264be858eb615f3427635b8199bdaa13431ea.html",
+      "sha256": "fa90d8dfe16b440a971c75857250c5226cb3bfaa948b31772b382813d40afe9e",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/04/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/04/index.php",
+      "path": "data\\raw\\9e43de56bf5c8e24c930ec8da7f547f12f88473e4d4054411538f76244d7814b.html",
+      "sha256": "da46d702424172c2c6fe0ea555bc537968a91d79c481aea9b028536b918e1fc1",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/03/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/03/index.php",
+      "path": "data\\raw\\e430a03a75739cae77e56e4304652a703f6b370f002d98d0d817de94eeb7d2f1.html",
+      "sha256": "f13c08d1e598325cafff3514a2049e3e464b796d47dd5eda655f89631e127caa",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/02/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/02/index.php",
+      "path": "data\\raw\\bf73281c8ec33ce4d966ce606118d29972a5edf8529cd280dcb989b0495774ea.html",
+      "sha256": "2fa32bd9d6edfb1c6846bdefab4987f9cfc9f45520e8e2581ad5798f546f9fa9",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/01/index.php",
+      "status": "downloaded",
+      "final_url": "https://www.turgor.ru/en/problems/01/index.php",
+      "path": "data\\raw\\b2d2ac564147bc58426aca1b01d0ea7725601cb6edb5b00911c764ca8b7a5448.html",
+      "sha256": "2db85a32b3fadaaffdfba580737dc75d8439e0e0c6d380e048c8c718a645c956",
+      "content_type": "text/html; charset=UTF-8",
+      "from_cache": true
+    }
+  ],
+  "document_references": [
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-solutions-en.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "Preliminary solutions of the Fall Round (O-level and A-level)"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/fall-46-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/fall-46-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/spring-46-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/spring-46-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/fall-45-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/fall-45-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/spring-45-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/spring-45-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/fall-44-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/fall-44-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/spring-44-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/spring-44-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/fall-43-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/fall-43-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/spring-43-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/spring-43-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/fall-42-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/fall-42-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-all-eng-sol.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "solutions"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-sol.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "solutions"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-sol.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "solutions"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/spring-41-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/spring-41-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/fall-40-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/fall-40-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/spring-40-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/spring-40-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/fall-39-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/fall-39-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/spring-39-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/spring-39-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/fall-38-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/fall-38-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/spring-38-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/spring-38-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/fall-37-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/fall-37-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/spr-37-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "O-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/spr-37-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "A-level"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 12 октября 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 26 октября 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 1 марта 2015 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 15 марта 2015 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 13 октября 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 27 октября 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 16 февраля 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 2 марта 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 7 октября 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 21 октября 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 24 февраля 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 10 марта 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 9 октября 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 23 октября 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 26 февраля 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 18 марта 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 10 октября 2010 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32os-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 24 октября 2010 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "базовый вариант, 27 февраля 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/allproblems.php",
+      "anchor": "",
+      "label": "сложный вариант, 13 марта 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/48/index.php",
+      "anchor": "",
+      "label": "Fall O-level, October 4, 2026"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/48/index.php",
+      "anchor": "",
+      "label": "Fall A-level, October 18, 2026"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-solutions-en.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/48/index.php",
+      "anchor": "",
+      "label": "Preliminary solutions of the Fall Round (O-level and A-level)"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-O-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/47/index.php",
+      "anchor": "",
+      "label": "Fall O-level, October 5, 2025"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-A-eng-auth.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/47/index.php",
+      "anchor": "",
+      "label": "Fall A-level, October 19, 2025"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 12 октября 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 26 октября 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 1 марта 2015 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/36/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 15 марта 2015 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 13 октября 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 27 октября 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 16 февраля 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/35/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 2 марта 2014 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 7 октября 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 21 октября 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 24 февраля 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/34/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 10 марта 2013 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 9 октября 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 23 октября 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 26 февраля 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/33/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 18 марта 2012 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 10 октября 2010 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32os-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 24 октября 2010 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "anchor": "",
+      "label": "базовый вариант, 27 февраля 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/32/index.php",
+      "anchor": "",
+      "label": "сложный вариант, 13 марта 2011 г."
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/31/os31sl.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "",
+      "label": "PDF-формате"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/31/os31sl.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/31/index.php",
+      "anchor": "",
+      "label": "PDF-формате"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/30/sol_os30baz.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "",
+      "label": "в формате PDF (.pdf)"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/30/sol_os30sloj.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/30/index.php",
+      "anchor": "",
+      "label": "в формате PDF (.pdf)"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/28/sol28ots.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "",
+      "label": "в формате PDF"
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/28/tolpygo_sol28oos_7v.pdf",
+      "source_page_url": "https://www.turgor.ru/en/problems/28/index.php",
+      "anchor": "",
+      "label": "Задача 7в (в формате PDF)"
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/48/fall-48-O-eng-auth.pdf",
+      "path": "data\\raw\\50cd24486b6f4bb853a0fedf4bcf2dc06b262aad22a5299db7c07718bb0ccb83.pdf",
+      "sha256": "88ee9005030fa6da9b24f8371cd5bf214106ac9825ea802d138184ccb527dd3b",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/48/fall-48-A-eng-auth.pdf",
+      "path": "data\\raw\\580ef77c1eeb5b5f01777f1602dc03376c3ebc1f5fd3250e288a0ba81e811479.pdf",
+      "sha256": "f508314f56cb01a3772e71696399866373f0b2ba6b01067c7dbe544b85dad834",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/48/fall-48-solutions-en.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/48/fall-48-solutions-en.pdf",
+      "path": "data\\raw\\45c32fe681339bb9889f08ed74f67dc6879a8125375b7274e40a5f2af3583996.pdf",
+      "sha256": "4c7b2381fd162f1f48b3a3f2683cd4e0abb7877631fe0145ba2295b9c7ac9cc3",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/47/fall-47-O-eng-auth.pdf",
+      "path": "data\\raw\\b75571bd6904e96fbb5a4219156f59b5e7052cc9a2ba789f6d15604e940c853e.pdf",
+      "sha256": "1660e03e01c48c5f82dd5e5819d2cd51e2156880ae675d42102ea59751f9dc0d",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/47/fall-47-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/47/fall-47-A-eng-auth.pdf",
+      "path": "data\\raw\\909b8278a12f92e1b45beae7c85ad45ce4a6b2d2750f48f2120df2b6331691db.pdf",
+      "sha256": "1c453367d779e6871f71227b6991a833f6b56a08bb38409f0f4cbd262af7eba9",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/fall-46-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/46/fall-46-O-eng-auth.pdf",
+      "path": "data\\raw\\321205fbfde2f69159a5d133e7fa88769d926c3f4fd1dfc825fb3affb58e7ebf.pdf",
+      "sha256": "4afde5d5a0ec1419c962fabba8ce2b17213bdad566d85896fa34b44efc0eeeb5",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/fall-46-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/46/fall-46-A-eng-auth.pdf",
+      "path": "data\\raw\\cfb17ef202e86d4e8c359a0e821b68bf7cf9fe157a0326fb19f43a6f8bdf5f18.pdf",
+      "sha256": "0395e229ce9f22c2a588a7ca460ec827aac2677f61e66ef7d2008e384c42317d",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/spring-46-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/46/spring-46-O-eng-auth.pdf",
+      "path": "data\\raw\\b3fca4f550c8e3fa68ee0ffe8a3374baf31234baadd7bfc0ed70eb1a88dbf48e.pdf",
+      "sha256": "be33f1a00ad95d90157724223407b996798ef25ce5ed45e837c4b41d2ba8328b",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/46/spring-46-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/46/spring-46-A-eng-auth.pdf",
+      "path": "data\\raw\\c137d11890a2ac86b6a9f40c80a62046ead72c3dd8e7a7e70b27e664d6b54a83.pdf",
+      "sha256": "2f894c4583cbb83d4f61557a16950d9451496f0559af67ad6ce755e8709794df",
+      "content_type": "application/pdf",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/fall-45-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/45/fall-45-O-eng-auth.pdf",
+      "path": "data\\raw\\99e9711cde8b9042b169e0181796ad7fad3b9de6e34b5dcbe6191c8a0fb4443f.pdf",
+      "sha256": "41d72839ded3d4d9b83212e37ef598bbf4d088cca35e4d767b8fbb438971a5ca",
+      "content_type": "application/pdf",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/fall-45-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/45/fall-45-A-eng-auth.pdf",
+      "path": "data\\raw\\796bfb05ebc05a7cf7bfb4eba0c8c69b7aee5c9df7dc36de4cddf935f04bd68d.pdf",
+      "sha256": "078dc94c10abf49e247932ebae501dd8ced0b99de0267c441134fa8727e2bb20",
+      "content_type": "application/pdf",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/spring-45-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/45/spring-45-O-eng-auth.pdf",
+      "path": "data\\raw\\9dac4279b45091e665e78d2d5c5c1172e63f537f14b9ad4e2bdf77e9d2fb85ba.pdf",
+      "sha256": "438497474f6d2a5d9c334fbfea7d3b853142d1059183201eae133f53e1faecc2",
+      "content_type": "application/pdf",
+      "from_cache": true
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/45/spring-45-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/45/spring-45-A-eng-auth.pdf",
+      "path": "data\\raw\\59e7f51c07e997055f90b5c6609d11db4947d8d4c2ef8cc9630cbd4139c9f738.pdf",
+      "sha256": "f90501f528cc785f25c60019c15272ab84be68483adda712fb3772070d90980f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/fall-44-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/44/fall-44-O-eng-auth.pdf",
+      "path": "data\\raw\\709365377a8341308ace50ef705385e1321c8e0399b065ad115be4a0e45d53b2.pdf",
+      "sha256": "1bb1f306ab6c6284ce27af6b35a8d8c8d01cfa8baa7472fb42f98b7cb2843b8d",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/fall-44-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/44/fall-44-A-eng-auth.pdf",
+      "path": "data\\raw\\012e06107070eda6bc96af1ea167692046bc3fb6a85a9ef29aa537117b52190f.pdf",
+      "sha256": "474f754086774dc17e5b365b763e3a9d6b59e3df20a8234189349e4db3f6c98f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/spring-44-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/44/spring-44-O-eng-auth.pdf",
+      "path": "data\\raw\\0b3cf4b17d4f6687ba8e6a45e0fa64443168f1f9d6c179dd77d196e1b8397070.pdf",
+      "sha256": "9d5c91184db0602f24b576e0533e54967ae9f3afa094494c71ad9049d6bea493",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/44/spring-44-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/44/spring-44-A-eng-auth.pdf",
+      "path": "data\\raw\\dfe7a6db04c5457d5c5fd54b687b8f199754dc43960d63f21a76fbc12daa98b3.pdf",
+      "sha256": "a916f58282de73ee0f719f5a0f0b671a8fbba23e841cdd05e1685144e28b53d7",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/fall-43-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/43/fall-43-O-eng-auth.pdf",
+      "path": "data\\raw\\a22b4e84a8f40de7a49e0d2b1f919ad1cff51bb70c5960bc2464b09c9bc0ae58.pdf",
+      "sha256": "bde6edbbbcd6a861e34c81345ecb5ba751d91d76a90a546ee1ef9b1f813b87d8",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/fall-43-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/43/fall-43-A-eng-auth.pdf",
+      "path": "data\\raw\\8c80d844aff9970eb8d0514a3dcf09d749ea0718eaa0aac0471838e026605347.pdf",
+      "sha256": "efa8c8aa38fea0198c2c5605e6dc1b762a40ed90c697a03158a2b666a672e467",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/spring-43-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/43/spring-43-O-eng-auth.pdf",
+      "path": "data\\raw\\94369b204f96aa48991029b2d456c10c00bdc39db9c74bf7c6b9a65b9da28ca0.pdf",
+      "sha256": "f68e2a72af900e2fc88967f5f2884c5a187b3a7746dc94e558f57c23fe131784",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/43/spring-43-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/43/spring-43-A-eng-auth.pdf",
+      "path": "data\\raw\\2fbe9a8c5fd4e43f263678f1e60d246e8038809ce0ee6d3f7075fff947c59d07.pdf",
+      "sha256": "87ab06aa2c7161b124af9901c800dd3b9ceb954bf64656d021e73162d9e7e283",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/fall-42-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/42/fall-42-O-eng-auth.pdf",
+      "path": "data\\raw\\0bcb91245318ea1065469bd615ae411f13efc7f9dd79c2b4c3183273dda006d0.pdf",
+      "sha256": "f16aafbe8e137a4e0ca09e028ef338560cddbb57cc902ba69246b2fccf4a7d19",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/fall-42-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/42/fall-42-A-eng-auth.pdf",
+      "path": "data\\raw\\a000c4c6faac995cd35319a289f03c03d8800a0c5d985a04cdf7d04f75195f8f.pdf",
+      "sha256": "ad1b5e3f6c08286f3b2eacd852a7d365b8a04fdd8a255b9f4e546553f94b8834",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/42/spring-42-O-eng-auth.pdf",
+      "path": "data\\raw\\e929b57014015da30f486a0fc73cf32c48889d5f47ea4e90aaf33aafd6f27668.pdf",
+      "sha256": "8b9a314d6e3b5d5a012ddeab8d15929ee82cf5930838fddc87fa5f03cd4f0c30",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/42/spring-42-A-eng-auth.pdf",
+      "path": "data\\raw\\535508fa8ee7b3fefe3db9c22a29809faca1db0c858c6a91e368f83f6366fcf6.pdf",
+      "sha256": "3630f93ffbcb0c9208e2db57a72ac0cdd9540b9538b113aa51c7092da6829e3e",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/42/spring-42-all-eng-sol.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/42/spring-42-all-eng-sol.pdf",
+      "path": "data\\raw\\ccad5ad20a5761c1afa84e249d6f397d8d8fa416a84255c3e5c639da68f51ecf.pdf",
+      "sha256": "b57c747271ce8e94bee42d95bffb55f9cf42d2509cf4938aa14c2d8e37392937",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-auth.pdf",
+      "path": "data\\raw\\ec06f896c8e2c4370e72a206310f322f78fabfbe03f6971580d801b0d9ae8fa6.pdf",
+      "sha256": "78ac216e6717d955ea69ec5a1637b52db776b6cce02e79aec2e3b6a926886e9f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-sol.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/fall-41-O-eng-sol.pdf",
+      "path": "data\\raw\\a460581a86a83b4eadcca82af67ed9eb7c97ca1fbf8945596f6ce0daa533fc77.pdf",
+      "sha256": "11c399638e975a2e1a83992f46d82d43f071d4ad9b7e82ebf82d03417042d3f8",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-auth.pdf",
+      "path": "data\\raw\\7ccd35676a47dede9e112b1aa0593352358b8f734e3996427690b127c848a4b5.pdf",
+      "sha256": "dacf8db8763603deac4db72802b58570355e1ad04911532d0bdbeff44d0b3c7f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-sol.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/fall-41-A-eng-sol.pdf",
+      "path": "data\\raw\\3741f559590f14d0cc431a368cc50f339ff7356ee8b4ded5f84ef5ea883132eb.pdf",
+      "sha256": "b6410432eaf439efded0510f92424ea0c3480aead28d75b85fe0ae0351c519b5",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/spring-41-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/spring-41-O-eng-auth.pdf",
+      "path": "data\\raw\\378de421ee78371e02be6d7438c9f3b9cd94da0cfdb4212e8bdc66f5b2b80abe.pdf",
+      "sha256": "4ef840d27557462828000855dcb2c6064b9f47a323131772d1e2333778384fae",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/41/spring-41-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/41/spring-41-A-eng-auth.pdf",
+      "path": "data\\raw\\b73f8964bd45916424a134ed829f0c4bc57798d6bb844e6ca7e7ec3795cc6b9b.pdf",
+      "sha256": "4ff0e2971146b887aa3d6eba3446a8d89da395e3558c5db657d8acef3db92958",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/fall-40-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/40/fall-40-O-eng-auth.pdf",
+      "path": "data\\raw\\ea86a87dff780c7e4e41091dd729a0a8be70ba7dd1274a773a0bcd7793e105ae.pdf",
+      "sha256": "1c50d0c54efdc8c1dccbeb4682ef0a9999920e32cdae733eaa5fcecbc8636ada",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/fall-40-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/40/fall-40-A-eng-auth.pdf",
+      "path": "data\\raw\\2cdbcd5c375fbe4fe3e57fb711a106a309aa4d0c7f6835940a9178427af0468f.pdf",
+      "sha256": "2a38b239dd839b69510e0c47de583ae745b481130118884e473014ed41e7603b",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/spring-40-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/40/spring-40-O-eng-auth.pdf",
+      "path": "data\\raw\\f631185c279262f15dc76ef66c2acee0394f3677f7e8acbff3219c3399b441cc.pdf",
+      "sha256": "2517d4cd536c44fff1c53447ee1c739087f8aecc4c3ddce55a165afbbe25eac2",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/40/spring-40-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/40/spring-40-A-eng-auth.pdf",
+      "path": "data\\raw\\30790e7c8a115b72c37d60f18916da8d7e34ce7ba983eebe56711e0304fd9fa8.pdf",
+      "sha256": "e6ca7b072ac9e29e81c900b439be3dee96025cbe49c1923504edb2521a70210c",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/fall-39-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/39/fall-39-O-eng-auth.pdf",
+      "path": "data\\raw\\eb9ee4a8edb9ce07987cf4bc5e0c5a1333fc86040c90b46c6330afdf8f6db31a.pdf",
+      "sha256": "5aa49f04cca8d69e3ead1ae0875f71fa9091b9a05061d15612e152f8c5a74d45",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/fall-39-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/39/fall-39-A-eng-auth.pdf",
+      "path": "data\\raw\\50d3216cc6ae8d2e30ef086e385b9ebb86bd09e2338368d39751c05fd8575846.pdf",
+      "sha256": "95ffc3df9adcda7c1b3b11f9084c6d3d79cda0ed5841c39032712f06f74a8e9c",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/spring-39-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/39/spring-39-O-eng-auth.pdf",
+      "path": "data\\raw\\ca235840963064112b30e4569d136e21f88f9a4762e42c1157bc4e8dff5f6145.pdf",
+      "sha256": "17011df437c6a381904a517098381fbfb5e78ff81bf8da5fb977a6aab10b142c",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/39/spring-39-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/39/spring-39-A-eng-auth.pdf",
+      "path": "data\\raw\\328ba356097b0f36c2b8794dd7d8c3181324a63c29e4675f5d74e546e2044925.pdf",
+      "sha256": "10a75f8ceb467d75e4179daa63c7b15ba3b424bebfc8668f28f571162633bf96",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/fall-38-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/38/fall-38-O-eng-auth.pdf",
+      "path": "data\\raw\\d586dbf26c20e6234493beac72309516e5c43be1cfd0b167684ab74d7425ca93.pdf",
+      "sha256": "5b09d561a99ef76c7cd0687e67f7d7259a56acf83541ff2dab90eaf79e5390e6",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/fall-38-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/38/fall-38-A-eng-auth.pdf",
+      "path": "data\\raw\\3acc942b398a80c949c6852fd9fafae3324847833e517223cddc972e4e9e3da4.pdf",
+      "sha256": "f61e67e1cf93e59adeb5b1fe463881b45d918661dbd11cf55630f05ad85cca02",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/spring-38-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/38/spring-38-O-eng-auth.pdf",
+      "path": "data\\raw\\73876881adbf338b3ac74fbc99ae402d8cfc9743617ab6680be9ba7b8028926f.pdf",
+      "sha256": "9bf8806ec24ade174a8ef3851791fe8af4239b1ee9813fd91753de2650e99ba1",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/38/spring-38-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/38/spring-38-A-eng-auth.pdf",
+      "path": "data\\raw\\07aa5bc5d26b6cdd676e4cc73f46c54b57af530c6b6889738d3dad733a821111.pdf",
+      "sha256": "20baf2aa8153a007946cd8ce7f1c14232a381fcf235bd7fb0b154ac7a95f24f9",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/fall-37-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/37/fall-37-O-eng-auth.pdf",
+      "path": "data\\raw\\6ee991e7f770a8a2bdf1e30ce1b675649e135317e2dcd53281eaeb4ce8f8b8eb.pdf",
+      "sha256": "cb40bc616df154e4ddf3f1cc1b3d973cf55eddbd9a7f82031e3e2fbf45694615",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/fall-37-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/37/fall-37-A-eng-auth.pdf",
+      "path": "data\\raw\\25ab5c5335879a4843cf5cbb7b9e5136ff0fdbc6e0c455f9433ce073197581d3.pdf",
+      "sha256": "158f611e262a567447f9790ac269b059f3c02364368b604a6edb561cb48c897f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/spr-37-O-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/37/spr-37-O-eng-auth.pdf",
+      "path": "data\\raw\\b7222a8eed69d0687bdf810be8a1dff4a53f173e80c4282109505e45d13b6a24.pdf",
+      "sha256": "72debc6edd0bec86a1bb180fcf333dba0ea31ba28491fcd1bb9323abda48539e",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/37/spr-37-A-eng-auth.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/37/spr-37-A-eng-auth.pdf",
+      "path": "data\\raw\\64d060f09139165122e1d93035a3a8ad6823d5c8cb8f8ceea1f5de8e551f8aa0.pdf",
+      "sha256": "2c5a85d84af25b1a26d04f1c4233453c0b0738e29c449e962e7110ec62604b79",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/36/os-36-baz-avt.pdf",
+      "path": "data\\raw\\df29cd81ccdf7de99733fc610602e5867692dbb4e19c9999ef2297846508b4dd.pdf",
+      "sha256": "fb0cb0e6372d20e3c31269b94a1976c258b4f7c84610461ba973382cb9f0b0e6",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/36/os-36-sl-avt.pdf",
+      "path": "data\\raw\\5a701225d75632c6e4fb12970c3dd1535e942e494797c1e2106fce31cfea6488.pdf",
+      "sha256": "0e9f3258be90c7e132b563f7b6fc8856eace8bde35a540accf5387ae6e146882",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/36/vs-36-baz-avt.pdf",
+      "path": "data\\raw\\a2cd4097d5f27f8c400814869152043db3b600dee9da00ff93ed2210fc1dcb56.pdf",
+      "sha256": "2659b28f5360be8421ea2cfc539df791b31a75e3567c091470bfff28fa6e6c60",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/36/vs-36-sl-avt.pdf",
+      "path": "data\\raw\\6ac5fa6311b8ef2b0b7643e4e6d858d83b8fe9545bc7eb897a5f5f90d3af5a55.pdf",
+      "sha256": "972a1d1ef717e6b3617361c19fa9cf5cc19a615e8d2a5e1c8dffd22ba0e0ece4",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/35/os35-baz-avt.pdf",
+      "path": "data\\raw\\a3c2b5eb2a5e766e6871fc238a38061d4042f291379f98e931ed366037f0883b.pdf",
+      "sha256": "d66bfc9cc79b40807f00d987c6c36ad7794511d773391c0ff3d47e66fa4fac25",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/35/os35-sl-avt.pdf",
+      "path": "data\\raw\\83803f57cd1b977eeb7a4cf1da500a39aa9197be055b7f42ee2d4c8b6c355835.pdf",
+      "sha256": "0e491425dcf39141401990aba94f0896009126e637fb804aab069f184ea68dc8",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/35/vs-35-baz-avt.pdf",
+      "path": "data\\raw\\7b1c637438005e4931bc16748b8f0b94011b4bacd7f37b3c51eb3a41e8517e56.pdf",
+      "sha256": "5e73b23a1469f8c11f73600d30f408b68a8a90370a3041c86e49ef7826f3ac40",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/35/vs-35-sl-avt.pdf",
+      "path": "data\\raw\\4b7e9dd5afa732cbd25ec80928a97b69224c7d0f74b1f267621b6ada9118cf02.pdf",
+      "sha256": "12326ae312de477a7d2e47e9f60544d4593a8a11586bfe8bf8d3ef37505f2aec",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/34/os34baz-avt.pdf",
+      "path": "data\\raw\\0218f0a52493f3103221b1736462af309f215cfe72f2767d947db971e5b3f3e9.pdf",
+      "sha256": "6b00b91faa1bbac02ef1fd3fb13dca20f49c3fc7115a24a4623ea6758f55163f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/os34sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/34/os34sl-avt.pdf",
+      "path": "data\\raw\\5be5547b694ce5d2476de4d7b6faa24a89933482a04298970d46d92cf8df7fd9.pdf",
+      "sha256": "a85df2407d2959f28e4da27933ab0418feeb620e626fe773cb90ba11db7a2883",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/34/vs34baz-avt.pdf",
+      "path": "data\\raw\\209c9b2f24802329bee94d9419c3716c70ed889484f93e68ddd0b3a5d7870f89.pdf",
+      "sha256": "05c4785163337b34fbbdf35f20a060aab5c061189301134bed8ecd005590e039",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/34/vs34sl-avt.pdf",
+      "path": "data\\raw\\e0a535cb95e88bc5bf3cb47a9f4fdcd02fd1fb30368243d88dbb5696676932e7.pdf",
+      "sha256": "16a534900718918341a2a6b4c7b5ef6e36902970f3089d41d115bb06d366f7f6",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/33/os33baz-avt.pdf",
+      "path": "data\\raw\\e7a27236aabb37a1dd44c18d29d2ad89ab90b3bf8e97fc680cfe543b524a7496.pdf",
+      "sha256": "e6acc4fdc37f3de44923633a2b2c062bd23c72d0bfa9490641e74668beff1ff1",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/os33sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/33/os33sl-avt.pdf",
+      "path": "data\\raw\\2920ef91786725ecf21ff09f4ed3f2c80f2f0debf74073249a2c639cd4673561.pdf",
+      "sha256": "75df8b93b78a84dd48f997ad06df4b6f855f8481b4b115a55c18d05653c1e69c",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/33/vs33baz-avt.pdf",
+      "path": "data\\raw\\6e58e53921d14223efd4e74c6738dc721bdc034c300b4c4eb8fa795d0cf4db07.pdf",
+      "sha256": "c0bcbac9eab653be0d74585119fb20810b60e3ecadb1e795161096459373f55b",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/33/vs33sl-avt.pdf",
+      "path": "data\\raw\\afe99c4b50b6b12029d8350628cfc0162f8e55e65787a71d587e53736c67e043.pdf",
+      "sha256": "c71efc8421b1e64aded3e295aea9b4198ec9297d4c60634dea25b06655e4b236",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/32/os32baz-avt.pdf",
+      "path": "data\\raw\\86bd7a4600ed9c5f26e6babc22010778d8343c1d40fd9b76fb650a0133104840.pdf",
+      "sha256": "a7f527c2e84fc2d98921bec18550ac287cb46f9c6de35ac9b00f153044c3f65f",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/os32os-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/32/os32os-avt.pdf",
+      "path": "data\\raw\\51bdfd385b1658e4a4a73ef3f9d0f8760d1a0a8497a1ca90d1e7c27f3577e73e.pdf",
+      "sha256": "5caf135062911194ed089ee3a1988da262c45191aeeabbe20f18fdc5d0f64715",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/32/vs32baz-avt.pdf",
+      "path": "data\\raw\\b6a8587bb1f7e936e822bec31ba0f7418ac047c783d89a0645127f78f06def3b.pdf",
+      "sha256": "e7eaf04386a2b5be3ddf0038cc3df9c9ad873b1d4512661644faa5c58236d1e8",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/32/vs32sl-avt.pdf",
+      "path": "data\\raw\\b24a08bf475ae04b0bb67f9719490947d27c7ab7d82079aefde325db3f38a0d1.pdf",
+      "sha256": "d345e353c5abe37aada674b20837e49d232d98bf2676a173e4cceffe22346094",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/31/os31sl.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/31/os31sl.pdf",
+      "path": "data\\raw\\5c73cb8b2a2c03eeb9bc8dbe8f760c41c28a7aa5d7bbd0b087e72bfdb4a14cc0.pdf",
+      "sha256": "719e689667d82d2d72026ff07107e5a7a3c55e2c0cb47942d3f68d5329e9ecac",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/30/sol_os30baz.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/30/sol_os30baz.pdf",
+      "path": "data\\raw\\ad5d84de3430ddf2d2f1bc85ffe394c0a0158c01e46e6acead9a6f733fe87d0f.pdf",
+      "sha256": "0939f50c50a7f285053794f2931c295ca060735850f89d8a29df04f6b304f562",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/30/sol_os30sloj.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/30/sol_os30sloj.pdf",
+      "path": "data\\raw\\ad104ca7075a2b0ef16610989abafc1a3615afacd7ab91b3ef073b091b790a0f.pdf",
+      "sha256": "52e97b74115f896d74c99e6b093a94726390653f1a9bee20ffa6ddbb1e36d2bc",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/28/sol28ots.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/28/sol28ots.pdf",
+      "path": "data\\raw\\acac8a266e8539be66ed49b198464b12da62fd4118f9aeed94afa7d45913306a.pdf",
+      "sha256": "a09c702658ef74a26e9e75322e0d3be53bac4509c51f5497077ddd451d97b087",
+      "content_type": "application/pdf",
+      "from_cache": false
+    },
+    {
+      "url": "https://www.turgor.ru/en/problems/28/tolpygo_sol28oos_7v.pdf",
+      "status": "downloaded",
+      "classification_status": "needs_review",
+      "language": "unknown",
+      "final_url": "https://www.turgor.ru/en/problems/28/tolpygo_sol28oos_7v.pdf",
+      "path": "data\\raw\\660af31489d5c1017b3c14f934bcbb4b44488c240b8cc05f8079fe2524617122.pdf",
+      "sha256": "b2bff7010fdd5d7a5007bd43a485ddd777affc62ac3cf75e299fee283e3494e5",
+      "content_type": "application/pdf",
+      "from_cache": false
+    }
+  ],
+  "inspection": {
+    "path": "data\\inspection.json",
+    "sha256": "988a6cded85715b826bf9c162b1daa372cc88254c0fa958d1d190269ca2af43b",
+    "html_sections": 186,
+    "pdf_pages": 190,
+    "errors": 33
+  },
+  "html_extraction": {
+    "path": "data\\extracted\\html_questions.json",
+    "sha256": "b57ecad52d3397a8a47ccebeb1160e09f5b3e080ef5753a64ce67027d75cc381",
+    "anchors": [
+      "turnir31otm",
+      "turnir31ots"
+    ],
+    "sets": 2,
+    "errors": 0
+  },
+  "pdf_extraction": {
+    "path": "data\\extracted\\pdf_questions.json",
+    "sha256": "6448186a756eb1a41f2b756330ed132e2834bb3e91963911dad6a71c18c95c9c",
+    "documents": [
+      "https://www.turgor.ru/en/problems/31/os31sl.pdf"
+    ],
+    "page_sets": 2,
+    "errors": 0
+  }
+}
