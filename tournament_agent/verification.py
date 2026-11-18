@@ -66,6 +66,9 @@ def verify_database(database=Path("data/archive.sqlite")):
         outputs = db.execute("""SELECT DISTINCT output_path FROM source
             WHERE kind='question' AND output_path IS NOT NULL
             AND status IN ('review_passed','verified')""").fetchall()
+        crops = db.execute("""SELECT DISTINCT crop_path FROM source
+            WHERE kind='question' AND crop_path IS NOT NULL
+            AND status IN ('review_passed','verified')""").fetchall()
     for path, expected in sources:
         if sha256(saved_path(path).read_bytes()).hexdigest() != expected:
             raise ValueError(f"Original source changed: {path}")
@@ -75,4 +78,7 @@ def verify_database(database=Path("data/archive.sqlite")):
         with pymupdf.open(path) as document:
             if document.page_count == 0:
                 raise ValueError(f"Empty reviewed PDF: {path}")
+    for (path,) in crops:
+        if not Path(path).is_file():
+            raise ValueError(f"Missing reviewed source crop: {path}")
     return len(sources), len(outputs)
